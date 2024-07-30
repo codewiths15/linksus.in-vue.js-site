@@ -50,8 +50,8 @@ document.addEventListener('click', (event) => {
 </script>
 
 <template>
-  <header class="bg-gradient-to-r from-blue-100 from-10% via-sky-10 via-30% to-violet-100 h-20 sticky top-0 left-0 right-0 z-50 inset-x-0" @mouseleave="closeDropdown">
-    <nav class="flex items-center justify-between p-6 h-20 lg:px-8" aria-label="Global" >
+  <header class="bg-gradient-to-r from-white from-10% via-white via-30% to-white h-20 sticky top-0 left-0 right-0 z-50 inset-x-0 opacity-95" @mouseleave="closeDropdown">
+    <nav class="flex items-center justify-between p-6 h-20 lg:px-8" aria-label="Global" style="padding-left: 60px; padding-right: 60px;">
       <div class="flex lg:flex-1">
         <a 
       href="/" 
@@ -72,12 +72,12 @@ document.addEventListener('click', (event) => {
       <img 
         :src="textSrc" 
         loading="eager" 
-        height="85" 
+        height="75" 
         width="75" 
         alt="Rewind" 
         id="rewind-logotype" 
-        class="nh-logotype transition-transform duration-200 ease-out transform absolute opacity-0 scale-100 left-7"
-        :class="isHovered ? 'opacity-100 translate-y-0 scale-130' : 'translate-x-4'"
+        class="nh-logotype transition-transform duration-100 ease-out transform absolute opacity-0 scale-100 left-8"
+        :class="isHovered ? 'opacity-100 [transform:scale(1.3)]' : 'translate-x-4'"
       />
     </a>
       </div>
@@ -93,8 +93,8 @@ document.addEventListener('click', (event) => {
         </button>
       </div>
       <div class="hidden lg:flex lg:gap-x-12">
-        <a v-for="item in navigation" :key="item.name" :href="item.href" class="text-lg font-semibold leading-6">{{ item.name }}</a>
-        <div v-for="dropdown in dropdowns" :key="dropdown.name" class="relative dropdown w-15 h-25"
+        <a v-for="item in navigation" :key="item.name" :href="item.href" class="text-lg font-Poppins leading-6 text-slate-600 hover:text-slate-900">{{ item.name }}</a>
+        <div v-for="dropdown in dropdowns" :key="dropdown.name" class="relative dropdown w-15 h-25 text-slate-600 hover:text-slate-900 font-Poppins"
         >
           <button 
             class="text-lg font-semibold leading-6" 
@@ -110,13 +110,13 @@ document.addEventListener('click', (event) => {
           </button>
           <div v-if="openDropdown === dropdown.name" class="absolute left-0 mt-2 w-48 bg-white border border-gray-300 rounded-md shadow-lg dropdown-menu">
             <div v-for="item in dropdown.items" :key="item.name" >
-              <a :href="item.href" class="block px-4 py-2 text-gray-300 hover:bg-gray-50">{{ item.name }}</a>
+              <a :href="item.href" class="block px-4 py-2 text-gray-600 font-Lora hover:bg-gray-300">{{ item.name }}</a>
             </div>
           </div>
         </div>
       </div>
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-        <button class="hover:brightness-110 hover:animate-pulse font-bold py-3 px-6 rounded-full bg-gradient-to-r from-cyan-400 to-blue-600 text-white">Get LinksUs</button>
+        <button class="hover:brightness-110 hover:animate-pulse font-squada py-3 px-6 rounded-full bg-gradient-to-r from-blue1 to-blue3 text-white">Get LinksUs</button>
       </div>
     </nav>
     <Dialog class="lg:hidden" @close="mobileMenuOpen = false" :open="mobileMenuOpen">
@@ -127,7 +127,7 @@ document.addEventListener('click', (event) => {
             <span class="sr-only">Your Company</span>
             <img class="h-8 w-auto" src="https://res.cloudinary.com/dyghenjwh/image/upload/v1722310082/LinksUs/LS_logo1_gpohpf.png" alt="" />
           </a>
-          <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700" @click="mobileMenuOpen = false">
+          <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700 font-popins" @click="mobileMenuOpen = false">
             <span class="sr-only">Close menu</span>
             <XMarkIcon class="h-6 w-6" aria-hidden="true" />
           </button>
@@ -135,20 +135,20 @@ document.addEventListener('click', (event) => {
         <div class="mt-6 flow-root">
           <div class="-my-6 divide-y divide-gray-500/10">
             <div class="space-y-2 py-6">
-              <a v-for="item in navigation" :key="item.name" :href="item.href" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 overflow-auto">{{ item.name }}</a>
+              <a v-for="item in navigation" :key="item.name" :href="item.href" class="-mx-3 block rounded-lg px-3 py-2 text-base font-Poppins leading-7 text-slate-600 hover:text-slate-800 hover:bg-gray-300 overflow-auto">{{ item.name }}</a>
               <div v-for="dropdown in dropdowns" :key="dropdown.name" class="relative">
-                <button class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" @click="toggleDropdown(dropdown.name)">
+                <button class="-mx-3 block rounded-lg px-3 py-2 text-base font-Poppins leading-7 text-slate-700 hover:text-slate-500" @click="toggleDropdown(dropdown.name)">
                   {{ dropdown.name }}
                 </button>
                 <div v-if="openDropdown === dropdown.name" class="absolute inset-x-0 mt-2 bg-white border border-gray-300 rounded-md shadow-lg dropdown-menu z-10">
                   <div v-for="item in dropdown.items" :key="item.name">
-                    <a :href="item.href" class="block px-4 py-2 text-gray-600 ">{{ item.name }}</a>
+                    <a :href="item.href" class="block px-4 py-2 text-gray-600 hover:bg-gray-300">{{ item.name }}</a>
                   </div>
                 </div>
               </div>
             </div>
             <div class="py-6">
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Get LinksUs</a>
+              <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-Poppins leading-7 text-gray-900 hover:bg-gray-100">Get LinksUs</a>
             </div>
           </div>
         </div>
