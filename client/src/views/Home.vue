@@ -1,22 +1,29 @@
 <script setup>
   import Navbar from '@/components/navigation/Navbar.vue';
-  import {gsap} from 'gsap';
-  import { onMounted } from 'vue';
-
-onMounted(() => {
-  gsap.from('.content', {
-    opacity: 0,
-    y: 1,
-  });
-});
+  import Hero from '@/components/home/Hero.vue';
+import Glider from '@/components/home/Glider.vue';
+import Sections from '@/components/home/Sections.vue';
+import Footer from '@/components/navigation/Footer.vue';
 </script>
 
 
 
 <template>
-  <div class="content">
+  <div >
     <Navbar />
-        
+    <div class="bg-gradient-to-b from-teal-200 via-white via-70% to-sky-50 pb-10">
+    
+    <Hero />
+    </div>
+    <div>
+      <Glider />
+  </div>
+  <br>
+  <div>
+    <Sections />
+  </div>
+  <Footer />
+  
     <!-- <div class="relative isolate px-6 pt-14 lg:px-8">
 
       <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
