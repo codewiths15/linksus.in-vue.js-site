@@ -7,7 +7,7 @@ import logoSrc from '@/assets/images/LS logo.png'
 import textSrc from '@/assets/images/LinksUs Text.png'
 
 const navigation = [
-  { name: 'About', href: '#' },
+  { name: 'About', href: '/about' },
   { name: 'TaskHub', href: '#' },
   { name: 'Blog', href: '#' },
 ]
