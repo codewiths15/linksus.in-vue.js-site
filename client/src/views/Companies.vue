@@ -1,7 +1,7 @@
 <script setup>
-import Section from '@/components/university/Section.vue'
 import Navbar from '@/components/navigation/Navbar.vue';
-import Section2 from '@/components/university/Section2.vue';
+import Section from '@/components/companies/Section.vue';
+import Section2 from '@/components/companies/Section2.vue';
 import Footer from '@/components/navigation/Footer.vue';
 </script>
 
@@ -11,9 +11,10 @@ import Footer from '@/components/navigation/Footer.vue';
         <div class="pb-32">
             <Section />
         </div>
+        
     </div>
-    <div class="mb-32">
-    <Section2 />
+    <div class="pb-32">
+        <Section2 />
     </div>
     <Footer />
 </template>

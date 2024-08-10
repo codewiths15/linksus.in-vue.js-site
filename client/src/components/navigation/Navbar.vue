@@ -9,15 +9,15 @@ import textSrc from '@/assets/images/LinksUs Text.png'
 const navigation = [
   { name: 'About', href: '/about' },
   { name: 'TaskHub', href: '#' },
-  { name: 'Blog', href: '#' },
+  { name: 'Blog', href: '/blog' },
 ]
 
 const dropdowns = [
   {
     name: 'Use Cases',
     items: [
-      { name: 'Clubs & Universities', href: '#' },
-      { name: 'Companies & Startup', href: '#' },
+      { name: 'Clubs & Universities', href: '/uni' },
+      { name: 'Companies & Startup', href: '/com' },
     ],
   },
   {
