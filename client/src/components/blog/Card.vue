@@ -145,8 +145,8 @@
   max-height: 400px;
   padding: 10px;
   padding-bottom: 75px;
-  background: linear-gradient(to bottom, #039aff10, #11a6ba22);
-  border: 1px solid grey;
+  background: linear-gradient(to bottom, #6ff25e9c, #30eb46a3);
+
 }
 
 .blog-card:hover {

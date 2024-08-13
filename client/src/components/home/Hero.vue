@@ -41,34 +41,57 @@ const selectImages = (index) => {
 gsap.registerPlugin(ScrollTrigger);
 
 onMounted(() => {
-
-  gsap.fromTo(
-    ".container", 
-    { autoAlpha: 0 }, 
-    {
-      autoAlpha: 1,
-      y: 0, 
-      duration: 1, 
-      stagger: 0.5,
-      ease: "power1.out", 
-      scrollTrigger: {
-        trigger: ".container",
-        start: "top 40%",  
-        toggleActions: "play none none none"
+  // Use GSAP's matchMedia to handle different screen sizes
+  gsap.matchMedia().add("(min-width: 768px)", () => {
+    // This animation will only run if the screen width is 768px or wider
+    gsap.fromTo(
+      ".container", 
+      { autoAlpha: 0, x:'2.5%' }, 
+      {
+        autoAlpha: 1,
+        x: 0,
+        y: 0, 
+        duration: 1, 
+        stagger: 0.5,
+        ease: "power3.out", 
+        scrollTrigger: {
+          trigger: ".container",
+          start: "top 40%",  
+          toggleActions: "play none none none"
+        }
       }
-    }
-  );
+    );
+  });
 });
+
+
+const headline1 = ref(null);
+const headline2 = ref(null);
+const headline3 = ref(null);
+const subheadline = ref(null);
+
+onMounted(() => {
+  gsap.matchMedia().add("(min-width: 768px)", () => {
+    gsap.from([headline1.value, headline2.value, headline3.value, subheadline.value], {
+      x: '40%',
+      opacity: 0,
+      duration: 0.5,
+      ease: 'power3.out',
+      stagger: 0.3, // Adds a staggered effect to animate each element one after the other
+    });
+  });
+});
+
 
 </script>
 
 
 <template>
-    <div class="nh-hero relative isolate px-6 pt-14 lg:px-8">
+    <div class="nh-hero relative isolate px-6 pt-14 lg:px-8 ">
       <!-- Announcement Section -->
-      <div class="nh-hero-header-wrap mx-auto max-w-2xl text-center">
+      <div class="nh-hero-header-wrap mx-auto max-w-2xl text-center ">
         <div class="w-layout-blockcontainer nh-hero-header w-container mb-8 flex justify-center">
-          <a href="#" class="announcementmodule w-inline-block flex items-center rounded-3xl p-2 bg-white gradient-animation transition-transform duration-300 ease-in-out transform hover:scale-105">
+          <a href="/domain" class="announcementmodule w-inline-block flex items-center rounded-3xl p-2 bg-white gradient-animation transition-transform duration-300 ease-in-out transform hover:scale-105">
             <img
               src="https://res.cloudinary.com/dyghenjwh/image/upload/v1722573404/human-people-logo-design-vector_wzfisc.png"
               alt="human-people-logo"
@@ -87,25 +110,37 @@ onMounted(() => {
           </a>
         </div>
         <!-- Main Headline -->
-        <h1 class="nh-hero-headline text-6xl font-Lora font-semibold tracking-tight text-gray-600 max-smd:text-5xl max-sm:text-3xl">
-          Your only AI driven
-        </h1>
-        <h1 class="nh-hero-headline text-6xl font-Lora font-semibold tracking-tight text-gray-600 max-smd:text-5xl max-sm:text-3xl">
-          pre-industry
-        </h1>
-        <h1 class="nh-hero-headline text-6xl font-Lora font-semibold tracking-tight text-gray-600 max-smd:text-5xl max-sm:text-3xl">
-          experience platform
-        </h1>
-        <h2 class="nh-hero-sub mt-6 text-2xl leading-8 font-popins font-medium text-gray-500 max-smd:text-md max-sm:text-sm max-msm:text-xs">
-          LinksUs is a cutting edge platform with AI powered <br>
-          highly data-driven systems to Connect, Link, build <br>
-          and explore the industry. Your colleagues will <br>
-          wonder how did you Links it all.
-        </h2>
+        <h1
+      class="nh-hero-headline text-6xl font-popins font-semibold tracking-tight text-gray-700 max-smd:text-5xl max-sm:text-4xl"
+      ref="headline1"
+    >
+      Your only AI driven
+    </h1>
+    <h1
+      class="nh-hero-headline text-6xl font-popins font-semibold tracking-tight text-gray-700 max-smd:text-5xl max-sm:text-4xl"
+      ref="headline2"
+    >
+      pre-industry
+    </h1>
+    <h1
+      class="nh-hero-headline text-6xl font-popins font-semibold tracking-tight text-gray-700 max-smd:text-5xl max-sm:text-4xl"
+      ref="headline3"
+    >
+      experience platform
+    </h1>
+    <h2
+      class="nh-hero-sub mt-6 text-2xl leading-8 font-popins font-medium text-gray-600 max-smd:text-md max-sm:text-sm max-msm:text-xs"
+      ref="subheadline"
+    >
+      LinksUs is a cutting edge platform with AI powered <br />
+      highly data-driven systems to Connect, Link, build <br />
+      and explore the industry. Your colleagues will <br />
+      wonder how did you Links it all.
+    </h2>
       </div>
     </div>
 
-<div class="container">
+<div class="container max-sm:mt-5">
   <!-- Laptop Frame -->
   <div class="frame laptop-frame">
     <img
@@ -147,10 +182,10 @@ onMounted(() => {
 
 
  
-    <div class="mt-10 mx-auto max-w-lg justify-evenly space-y-0 max-sm:space-x-1 flex flex-row p-0 rounded-full bg-white">
+    <div class="mt-10 mx-auto max-w-lg justify-evenly space-y-0 max-sm:space-x-0 flex flex-row max-sm:py-2 py-1 rounded-3xl bg-white">
   <label 
         @click="selectImages(0)"
-         id="browse-tab" class="tab flex items-center justify-center max-sm:text-sm py-3 text-md text-md max-sm:py-0 hover:text-gray-600 custom-hover" for="media-1">
+         id="browse-tab" class="tab flex items-center justify-center max-sm:text-xs py-3 text-md text-md max-sm:py-1 hover:text-gray-600 " for="media-1">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="1.5em"
@@ -165,7 +200,7 @@ onMounted(() => {
   </label>
   <label 
   @click="selectImages(1)"
-  id="search-tab" class="tab flex items-center justify-center max-sm:text-sm py-3 text-md text-md max-sm:py-0 hover:text-gray-600 custom-hover" for="media-2">
+  id="search-tab" class="tab flex items-center justify-center max-sm:text-xs py-3 text-md text-md max-sm:py-1 hover:text-gray-600" for="media-2">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="1.5em"
@@ -180,7 +215,7 @@ onMounted(() => {
   </label>
   <label 
   @click="selectImages(2)"
-  id="ask-tab" class="tab flex items-center justify-center max-sm:text-sm py-3 text-md text-md max-sm:py-0 hover:text-gray-600 custom-hover" for="media-3">
+  id="ask-tab" class="tab flex items-center justify-center max-sm:text-xs py-3 text-md text-md max-sm:py-1 hover:text-gray-600" for="media-3">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="1.5em"
@@ -337,6 +372,20 @@ onMounted(() => {
   .laptop-img {
     border-radius: 2%;
   }
+  .laptop-frame {
+  width: 100%; /* Adjust width for laptop frame */
+  z-index: 1; /* Ensure laptop is on top */
+}
+
+.mobile-frame {
+  width: 20%; /* Adjust width for mobile frame */
+  position: absolute; /* Make mobile frame overlap */
+  top: 50%; /* Adjust top position */
+  left: 72%; /* Adjust left position */
+  transform: translate(-35%, -30%); /* Center mobile frame */
+  z-index: 2; /* Ensure mobile is on top */
+}
+
 }
 .custom-hover {
   transition: font-size 0.3s ease, color 0.3s ease;

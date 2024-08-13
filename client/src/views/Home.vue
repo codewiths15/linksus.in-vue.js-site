@@ -9,10 +9,9 @@ import Footer from '@/components/navigation/Footer.vue';
 
 
 <template>
-  <div >
+  <div class="">
     <Navbar />
-    <div class="bg-gradient-to-b from-teal-200 via-white via-70% to-sky-50 pb-10">
-    
+    <div class="bg-gradient-to-b from-teal-200 via-white via-70% to-sky-50 pb-10 pt-32">
     <Hero />
     </div>
     <div>
@@ -24,29 +23,31 @@ import Footer from '@/components/navigation/Footer.vue';
   </div>
   <Footer />
   
-    <!-- <div class="relative isolate px-6 pt-14 lg:px-8">
-
-      <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
-        <div class="hidden sm:mb-8 sm:flex sm:justify-center">
-          
-        </div>
-        <div class="text-center">
-          <h1 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-6xl">Your only AI driven</h1>
-          <h1 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-6xl">pre-industry</h1>
-          <h1 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-6xl">experience platform</h1>
-          <p class="mt-6 text-lg leading-8 text-gray-600">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
-          <div class="mt-10 flex items-center justify-center gap-x-6">
-            <a href="#" class="rounded-md bg-blue1 px-3.5 py-2.5 text-sm font-Poppins text-white shadow-sm hover:bg-blue1 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue2">Get started</a>
-            <a href="#" class="text-sm font-Poppins leading-6 text-gray-900">Learn more <span aria-hidden="true">→</span></a>
-          </div>
-        </div>
-      </div>
-      <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]" aria-hidden="true">
-        <div class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)" />
-      </div>
-    </div> -->
   </div>
 </template>
 
 
+<style scoped>
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
 
+.animated-gradient {
+  background: linear-gradient(115deg, #11A5BA, #9fe6ef, #0074C3);
+  background-size: 100% 100%; /* Ensures the gradient covers the animation area */
+  animation: gradientAnimation 10s linear infinite; /* Continuous and stable animation */
+}
+
+
+
+
+
+</style>

@@ -332,12 +332,11 @@ onUnmounted(() => {
           }
     
           .testimonial p.author {
-            margin: 0;
-            position: absolute;
-            bottom: 1rem;
-            font-size: 1.1rem;
-            line-height: 1.1;
-          }
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.1;
+  align-self: flex-end; /* Align the author text to the bottom */
+}
     
           .testimonial p.author .name {
             font-family: "Greycliff", sans-serif;
@@ -354,16 +353,16 @@ onUnmounted(() => {
           }
     
           .testimonial .avatar {
-            position: absolute;
-            bottom: -0.75rem;
-            left: -0.75rem;
-            border-radius: 100px;
-            width: 60px;
-            height: 60px;
-            background: white;
-            border: 4px solid white;
-            box-shadow: 0 4px 11px rgba(208, 200, 187, 0.33);
-          }
+  position: absolute;
+  bottom: -0.75rem;
+  left: -0.75rem;
+  border-radius: 100px;
+  width: 60px;
+  height: 60px;
+  background: white;
+  border: 4px solid white;
+  box-shadow: 0 4px 11px rgba(208, 200, 187, 0.33);
+}
     
           .testimonial:hover {
             box-shadow: 0 4px 11px rgba(208, 200, 187, 0.5);
@@ -373,6 +372,8 @@ onUnmounted(() => {
           @media (max-width: 450px) {
             .testimonial {
               padding: 1.5rem 2.25rem 4.5rem 3.25rem;
+              min-height: 200px; /* Adjust min-height for smaller screens */
+              max-height: 200px; /* Adjust max-height for smaller screens */
             }
     
             .testimonial .avatar {
@@ -389,5 +390,18 @@ onUnmounted(() => {
               margin-left: 10px;
             }
           }
+
+          @media (max-width: 1200px) {
+  .testimonial {
+    padding: 1.5rem 2.25rem 4.5rem 3.25rem;
+    min-height: 310px; /* Adjust min-height for smaller screens */
+    max-height: 310px; /* Adjust max-height for smaller screens */
+  }
+
+  .testimonial .avatar {
+    width: 50px;
+    height: 50px;
+  }
+}
   </style>
   

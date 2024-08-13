@@ -49,20 +49,20 @@ document.addEventListener('click', (event) => {
 })
 
 onMounted(() => {
-  gsap.from('.nav-item, .dropdown-item, .cta-button', {
-    x: '30%',
-    opacity: 0,
-    duration: 0.3,
-    stagger: 0.1,
-    ease: 'power3.out'
-  })
+  gsap.fromTo(
+    '.nav-item, .dropdown-item, .cta-button', 
+    { x: '0%', opacity: 0 },  // Starting position and opacity
+    { x: '0%', opacity: 1, duration: 0.3, stagger: 0.1, ease: 'power3.out' }  // Ending position and opacity
+  )
 })
+
+
 </script>
 
 <template>
-  <header class="bg-gradient-to-r from-white from-10% via-white via-30% to-white h-20 sticky top-0 left-0 right-0 z-50 inset-x-0 opacity-85" @mouseleave="closeDropdown">
-    <nav class="nav flex items-center justify-between p-6 h-20 lg:px-8" aria-label="Global">
-      <div class="flex lg:flex-1">
+  <header class='glass-effect bg-white h-20 fixed top-0 left-0 right-0 z-50 inset-x-0' @mouseleave="closeDropdown">
+    <nav class="nav flex items-center justify-between h-20" aria-label="Global">
+      <div class="flex lg:flex-1 pl-12 max-md:pl-10">
         <a 
           href="/" 
           aria-current="page" 
@@ -94,7 +94,7 @@ onMounted(() => {
       <div class="flex xlg:hidden">
         <button 
           type="button" 
-          class="-m-2.5 nav-item inline-flex items-center justify-center rounded-md p-2.5 text-gray-700" 
+          class="lg:mr-32 md:mr-24 mr-16 nav-item inline-flex items-center justify-center rounded-md p-2.5 text-gray-700" 
           @click="mobileMenuOpen = true"
           :aria-expanded="mobileMenuOpen ? 'true' : 'false'"
         >
@@ -102,11 +102,12 @@ onMounted(() => {
           <Bars3Icon class="h-6 w-6" aria-hidden="true" />
         </button>
       </div>
-      <div class="hidden xlg:flex xlg:gap-x-12 ">
-        <a v-for="item in navigation" :key="item.name" :href="item.href" class="nav-item text-lg font-Poppins font-bold leading-6 text-slate-600 hover:text-slate-900 custom-hover" @mouseover="closeDropdown">{{ item.name }}</a>
-        <div v-for="dropdown in dropdowns" :key="dropdown.name" class="relative dropdown w-15 h-25 font-Poppins font-bold text-slate-600 hover:text-slate-900 font-Poppins">
+      <div class="it hidden xlg:flex xlg:gap-x-14 ">
+        <a v-for="item in navigation" :key="item.name" :href="item.href" class="relative nav-item text-lg font-Poppins font-bold leading-6 text-slate-600 hover:text-slate-900 " style="display:inline-block; transition: transform 0.2s ease-in-out; transform-origin: center;" @mouseover="closeDropdown" onmouseover="this.style.transform='scale(1.1)'; this.style.color='#1f2937';" 
+        onmouseout="this.style.transform='scale(1)'; this.style.color='#4b5563';">{{ item.name }}</a>
+        <div v-for="dropdown in dropdowns" :key="dropdown.name" class="relative dropdown w-15 h-25 font-Poppins font-bold text-slate-600 hover:text-slate-900 font-Poppins" style="display:inline-block; transition: transform 0.2s ease-in-out; transform-origin: center;" onmouseover="this.style.transform='scale(1.1)'; this.style.color='#1f2937';" onmouseout="this.style.transform='scale(1)'; this.style.color='#4b5563';">
           <button 
-            class="nav-item text-lg font-Poppins font-bold leading-6 custom-hover" 
+            class="nav-item text-lg font-Poppins font-bold leading-6" 
             @mouseover="toggleDropdown(dropdown.name)" 
             @click="toggleDropdown(dropdown.name)" 
             :aria-expanded="openDropdown === dropdown.name ? 'true' : 'false'"
@@ -118,14 +119,15 @@ onMounted(() => {
           </button>
           <div v-if="openDropdown === dropdown.name" class="absolute left-0 mt-2 w-48 bg-white border border-gray-300 rounded-md shadow-lg dropdown-menu">
             <div v-for="item in dropdown.items" :key="item.name" class="dropdown-item">
-              <a :href="item.href" class="block px-4 py-2 text-gray-600 font-Poppins hover:bg-gray-300">{{ item.name }}</a>
+              <a :href="item.href" class="block px-2 py-2 text-gray-600 font-Poppins hover:bg-gray-300">{{ item.name }}</a>
             </div>
           </div>
         </div>
       </div>
       <div class="hidden xlg:flex xlg:flex-1 xlg:justify-end">
-        <button class="cta-button hover:brightness-110 hover:animate-pulse font-Poppins font-bold py-3 px-6 rounded-full bg-gradient-to-r from-blue1 to-blue3 text-white">Get LinksUs</button>
+        <a href="/domain" class="cta-button hover:brightness-110 hover:animate-pulse font-Poppins font-bold py-3 px-6 rounded-full bg-gradient-to-r from-blue1 to-blue3 text-white">Get LinksUs</a>
       </div>
+
     </nav>
     <Dialog class="xlg:hidden" @close="mobileMenuOpen = false" :open="mobileMenuOpen">
       <div class="fixed inset-0 z-50 "  />
@@ -156,7 +158,7 @@ onMounted(() => {
               </div>
             </div>
             <div class="py-6">
-              <a href="#" class="cta-button -mx-3 block rounded-lg px-3 py-2.5 text-base font-Poppins leading-7 text-gray-900 hover:bg-gray-100">Get LinksUs</a>
+              <a href="/domain" class="cta-button -mx-3 block rounded-lg px-3 py-2.5 text-base font-Poppins leading-7 text-gray-900 hover:bg-gray-100">Get LinksUs</a>
             </div>
           </div>
         </div>
@@ -165,7 +167,7 @@ onMounted(() => {
   </header>
 </template>
 
-<style>
+<style scoped>
 .nh-icon {
   transition: transform 0.3s cubic-bezier(0.79, 0.14, 0.15, 0.86);
 }
@@ -186,13 +188,12 @@ onMounted(() => {
   -webkit-font-smoothing: antialiased;
 }
 
-.custom-hover {
-  transition: font-size 0.3s ease, color 0.3s ease;
-}
 
-.custom-hover:hover {
-  font-size: 1.25rem; /* Hover font size (text-xl equivalent) */
-  color: #1f2937; /* Equivalent to text-slate-900 */
+.glass-effect {
+  background: rgba(242, 239, 235, 0.9); /* Use the desired color with 50% opacity */
+  backdrop-filter: blur(25px); /* Apply a slight blur for the glass effect */
+  -webkit-backdrop-filter: blur(25px); /* Safari support */
+
 }
 
 </style>
