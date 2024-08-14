@@ -31,6 +31,7 @@ const dropdowns = [
 const mobileMenuOpen = ref(false)
 const openDropdown = ref(null)
 const isHovered = ref(false)
+const navbarOpacity = ref(0) // Add reactive property for navbar opacity
 
 const toggleDropdown = (dropdownName) => {
   openDropdown.value = openDropdown.value === dropdownName ? null : dropdownName
@@ -39,6 +40,13 @@ const toggleDropdown = (dropdownName) => {
 const closeDropdown = () => {
   openDropdown.value = null
 }
+
+// Function to handle scroll event
+const handleScroll = () => {
+  navbarOpacity.value = window.scrollY > 30 ? 0.9 : 0
+}
+
+
 
 // Close dropdowns when clicking outside
 document.addEventListener('click', (event) => {
@@ -53,15 +61,17 @@ onMounted(() => {
     '.nav-item, .dropdown-item, .cta-button', 
     { x: '0%', opacity: 0 },  // Starting position and opacity
     { x: '0%', opacity: 1, duration: 0.3, stagger: 0.1, ease: 'power3.out' }  // Ending position and opacity
+    
   )
+  window.addEventListener('scroll', handleScroll)
 })
 
 
 </script>
 
 <template>
-  <header class='glass-effect bg-white h-20 fixed top-0 left-0 right-0 z-50 inset-x-0' @mouseleave="closeDropdown">
-    <nav class="nav flex items-center justify-between h-20" aria-label="Global">
+  <header class='glass-effect h-20 fixed top-0 left-0 right-0 z-50 inset-x-0' :style="{ background: `rgba(250, 255, 252, ${navbarOpacity})`, transition: 'background 0.5s ease'}" @mouseleave="closeDropdown">
+    <nav class="nav flex items-center justify-between h-20"  aria-label="Global">
       <div class="flex lg:flex-1 pl-12 max-md:pl-10">
         <a 
           href="/" 
@@ -117,7 +127,7 @@ onMounted(() => {
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
             </svg>
           </button>
-          <div v-if="openDropdown === dropdown.name" class="absolute left-0 mt-2 w-48 bg-white border border-gray-300 rounded-md shadow-lg dropdown-menu">
+          <div v-if="openDropdown === dropdown.name" class="absolute left-0 mt-2 w-48 bg-whiteo border border-gray-300 rounded-md shadow-lg dropdown-menu">
             <div v-for="item in dropdown.items" :key="item.name" class="dropdown-item">
               <a :href="item.href" class="block px-2 py-2 text-gray-600 font-Poppins hover:bg-gray-300">{{ item.name }}</a>
             </div>
@@ -131,7 +141,7 @@ onMounted(() => {
     </nav>
     <Dialog class="xlg:hidden" @close="mobileMenuOpen = false" :open="mobileMenuOpen">
       <div class="fixed inset-0 z-50 "  />
-      <DialogPanel class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:ring-1 sm:ring-gray-900/10">
+      <DialogPanel class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-whiteo px-6 py-6 sm:ring-1 sm:ring-gray-900/10">
         <div class="flex items-center justify-between">
           <a href="#" class="-m-1.5 p-1.5">
             <span class="sr-only">Your Company</span>
@@ -190,7 +200,7 @@ onMounted(() => {
 
 
 .glass-effect {
-  background: rgba(242, 239, 235, 0.9); /* Use the desired color with 50% opacity */
+  background: rgba(220, 252, 231, 0.9); /* Use the desired color with 50% opacity */
   backdrop-filter: blur(25px); /* Apply a slight blur for the glass effect */
   -webkit-backdrop-filter: blur(25px); /* Safari support */
 

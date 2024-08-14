@@ -1,11 +1,11 @@
 <template>
-    <div class="mt-16">
-    <div class="flex justify-center items-center text-6xl font-semibold font-Lora text-gray-800">
-        Welcome to Tech Blogs
-    </div>
-    <div class="flex justify-center items-center text-2xl font-semibold font-Lora text-gray-600">
-        Explore various technology topics and their Roadmaps
-    </div>
+    <div class="mt-16 flex flex-col items-center text-center">
+      <div class="text-4xl md:text-5xl lg:text-6xl font-semibold font-Lora text-gray-800">
+    Welcome to Tech Blogs
+  </div>
+  <div class="text-xl md:text-2xl lg:text-3xl font-semibold font-Lora text-gray-600 mt-4">
+    Explore various technology topics and their Roadmaps
+  </div>
     </div>
     <div class="blog-container">
       <!-- Blog Cards -->
@@ -145,7 +145,7 @@
   max-height: 400px;
   padding: 10px;
   padding-bottom: 75px;
-  background: linear-gradient(to bottom, #6ff25e9c, #30eb46a3);
+  background: linear-gradient(to bottom, #7fb9fb9c, #57d6f6a3);
 
 }
 

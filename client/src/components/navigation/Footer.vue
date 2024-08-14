@@ -39,7 +39,7 @@ onMounted(() => {
           class="footer-rewind-logo"
         />
       </a>
-      <p class="font-popins text-sm md:text-md mb-4">
+      <p class="font-popins text-md md:text-lg mb-4">
         Your only AI driven pre-industry experience platform
       </p>
       <a
@@ -49,24 +49,23 @@ onMounted(() => {
         Get LinksUs
       </a>
     </div>
-
     <!-- Links Sections -->
-    <div class="w-full md:w-auto flex flex-wrap gap-10 max-md:gap-8 justify-center md:justify-start">
+    <div class="w-full md:w-auto flex md:flex-row flex-col gap-10 max-md:gap-2 justify-center md:justify-start">
       <div class="footer-element mb-4 md:mb-0">
-        <h3 class="text-sm md:text-md font-semibold font-popins mb-2">COMPANY</h3>
-        <ul class="text-xs md:text-sm font-popins">
+        <h3 class="text-lg font-semibold font-popins mb-2">COMPANY</h3>
+        <ul class="text-sm font-popins">
           <li class="mb-1"><a href="/about" class="hover:text-gray-900">About</a></li>
           <li class="mb-1"><a href="/blog" class="hover:text-gray-900">Blog</a></li>
           <li class="mb-1"><a href="https://www.instagram.com/_linksus.in?igsh=MTY5cXJma3ZnZjQ2dg==" class="hover:text-gray-800">Instagram</a></li>
           <li class="mb-1"><a href="https://in.linkedin.com/company/linksus" class="hover:text-gray-800">LinkedIn</a></li>
         </ul>
       </div>
-
+      <hr />
       <div class="footer-element mb-4 md:mb-0">
-        <h3 class="text-sm md:text-md font-semibold font-popins mb-2">USE CASES</h3>
-        <ul class="text-xs md:text-sm font-popins flex flex-col">
-          <li class="mb-1"><a href="/uni" class="hover:text-gray-900">Clubs and Universities</a></li>
-          <li class="mb-1"><a href="/com" class="hover:text-gray-900">Companies and Startups</a></li>
+        <h3 class="text-lg font-semibold font-popins mb-2">USE CASES</h3>
+        <ul class="text-sm font-popins flex flex-col">
+          <li class="mb-1"><a href="/uni" class="hover:text-gray-900 whitespace-nowrap">Clubs and Universities</a></li>
+          <li class="mb-1"><a href="/com" class="hover:text-gray-900 whitespace-nowrap">Companies and Startups</a></li>
         </ul>
       </div>
     </div>
@@ -74,7 +73,7 @@ onMounted(() => {
 
   <!-- Footer Text -->
   <div class="footer-element text-center md:text-left font-popins py-4 px-8">
-    <p class="text-xs">©2024 Talentronaut technologies pvt ltd.</p>
+    <p class="md:text-md text-xs">©2024 Talentronaut technologies pvt ltd.</p>
   </div>
 </section>
 
@@ -97,7 +96,7 @@ onMounted(() => {
 }
 
 .animated-gradient2 {
-  background: linear-gradient(135deg, #f5f5f5, #efe9e9, #e0e0e0);
+  background: linear-gradient(135deg, #FAFFFC, #FAFFFC, #FAFFFC);
   background-size: 100% 100%; /* Ensures the gradient covers the animation area */
   animation: gradientAnimation 10s linear infinite; /* Continuous and stable animation */
 }

@@ -11,7 +11,7 @@ import Footer from '@/components/navigation/Footer.vue';
 <template>
   <div class="">
     <Navbar />
-    <div class="bg-gradient-to-b from-teal-200 via-white via-70% to-sky-50 pb-10 pt-32">
+    <div class="bg-gradient-to-b from-teal-200 via-sky-100 to-whiteo to-90% pb-10 pt-32">
     <Hero />
     </div>
     <div>

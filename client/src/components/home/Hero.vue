@@ -42,7 +42,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 onMounted(() => {
   // Use GSAP's matchMedia to handle different screen sizes
-  gsap.matchMedia().add("(min-width: 768px)", () => {
+  gsap.matchMedia().add("(min-width: 1024px)", () => {
     // This animation will only run if the screen width is 768px or wider
     gsap.fromTo(
       ".container", 
@@ -65,13 +65,14 @@ onMounted(() => {
 });
 
 
+
 const headline1 = ref(null);
 const headline2 = ref(null);
 const headline3 = ref(null);
 const subheadline = ref(null);
 
 onMounted(() => {
-  gsap.matchMedia().add("(min-width: 768px)", () => {
+  gsap.matchMedia().add("(min-width: 1150px)", () => {
     gsap.from([headline1.value, headline2.value, headline3.value, subheadline.value], {
       x: '40%',
       opacity: 0,
@@ -111,19 +112,19 @@ onMounted(() => {
         </div>
         <!-- Main Headline -->
         <h1
-      class="nh-hero-headline text-6xl font-popins font-semibold tracking-tight text-gray-700 max-smd:text-5xl max-sm:text-4xl"
+      class="nh-hero-headline text-6xl font-popins font-bold tracking-tight text-gray-700 max-smd:text-5xl max-sm:text-4xl"
       ref="headline1"
     >
       Your only AI driven
     </h1>
     <h1
-      class="nh-hero-headline text-6xl font-popins font-semibold tracking-tight text-gray-700 max-smd:text-5xl max-sm:text-4xl"
+      class="nh-hero-headline text-6xl font-popins font-bold tracking-tight text-gray-700 max-smd:text-5xl max-sm:text-4xl"
       ref="headline2"
     >
       pre-industry
     </h1>
     <h1
-      class="nh-hero-headline text-6xl font-popins font-semibold tracking-tight text-gray-700 max-smd:text-5xl max-sm:text-4xl"
+      class="nh-hero-headline text-6xl font-popins font-bold tracking-tight text-gray-700 max-smd:text-5xl max-sm:text-4xl"
       ref="headline3"
     >
       experience platform
@@ -182,7 +183,7 @@ onMounted(() => {
 
 
  
-    <div class="mt-10 mx-auto max-w-lg justify-evenly space-y-0 max-sm:space-x-0 flex flex-row max-sm:py-2 py-1 rounded-3xl bg-white">
+    <div class="mt-10 mx-auto max-w-lg justify-evenly space-y-0 max-sm:space-x-0 flex flex-row max-sm:py-2 py-1 rounded-2xl bg-[#EEF7FF]">
   <label 
         @click="selectImages(0)"
          id="browse-tab" class="tab flex items-center justify-center max-sm:text-xs py-3 text-md text-md max-sm:py-1 hover:text-gray-600 " for="media-1">

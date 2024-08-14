@@ -148,7 +148,7 @@
   <div class="text-center">
     <h1 class="text-5xl font-Lora font-semibold text-gray-800 mb-4">Recognized By</h1>
     <p class="text-gray-700 text-xl mb-8 mt-8">Our platform is appreciated and recognized by DPIIT, #startupindia, <br> and MSME.</p>
-    <div class="flex lg:flex-wrap justify-center items-center space-x-24 mt-16">
+    <div class="flex lg:flex-wrap justify-center items-center lg:space-x-24 md:space-x-16 space-x-8 mt-16">
       <a href="https://dpiit.gov.in/" target="_blank" class="mb-4 brightness-50 transform transition-transform duration-300 hover:brightness-75">
         <img src="../../assets/images/750x450_483231-dpiit-removebg-preview1.png" loading="lazy" width="100" height="53" alt="DPIIT Logo" class="h-auto" />
       </a>

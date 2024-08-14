@@ -1,5 +1,5 @@
 <template>
-    <section ref="howItWorksSection" class="bg-green-200 pb-32 m-5 pt-32 rounded-3xl">
+    <section ref="howItWorksSection" class="bg-emerald-300 pb-32 m-5 pt-32 rounded-3xl">
   <div class="container mx-auto px-4">
     <div>
       <!-- Heading -->
@@ -16,7 +16,7 @@
       <!-- Cards -->
       <div class="flex flex-wrap justify-center gap-9 pt-10">
         <!-- Card 1 -->
-        <div ref="card1" class="card bg-white shadow-lg rounded-3xl p-6 text-center flex flex-col items-center transition-transform transform hover:scale-105 hover:shadow-xl hover:bg-gray-50 w-full sm:w-80">
+        <div ref="card1" class="card bg-rose-50 shadow-lg rounded-3xl p-6 text-center flex flex-col items-center transition-transform transform hover:scale-105 hover:shadow-xl hover:bg-gray-50 w-full sm:w-80">
           <img
             src="https://assets-global.website-files.com/635dda7647d1612d7d877c36/64bc67270b3b039b770e3afe_hiw-step-1.svg"
             loading="lazy"
@@ -31,7 +31,7 @@
           </p>
         </div>
         <!-- Card 2 -->
-        <div ref="card2" class="card bg-white shadow-lg rounded-3xl p-6 text-center flex flex-col items-center transition-transform transform hover:scale-105 hover:shadow-xl hover:bg-gray-50 w-full sm:w-80">
+        <div ref="card2" class="card bg-rose-50 shadow-lg rounded-3xl p-6 text-center flex flex-col items-center transition-transform transform hover:scale-105 hover:shadow-xl hover:bg-gray-50 w-full sm:w-80">
           <img
             src="https://assets-global.website-files.com/635dda7647d1612d7d877c36/64f7adf6cb568c9ac876426f_hiw-step-2-updated.svg"
             loading="lazy"
@@ -46,7 +46,7 @@
           </p>
         </div>
         <!-- Card 3 -->
-        <div ref="card3" class="card bg-white shadow-lg rounded-3xl p-6 text-center flex flex-col items-center transition-transform transform hover:scale-105 hover:shadow-xl hover:bg-gray-50 w-full sm:w-80">
+        <div ref="card3" class="card bg-rose-50 shadow-lg rounded-3xl p-6 text-center flex flex-col items-center transition-transform transform hover:scale-105 hover:shadow-xl hover:bg-gray-50 w-full sm:w-80">
           <img
             src="https://assets-global.website-files.com/635dda7647d1612d7d877c36/64f7addf94e99c85c9a50aff_hiw-step-3-updated.svg"
             loading="lazy"
@@ -67,56 +67,60 @@
 
 
 
-<section class="section2 mt-8 bg-blue3 mx-6 rounded-3xl pt-32 pb-32">
+<section class="section2 mt-8 bg-whiteo mx-6 rounded-3xl pt-32 pb-32">
   <div>
-    <div class="flex justify-center text-white items-center text-6xl text-center font-semibold font-popins max-lg:text-5xl max-md:text-4xl max-sm:text-3xl pb-32">
+    <div class="flex justify-center text-gray-700 items-center text-6xl text-center font-semibold font-popins max-lg:text-5xl max-md:text-4xl max-sm:text-3xl pb-32">
       Get added extra in ordinary <br class="hidden sm:block" /> which makes you extraordinary
     </div>
     <div class="flex flex-col gap-12 items-center justify-center">
-      <div class="cardit1 bg-white shadow-xl rounded-2xl p-6 flex flex-col lg:flex-row mx-4 sm:mx-8 md:mx-16 lg:mx-24 xl:mx-72 transition-transform transform hover:scale-105 hover:shadow-xl">
+      <div class="cardit1 bg-rose-50 shadow-xl rounded-2xl p-6 flex flex-col lg:flex-row mx-4 sm:mx-8 md:mx-16 lg:mx-24 xl:mx-48 max-w-7xl transition-transform transform hover:shadow-xl">
         <div class="flex flex-col w-full lg:w-1/2">
           <div class="text-xl font-semibold text-gray-800 mb-4">AI Assistant</div>
           <div class="text-gray-600 mb-6">
             Deploy your growth in the hands of LinksUs Assistant. Who is mastered in making industry connections and growth.
           </div>
           <div class="space-y-4 mb-6">
-            <div class="flex">
+            <div class="flex items-center">
               <img
                 src="https://assets-global.website-files.com/635dda7647d1612d7d877c36/64bc707b7cfdea0d0a6f262f_ic-check.svg"
                 loading="lazy"
                 width="26"
                 height="26"
                 alt="tick-icon"
+                class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-6 lg:h-6" 
               />
               <div class="ml-2">Career guidance</div>
             </div>
-            <div class="flex ">
+            <div class="flex items-center">
               <img
                 src="https://assets-global.website-files.com/635dda7647d1612d7d877c36/64bc707b7cfdea0d0a6f262f_ic-check.svg"
                 loading="lazy"
                 width="26"
                 height="26"
                 alt="tick-icon"
+                class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-6 lg:h-6"  
               />
               <div class="ml-2">Growth values recommendation</div>
             </div>
-            <div class="flex ">
+            <div class="flex items-center">
               <img
                 src="https://assets-global.website-files.com/635dda7647d1612d7d877c36/64bc707b7cfdea0d0a6f262f_ic-check.svg"
                 loading="lazy"
                 width="26"
                 height="26"
                 alt="tick-icon"
+                class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-6 lg:h-6" 
               />
               <div class="ml-2">Helps in building connections</div>
             </div>
-            <div class="flex">
+            <div class="flex items-center">
               <img
                 src="https://assets-global.website-files.com/635dda7647d1612d7d877c36/64bc707b7cfdea0d0a6f262f_ic-check.svg"
                 loading="lazy"
                 width="26"
                 height="26"
                 alt="tick-icon"
+                class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-6 lg:h-6"  
               />
               <div class="ml-2">Enhancing industry performance</div>
             </div>
@@ -132,50 +136,54 @@
         </div>
       </div>
 
-      <div class="cardit2 bg-white shadow-xl rounded-2xl p-6 flex flex-col lg:flex-row mx-4 sm:mx-8 md:mx-16 lg:mx-24 xl:mx-72 transition-transform transform hover:scale-105 hover:shadow-xl">
+      <div class="cardit2 bg-rose-50 shadow-xl rounded-2xl p-6 flex flex-col lg:flex-row mx-4 sm:mx-8 md:mx-16 lg:mx-24 xl:mx-48 max-w-7xl transition-transform transform hover:shadow-xl">
         <div class="flex flex-col w-full lg:w-1/2">
           <div class="text-xl font-semibold text-gray-800 mb-4">Data-driven systems</div>
           <div class="text-gray-600 mb-6">
             Enjoy the seamless platform backed up with <br class="hidden sm:block" /> highly data-driven insights with task and performance systems and candidate performance systems.
           </div>
           <div class="space-y-4 mb-6">
-            <div class="flex">
+            <div class="flex items-center">
               <img
                 src="https://assets-global.website-files.com/635dda7647d1612d7d877c36/64bc707b7cfdea0d0a6f262f_ic-check.svg"
                 loading="lazy"
                 width="26"
                 height="26"
                 alt="tick-icon"
+                class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-6 lg:h-6"  
               />
               <div class="ml-2">Data driven task insights</div>
             </div>
-            <div class="flex">
+            <div class="flex items-center">
               <img
                 src="https://assets-global.website-files.com/635dda7647d1612d7d877c36/64bc707b7cfdea0d0a6f262f_ic-check.svg"
                 loading="lazy"
                 width="26"
                 height="26"
                 alt="tick-icon"
+                class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-6 lg:h-6" 
               />
               <div class="ml-2">Understand Loopholes</div>
             </div>
-            <div class="flex">
+            <div class="flex items-center">
               <img
                 src="https://assets-global.website-files.com/635dda7647d1612d7d877c36/64bc707b7cfdea0d0a6f262f_ic-check.svg"
                 loading="lazy"
                 width="26"
                 height="26"
                 alt="tick-icon"
+                class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-6 lg:h-6" 
               />
               <div class="ml-2">Mark your performance</div>
             </div>
-            <div class="flex">
+            <div class="flex items-center">
               <img
                 src="https://assets-global.website-files.com/635dda7647d1612d7d877c36/64bc707b7cfdea0d0a6f262f_ic-check.svg"
                 loading="lazy"
                 width="26"
                 height="26"
                 alt="tick-icon"
+                class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-6 lg:h-6"  
               />
               <div class="ml-2">Performance Dashboard</div>
             </div>
@@ -191,52 +199,56 @@
         </div>
       </div>
 
-      <div class="cardit3 bg-white shadow-xl rounded-2xl p-6 flex flex-col lg:flex-row mx-4 sm:mx-8 md:mx-16 lg:mx-24 xl:mx-72 transition-transform transform hover:scale-105 hover:shadow-xl">
+      <div class="cardit3 bg-rose-50 shadow-xl rounded-2xl p-6 flex flex-col lg:flex-row mx-4 sm:mx-8 md:mx-16 lg:mx-24 xl:mx-48 max-w-7xl transition-transform transform hover:shadow-xl">
         <div class="flex flex-col w-full lg:w-1/2">
           <div class="text-xl font-semibold text-gray-800 mb-4">Industry involvement</div>
           <div class="text-gray-600 mb-6">
             LinksUs provide an engaging environment for <br class="hidden sm:block" /> undergraduates and companies to get involved and bridge the gap of pre industry experience.
           </div>
           <div class="space-y-4 mb-6">
-            <div class="flex">
+            <div class="flex items-center">
               <img
                 src="https://assets-global.website-files.com/635dda7647d1612d7d877c36/64bc707b7cfdea0d0a6f262f_ic-check.svg"
                 loading="lazy"
                 width="26"
                 height="26"
                 alt="tick-icon"
+                class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-6 lg:h-6" 
               />
-              <div class="ml-2">Understanding industry trends</div>
+              <div class="ml-2">Hands-on experience</div>
             </div>
-            <div class="flex">
+            <div class="flex items-center">
               <img
                 src="https://assets-global.website-files.com/635dda7647d1612d7d877c36/64bc707b7cfdea0d0a6f262f_ic-check.svg"
                 loading="lazy"
                 width="26"
                 height="26"
                 alt="tick-icon"
+                class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-6 lg:h-6" 
               />
-              <div class="ml-2">Pre-adoption of Corporate Culture</div>
+              <div class="ml-2">Industry-related projects</div>
             </div>
-            <div class="flex">
+            <div class="flex items-center">
               <img
                 src="https://assets-global.website-files.com/635dda7647d1612d7d877c36/64bc707b7cfdea0d0a6f262f_ic-check.svg"
                 loading="lazy"
                 width="26"
                 height="26"
                 alt="tick-icon"
+                class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-6 lg:h-6" 
               />
-              <div class="ml-2">Building Data-Driven proof of work</div>
+              <div class="ml-2">Event Participation</div>
             </div>
-            <div class="flex">
+            <div class="flex items-center">
               <img
                 src="https://assets-global.website-files.com/635dda7647d1612d7d877c36/64bc707b7cfdea0d0a6f262f_ic-check.svg"
                 loading="lazy"
                 width="26"
                 height="26"
                 alt="tick-icon"
+                class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-6 lg:h-6"  
               />
-              <div class="ml-2">Connect with Industries</div>
+              <div class="ml-2">Networking</div>
             </div>
           </div>
         </div>
@@ -245,7 +257,7 @@
             src="../../assets/images/task.jpg"
             loading="lazy"
             alt="industry-involvement"
-            class="object-fill w-[90%] lg:h-[85%] h-auto rounded-lg border-2 border-gray-200"
+            class="object-fill w-[90%] h-[85%] rounded-lg border-2 border-gray-200"
           />
         </div>
       </div>
@@ -256,7 +268,8 @@
 
 
 
-<section class="m-6 bg-green-200 rounded-3xl">
+
+<section class="section3 m-6 bg-emerald-300 rounded-3xl">
   <div class="container mx-auto">
     <div class="text-center py-32">
       <div class="text-6xl text-gray-600 font-semibold font-popins max-lg:text-5xl max-md:text-4xl max-sm:text-3xl">
@@ -266,7 +279,7 @@
     </div>
     <div class="flex flex-col md:flex-row justify-center gap-12 md:space-y-0 space-y-8 pb-32">
       <!-- Testimonial 1 -->
-      <div class="testimonial-card bg-blue-100 p-8 rounded-3xl shadow-lg w-full max-w-lg transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl">
+      <div class="testimonial-card bg-rose-50 p-8 rounded-3xl shadow-lg w-full max-w-lg transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl">
         <div class="flex items-start text-gray-300 text-8xl font-squada">“
           <div class="text-3xl text-gray-800 font-semibold pb-0 p-2 max-lg:text-2xl max-md:text-xl max-sm:text-lg">
             Transformative Experience with LinksUs
@@ -294,7 +307,7 @@
         </div>
       </div>
       <!-- Testimonial 2 -->
-      <div class="testimonial-card bg-blue-100 p-8 rounded-3xl shadow-lg w-full max-w-lg transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl">
+      <div class="testimonial-card bg-rose-50 p-8 rounded-3xl shadow-lg w-full max-w-lg transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl">
         <div class="flex items-start text-gray-300 text-8xl font-squada">“
           <div class="text-3xl text-gray-800 font-semibold p-2 pb-0 max-lg:text-2xl max-md:text-xl max-sm:text-lg">
             Efficient Talent Acquisition with LinksUs
@@ -406,7 +419,7 @@
     </div>
   </section>
 
-<section ref="section2" class="m-6 bg-green-200 rounded-3xl">
+<section ref="section2" class="m-6 bg-emerald-300 rounded-3xl">
   <div class="flex flex-col justify-center max-lg:items-center lg:flex-row gap-16 pb-32">
     <!-- Left Side -->
     <div ref="leftSide2" class="flex flex-col justify-between flex-1 pt-16 lg:pt-32 pl-6 lg:pl-60">
@@ -424,11 +437,18 @@
     <div ref="rightSide2" class="flex flex-col justify-center max-lg:items-center flex-1 pt-0 lg:pt-32 pr-6 lg:pr-32">
       <div class="flex items-start">
         <div class="mr-4 pt-8">
-          <img
-            src="https://assets-global.website-files.com/635dda7647d1612d7d877c36/64bdc452a7cb1c7fd41a6830_ic-brain.svg"
-            loading="lazy"
-            width="56"
-            alt="brain"/>
+          <svg xmlns="http://www.w3.org/2000/svg" width="2.7em" height="2.7em" viewBox="0 0 48 48">
+		<defs>
+			<mask id="ipTBrain0">
+				<g fill="none" stroke="#fff">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="4.67" d="M19.036 44q-1.47-4.793-4.435-7.147c-2.965-2.353-7.676-.89-9.416-3.318s1.219-6.892 2.257-9.526s-3.98-3.565-3.394-4.313q.585-.748 7.609-4.316Q13.652 4 26.398 4C39.144 4 44 14.806 44 21.68c0 6.872-5.88 14.276-14.256 15.873q-1.123 1.636 3.24 6.447" />
+					<path fill="#555" fill-rule="evenodd" stroke-linejoin="round" stroke-width="4" d="M19.5 14.5q-.981 3.801.583 5.339q1.563 1.537 5.328 2.01q-.855 4.903 2.083 4.6q2.937-.302 3.53-2.44q4.59 1.29 4.976-2.16c.385-3.45-1.475-6.201-2.238-6.201s-2.738-.093-2.738-1.148s-2.308-1.65-4.391-1.65s-.83-1.405-3.69-.85q-2.86.555-3.443 2.5Z" clip-rule="evenodd" />
+					<path stroke-linecap="round" stroke-width="4" d="M30.5 25.5c-1.017.631-2.412 1.68-3 2.5c-1.469 2.05-2.66 3.298-2.92 4.608" />
+				</g>
+			</mask>
+		</defs>
+		<path fill="currentColor" d="M0 0h48v48H0z" mask="url(#ipTBrain0)" />
+	</svg>
         </div>
         <div class="flex flex-col justify-center">
           <div class="text-xl lg:text-2xl font-bold text-gray-600">Access to Diverse Skill Sets</div>
@@ -439,17 +459,9 @@
       </div>
       <div class="flex items-start gap-4 mt-10">
         <div class="mr-4 pt-8">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="2.1em"
-            height="2.1em"
-            viewBox="0 0 16 16">
-            <path
-              fill="#a3a3a3"
-              fill-rule="evenodd"
-              d="M6 1a1.75 1.75 0 0 0-1.75 1.75V4H3a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.25V2.75A1.75 1.75 0 0 0 10 1zm4.25 3V2.75A.25.25 0 0 0 10 2.5H6a.25.25 0 0 0-.25.25V4zM3 5.5h10a.5.5 0 0 1 .5.5v1h-11V6a.5.5 0 0 1 .5-.5m-.5 3V13a.5.5 0 0 0 .5.5h10a.5.5 0 0 0 .5-.5V8.5H9V10H7V8.5z"
-              clip-rule="evenodd"/>
-          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="2.1em" height="2.1em" viewBox="0 0 14 14">
+		<path fill="currentColor" fill-rule="evenodd" d="M4.823 1.627A.25.25 0 0 1 5 1.553h4a.25.25 0 0 1 .25.25V3h-4.5V1.803a.25.25 0 0 1 .073-.176M3.25 3V1.803A1.75 1.75 0 0 1 5 .053h4a1.75 1.75 0 0 1 1.75 1.75V3h1.75A1.5 1.5 0 0 1 14 4.5v8a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 0 12.5v-8A1.5 1.5 0 0 1 1.5 3zm-.375 3.578c0-.345.28-.625.625-.625h7a.625.625 0 1 1 0 1.25h-7a.625.625 0 0 1-.625-.625M3.5 9.797a.625.625 0 1 0 0 1.25h7a.625.625 0 1 0 0-1.25z" clip-rule="evenodd" />
+	</svg>
         </div>
         <div class="flex flex-col justify-center">
           <div class="text-xl lg:text-2xl font-bold text-gray-600">Building Brand Presence <br> Among New Talents</div>
@@ -460,15 +472,9 @@
       </div>
       <div class="flex items-start gap-4 mt-10">
         <div class="mr-4 pt-8">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="2.1em"
-            height="2.1em"
-            viewBox="0 0 24 24">
-            <path
-              fill="#a3a3a3"
-              d="M12 7V3H2v18h20V7zm-2 12H4v-2h6zm0-4H4v-2h6zm0-4H4V9h6zm0-4H4V5h6zm10 12h-8V9h8zm-2-8h-4v2h4zm0 4h-4v2h4z"/>
-          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="2.1em" height="2.1em" viewBox="0 0 1024 1024">
+		<path fill="currentColor" d="M384 960v-64h192.064v64zm448-544a350.66 350.66 0 0 1-128.32 271.424C665.344 719.04 640 763.776 640 813.504V832H320v-14.336c0-48-19.392-95.36-57.216-124.992a351.55 351.55 0 0 1-128.448-344.256c25.344-136.448 133.888-248.128 269.76-276.48A352.384 352.384 0 0 1 832 416m-544 32c0-132.288 75.904-224 192-224v-64c-154.432 0-256 122.752-256 288z" />
+	</svg>
         </div>
         <div class="flex flex-col justify-center">
           <div class="text-xl lg:text-2xl font-bold text-gray-600">Opportunity for CSR <br> Initiatives</div>
@@ -488,44 +494,44 @@
   </div>
 </section>
 
-<section class="flex justify-center items-center py-12 mt-64 mb-64">
-    <div class="max-w-7xl mx-auto px-4 flex flex-col lg:flex-row gap-12">
-      <!-- Left Side -->
-      <div class="flex flex-col mb-8 lg:mb-0 lg:w-1/3 faq-element">
-        <h2 class="text-3xl lg:text-6xl font-Lora font-bold text-gray-800 mb-4">FAQ</h2>
-        <p class="text-2xl text-gray-700 mb-2">Visit our <a href="#" class="text-gray-500 hover:text-gray-700">help center</a> to get in touch.</p>
-        <p class="text-2xl text-gray-700">We’re super responsive.</p>
-      </div>
-      
-      <!-- Right Side -->
-      <div class="flex-1 lg:w-2/3">
-        <div class="space-y-2">
-          <div
-            v-for="(faq, index) in faqs"
-            :key="index"
-            class="bg-gray-200 rounded-lg shadow-sm cursor-pointer overflow-hidden faq-element"
-            @click="toggleAnswer(index)"
-          >
-            <div class="p-4 flex items-center justify-between">
-              <h3 class="text-xl font-semibold text-gray-700">{{ faq.question }}</h3>
-              <span :class="{'rotate-180': activeIndex === index}" class="transform transition-transform">
-                <svg v-if="activeIndex !== index" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
-                </svg>
-                <svg v-else xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4" />
-                </svg>
-              </span>
-
-            </div>
-            <div class="faq-answer-container" :style="{ maxHeight: activeIndex === index ? `${answerHeights[index]}px` : '0px' }">
-              <p class="faq-answer p-4 text-gray-600 text-lg">{{ faq.answer }}</p>
-            </div>
+<section class="flex justify-center items-center py-12 mt-32 mb-32 lg:mt-64 lg:mb-64">
+  <div class="max-w-7xl mx-auto px-4 flex flex-col lg:flex-row gap-12">
+    <!-- Left Side -->
+    <div class="flex flex-col mb-8 lg:mb-0 lg:w-1/3 text-center lg:text-left faq-element">
+      <h2 class="text-3xl lg:text-5xl font-Lora font-bold text-gray-800 mb-4">FAQ</h2>
+      <p class="text-xl lg:text-2xl text-gray-700 mb-2">Visit our <a href="#" class="text-gray-500 hover:text-gray-700">help center</a> to get in touch.</p>
+      <p class="text-xl lg:text-2xl text-gray-700">We’re super responsive.</p>
+    </div>
+    
+    <!-- Right Side -->
+    <div class="flex-1 lg:w-2/3">
+      <div class="space-y-4">
+        <div
+          v-for="(faq, index) in faqs"
+          :key="index"
+          class="bg-cyan-100 rounded-lg shadow-sm cursor-pointer overflow-hidden faq-element"
+          @click="toggleAnswer(index)"
+        >
+          <div class="p-4 flex items-center justify-between">
+            <h3 class="text-lg lg:text-xl font-semibold text-gray-800">{{ faq.question }}</h3>
+            <span :class="{'rotate-180': activeIndex === index}" class="transform transition-transform duration-300 ease-in-out">
+              <svg v-if="activeIndex !== index" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5 h-5">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+              </svg>
+              <svg v-else xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5 h-5">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4" />
+              </svg>
+            </span>
+          </div>
+          <div class="faq-answer-container overflow-hidden transition-all duration-500 ease-in-out" :style="{ maxHeight: activeIndex === index ? `${answerHeights[index]}px` : '0px' }">
+            <p class="faq-answer p-4 text-gray-700 text-base lg:text-lg">{{ faq.answer }}</p>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
 
   </template>
 
@@ -616,27 +622,65 @@ onMounted(() => {
 
 
 onMounted(() => {
-  gsap.matchMedia().add("(min-width: 768px)", () => {
+  const mm = gsap.matchMedia();
+
+  mm.add("(min-width: 768px)", () => {
+    // ScrollTrigger for the first card
     gsap.fromTo(
-      [".cardit1", ".cardit2", ".cardit3"], // Use an array or comma-separated selector list
-      { 
+      ".cardit1",
+      {
         autoAlpha: 0, // Initial opacity (hidden)
-      }, 
+      },
       {
         autoAlpha: 1, // Final opacity (fully visible)
-        y: 0, // Final position (original position)
-        duration: 0.7, 
-        stagger: 0.4, // Delay between the animations of each card
-        ease: "power3.out", 
+        duration: 0.7,
+        ease: "power3.out",
         scrollTrigger: {
-          trigger: ".section2",
-          start: "top 20%",  
-          toggleActions: "play none none none"
-        }
+          trigger: ".cardit1",
+          start: "top 40%",  // Animation starts when the card is in view
+          toggleActions: "play none none none",
+        },
+      }
+    );
+
+    // ScrollTrigger for the second card
+    gsap.fromTo(
+      ".cardit2",
+      {
+        autoAlpha: 0, // Initial opacity (hidden)
+      },
+      {
+        autoAlpha: 1, // Final opacity (fully visible)
+        duration: 0.7,
+        ease: "power3.out",
+        scrollTrigger: {
+          trigger: ".cardit2",
+          start: "top 40%",  // Animation starts when the card is in view
+          toggleActions: "play none none none",
+        },
+      }
+    );
+
+    // ScrollTrigger for the third card
+    gsap.fromTo(
+      ".cardit3",
+      {
+        autoAlpha: 0, // Initial opacity (hidden)
+      },
+      {
+        autoAlpha: 1, // Final opacity (fully visible)
+        duration: 0.7,
+        ease: "power3.out",
+        scrollTrigger: {
+          trigger: ".cardit3",
+          start: "top 40%",  // Animation starts when the card is in view
+          toggleActions: "play none none none",
+        },
       }
     );
   });
 });
+
 
 
 onMounted(() => {
@@ -644,7 +688,7 @@ onMounted(() => {
     gsap.fromTo(
       ".testimonial-card", 
       { 
-        y: '30%', // Initial position (30% down from the top)
+        y: '20%', // Initial position (30% down from the top)
         opacity: 0, // Initial opacity (hidden)
       }, 
       {
@@ -654,7 +698,7 @@ onMounted(() => {
         stagger: 0.3, // Delay between the animations of each card
         ease: "power3.out", 
         scrollTrigger: {
-          trigger: ".m-6.bg-green-200.rounded-3xl", // Trigger the animation when this section comes into view
+          trigger: ".section3", // Trigger the animation when this section comes into view
           start: "top 70%",  
           toggleActions: "play none none none"
         }

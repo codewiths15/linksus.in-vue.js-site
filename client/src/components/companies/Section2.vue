@@ -47,70 +47,73 @@
 
 <div class="mt-32">
       <div class="flex justify-center items-center">
-        <h2 class="lg:text-5xl md:text-3xl text-2xl font-semibold font-Lora mb-4">Why Join Our Pilot Project?</h2>
+        <h2 class="lg:text-5xl md:text-4xl text-3xl font-bold font-popins mb-4">Why Join Our Pilot Project?</h2>
       </div>
     </div>
-    <div class="mt-10">
+    <div class="mt-16">
   <div class="flex justify-center items-center">
-    <ul class="list-none p-0 m-0 space-y-6">
-      <li class="relative pl-10 text-gray-700 flex items-center leading-relaxed">
-        <img src="../../assets/images/check-mark.svg" class="w-6 h-auto absolute left-0 top-1/2 transform -translate-y-1/2" alt="Tickmark">
-        <span class="ml-8 flex items-center">
-          <span class="font-semibold lg:text-xl md:text-lg"><b>Cost-Effective Talent Acquisition</b> - Say goodbye to <br> costly recruitment processes and training expenses. <br> With LinksUs, you can access a pool of pre-industry <br> experienced talents at a fraction of the cost.</span>
+    <ul class="list-none p-0 m-0 space-y-4 w-full max-w-4xl sm:max-w-3xl xs:max-w-xl">
+      <li class="flex flex-col bg-rose-100 border border-gray-300 shadow-lg rounded-3xl p-4 sm:p-8 min-h-[160px] flex-grow">
+
+        <span class="font-semibold lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
+          <b>Cost-Effective Talent Acquisition</b>
 
         </span>
+        <p class="text-gray-700 text-center">Say goodbye to costly recruitment processes and training expenses. With LinksUs, you can access a pool of pre-industry experienced talents at a fraction of the cost.</p>
       </li>
-      <li class="relative pl-10 text-gray-700 flex items-center leading-relaxed">
-        <img src="../../assets/images/check-mark.svg" class="w-6 h-auto absolute left-0 top-1/2 transform -translate-y-1/2" alt="Tickmark">
-        <span class="ml-8 flex items-center">
-          <span class="font-semibold lg:text-xl md:text-lg"><b>Boost Productivity</b> - Empower your teams with short- <br> term tasks and projects handled by skilled <br> undergraduates. Watch as productivity soars with <br> fresh perspectives and efficient task completion.</span>
-
+      <li class="flex flex-col bg-rose-100 border border-gray-300 shadow-lg rounded-3xl p-4 sm:p-8 min-h-[160px] flex-grow">
+  
+        <span class="font-semibold lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
+          <b>Boost Productivity</b> 
         </span>
+        <p class="text-gray-700 text-center">Empower your teams with short-term tasks and projects handled by skilled undergraduates. Watch as productivity soars with fresh perspectives and efficient task completion.</p>
       </li>
-      <li class="relative pl-10 text-gray-700 flex items-center leading-relaxed">
-        <img src="../../assets/images/check-mark.svg" class="w-6 h-auto absolute left-0 top-1/2 transform -translate-y-1/2" alt="Tickmark">
-        <span class="ml-8 flex items-center">
-          <span class="font-semibold lg:text-xl md:text-lg"><b>Industry Connection</b> - Build lasting relationships with <br> tomorrow's leaders. Connect with motivated <br> undergraduates, guide their growth, and establish <br> your company as a mentor in your industry.</span>
-
+      <li class="flex flex-col bg-rose-100 border border-gray-300 shadow-lg rounded-3xl p-4 sm:p-8 min-h-[160px] flex-grow">
+  
+        <span class="font-semibold lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
+          <b>Industry Connection</b> 
         </span>
+        <p class="text-gray-700 text-center">Build lasting relationships with  tomorrow's leaders. Connect with motivated undergraduates, guide their growth, and establish your company as a mentor in your industry.</p>
       </li>
     </ul>
   </div>
 </div>
 
 <div class="mt-32">
-      <div class="flex justify-center items-center flex-col">
-        <h2 class="lg:text-5xl md:text-3xl text-2xl font-semibold font-Lora mb-4">Additional Services for Companies</h2>
-        <h2 class="lg:text-2xl md:text-2xl text-xl font-semibold font-Lora mb-4 text-gray-600 text-center">In addition to our core offerings, LinksUs provides additional <br> services to enhance your experience:</h2>
-      </div>
+    <div class="flex flex-col justify-center items-center">
+      <h2 class="lg:text-5xl md:text-4xl text-3xl font-semibold font-Lora mb-4 text-center">Additional Services for Companies</h2>
+      <h2 class="lg:text-2xl md:text-2xl text-xl font-semibold font-Lora mb-4 text-gray-600 text-center">
+        In addition to our core offerings, LinksUs provides additional <br> services to enhance your experience:
+      </h2>
     </div>
-    <div class="mt-10">
-  <div class="flex justify-center items-center">
-    <ul class="list-none p-0 m-0 space-y-6">
-      <li class="relative pl-10 text-gray-700 flex items-center leading-relaxed">
-        <img src="../../assets/images/check-mark.svg" class="w-6 h-auto absolute left-0 top-1/2 transform -translate-y-1/2" alt="Tickmark">
-        <span class="ml-8 flex items-center">
-          <span class="font-semibold lg:text-xl md:text-lg"><b>Task Management Operator </b> - Need assistance in <br> managing tasks and projects? We can assign an <br> operator to handle the entire process, ensuring tasks <br> are completed with data privacy and efficiency.</span>
-
-        </span>
-      </li>
-      <li class="relative pl-10 text-gray-700 flex items-center leading-relaxed">
-        <img src="../../assets/images/check-mark.svg" class="w-6 h-auto absolute left-0 top-1/2 transform -translate-y-1/2" alt="Tickmark">
-        <span class="ml-8 flex items-center">
-          <span class="font-semibold lg:text-xl md:text-lg"><b>Complete Project Handling</b> - Hand over complete <br> projects to our project operator, who will distribute <br> tasks to students using domain-specific windows, <br> ensuring all projects are completed seamlessly.</span>
-
-        </span>
-      </li>
-      <li class="relative pl-10 text-gray-700 flex items-center leading-relaxed">
-        <img src="../../assets/images/check-mark.svg" class="w-6 h-auto absolute left-0 top-1/2 transform -translate-y-1/2" alt="Tickmark">
-        <span class="ml-8 flex items-center">
-          <span class="font-semibold lg:text-xl md:text-lg"><b>Security and Privacy Assurance </b> - We understand the <br> importance of security and privacy for your company's <br> data and projects. Rest assured, LinksUs is not an <br> outsourcing or freelancing platform. Our terms and <br> conditions emphasize data protection and non- <br> disclosure agreements, giving you peace of mind.</span>
-
-        </span>
-      </li>
-    </ul>
   </div>
-</div>
+  <div class="mt-10">
+    <div class="flex justify-center items-center">
+      <ul class="list-none p-0 m-0 space-y-4 w-full max-w-4xl sm:max-w-3xl xs:max-w-xl">
+        <li class="flex flex-col bg-rose-100 border border-gray-300 shadow-lg rounded-3xl p-4 sm:p-8 min-h-[160px] flex-grow">
+  
+          <span class="font-semibold lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
+              <b>Task Management Operator </b> 
+          </span>
+          <p class="text-gray-700 text-center">Need assistance in managing tasks and projects? We can assign an operator to handle the entire process, ensuring tasks are completed with data privacy and efficiency.</p>
+        </li>
+        <li class="flex flex-col bg-rose-100 border border-gray-300 shadow-lg rounded-3xl p-4 sm:p-8 min-h-[160px] flex-grow">
+          
+          <span class="font-semibold lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
+              <b>Complete Project Handling</b> 
+          </span>
+          <p class="text-gray-700 text-center">Hand over complete projects to our project operator, who will distribute tasks to students using domain-specific windows, ensuring all projects are completed seamlessly.</p>
+        </li>
+        <li class="flex flex-col bg-rose-100 border border-gray-300 shadow-lg rounded-3xl p-4 sm:p-8 min-h-[160px] flex-grow">
+        
+          <span class="font-semibold lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
+              <b>Security and Privacy Assurance </b> 
+          </span>
+          <p class="text-gray-700 text-center">We understand the importance of security and privacy for your company's data and projects. Rest assured, LinksUs is not an outsourcing or freelancing platform. Our terms and conditions emphasize data protection and non-disclosure agreements, giving you peace of mind.</p>
+        </li>
+      </ul>
+    </div>
+  </div>
 
 </template>
 
@@ -198,5 +201,45 @@
   .laptop-img {
     border-radius: 2%;
   }
+}
+
+ul {
+  /* Adjust max-width for responsiveness */
+  max-width: 30%;
+  margin: auto;
+}
+li {
+  min-height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media (min-width:750px) and (max-width:1200px){
+  ul {
+  /* Adjust max-width for responsiveness */
+  max-width: 40%;
+  margin: auto;
+}
+}
+@media (min-width:600px) and (max-width:750px){
+  ul {
+  /* Adjust max-width for responsiveness */
+  max-width: 50%;
+  margin: auto;
+}
+}
+@media (min-width:500px) and (max-width:600px){
+  ul {
+  /* Adjust max-width for responsiveness */
+  max-width: 60%;
+  margin: auto;
+}
+}
+@media (min-width:300px) and (max-width:500px){
+  ul {
+  /* Adjust max-width for responsiveness */
+  max-width: 80%;
+  margin: auto;
+}
 }
 </style>
