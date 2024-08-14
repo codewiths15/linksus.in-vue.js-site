@@ -72,7 +72,7 @@ onMounted(() => {
 <template>
   <header class='glass-effect h-20 fixed top-0 left-0 right-0 z-50 inset-x-0' :style="{ background: `rgba(250, 255, 252, ${navbarOpacity})`, transition: 'background 0.5s ease'}" @mouseleave="closeDropdown">
     <nav class="nav flex items-center justify-between h-20"  aria-label="Global">
-      <div class="flex lg:flex-1 pl-12 max-md:pl-10">
+      <div class="logo1 flex lg:flex-1 pl-10 max-md:pl-10">
         <a 
           href="/" 
           aria-current="page" 
@@ -104,7 +104,7 @@ onMounted(() => {
       <div class="flex xlg:hidden">
         <button 
           type="button" 
-          class="lg:mr-32 md:mr-24 mr-16 nav-item inline-flex items-center justify-center rounded-md p-2.5 text-gray-700" 
+          class="btn-btn lg:mr-10 md:mr-20 mr-12 nav-item inline-flex items-center justify-center rounded-md p-2.5 text-gray-700" 
           @click="mobileMenuOpen = true"
           :aria-expanded="mobileMenuOpen ? 'true' : 'false'"
         >
@@ -135,7 +135,7 @@ onMounted(() => {
         </div>
       </div>
       <div class="hidden xlg:flex xlg:flex-1 xlg:justify-end">
-        <a href="/domain" class="cta-button hover:brightness-110 hover:animate-pulse font-Poppins font-bold py-3 px-6 rounded-full bg-gradient-to-r from-blue1 to-blue3 text-white">Get LinksUs</a>
+        <a href="/domain" class="cta-button hover:brightness-110 hover:animate-pulse font-Poppins font-bold py-3 px-6 ml-6 rounded-full bg-gradient-to-r from-blue1 to-blue3 text-white">Get LinksUs</a>
       </div>
 
     </nav>
@@ -187,10 +187,17 @@ onMounted(() => {
               transform 0.3s cubic-bezier(0.79, 0.14, 0.15, 0.86);
 }
 
-@media (min-width: 1015px) {
+
+@media (min-width: 1100px) {
   .nav {
     padding-left: 120px;
     padding-right: 120px;
+  }
+}
+@media (min-width: 1015px) and (max-width:1100px) {
+  .nav {
+    padding-left: 70px;
+    padding-right: 70px;
   }
 }
 
@@ -206,4 +213,20 @@ onMounted(() => {
 
 }
 
+@media (min-width: 912px) and (max-width: 1015px){
+  .btn-btn{
+    margin-right: 5rem;
+  }
+}
+.cta-button {
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide overflowed text */
+  text-overflow: ellipsis; /* Add ellipsis for overflowed text */
+  max-width: 100%; /* Ensure button width doesn’t exceed container width */
+}
+@media (min-width: 1015px) and (max-width: 1110px){
+.logo1{
+  padding-left: 0;
+}
+}
 </style>

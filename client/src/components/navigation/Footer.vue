@@ -26,10 +26,10 @@ onMounted(() => {
 </script>
 
 <template>
-  <section class="footer-section animated-gradient2 text-gray-800 py-12 px-4 md:px-8 lg:px-60">
-  <div class="container mx-auto flex flex-col md:flex-row md:justify-between max-md:px-8">
+  <section class="footer-section animated-gradient2 text-gray-800 py-12 px-4 md:px-8 lg:px-60 flex flex-col">
+  <div class="container mx-auto flex flex-col md:flex-row max-md:px-8 px-8">
     <!-- Logo and Call to Action -->
-    <div class="footer-element w-full flex flex-col items-center md:items-start mb-6 md:mb-0 text-center md:text-left">
+    <div class="footer-element w-full flex flex-col items-start md:items-start mb-6 md:mb-0 text-left md:text-left mr-32">
       <a href="#" class="mb-4">
         <img
           src="../../assets/images/LinksUs Logo.png"
@@ -44,13 +44,13 @@ onMounted(() => {
       </p>
       <a
         href="/domain"
-        class="hover:brightness-110 hover:animate-pulse font-Poppins font-bold py-3 px-6 rounded-full bg-gradient-to-r from-blue1 to-blue3 text-white text-xs md:text-sm"
+        class="hover:brightness-110 hover:animate-pulse font-Poppins font-bold py-3 px-6 rounded-full bg-gradient-to-r from-blue1 to-blue3 text-white text-xs md:text-sm whitespace-nowrap overflow-hidden text-ellipsis"
       >
         Get LinksUs
       </a>
     </div>
     <!-- Links Sections -->
-    <div class="w-full md:w-auto flex md:flex-row flex-col gap-10 max-md:gap-2 justify-center md:justify-start">
+    <div class="w-full md:w-auto flex md:flex-row flex-col pl-4 gap-6 max-md:gap-1 justify-center md:justify-start">
       <div class="footer-element mb-4 md:mb-0">
         <h3 class="text-lg font-semibold font-popins mb-2">COMPANY</h3>
         <ul class="text-sm font-popins">

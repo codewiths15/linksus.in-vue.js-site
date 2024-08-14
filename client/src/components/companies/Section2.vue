@@ -47,29 +47,46 @@
 
 <div class="mt-32">
       <div class="flex justify-center items-center">
-        <h2 class="lg:text-5xl md:text-4xl text-3xl font-bold font-popins mb-4">Why Join Our Pilot Project?</h2>
+        <h2 class="lg:text-5xl md:text-4xl text-2xl font-bold font-popins mb-4">Why Join Our Pilot Project?</h2>
       </div>
     </div>
     <div class="mt-16">
   <div class="flex justify-center items-center">
-    <ul class="list-none p-0 m-0 space-y-4 w-full max-w-4xl sm:max-w-3xl xs:max-w-xl">
-      <li class="flex flex-col bg-rose-100 border border-gray-300 shadow-lg rounded-3xl p-4 sm:p-8 min-h-[160px] flex-grow">
-
+    <ul class="list-none p-0 m-0 flex flex-wrap justify-center gap-4 w-full max-w-4xl sm:max-w-3xl xs:max-w-xl">
+      <li class="flex flex-col bg-white border border-gray-300 shadow-lg rounded-3xl p-4 sm:p-8 min-h-[160px] flex-grow w-[calc(50%-0.5rem)] hover:bg-whiteo">
+        <span class="mb-2 flex justify-center items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 256 256">
+		        <path fill="currentColor" d="m227.79 52.62l-96-32a11.85 11.85 0 0 0-7.58 0l-96 32A12 12 0 0 0 20 63.37a6 6 0 0 0 0 .63v80a12 12 0 0 0 24 0V80.65l23.71 7.9a67.92 67.92 0 0 0 18.42 85A100.36 100.36 0 0 0 46 209.44a12 12 0 1 0 20.1 13.11C80.37 200.59 103 188 128 188s47.63 12.59 61.95 34.55a12 12 0 1 0 20.1-13.11a100.36 100.36 0 0 0-40.18-35.92a67.92 67.92 0 0 0 18.42-85l39.5-13.17a12 12 0 0 0 0-22.76Zm-99.79-8L186.05 64L128 83.35L70 64ZM172 120a44 44 0 1 1-81.06-23.71l33.27 11.09a11.9 11.9 0 0 0 7.58 0l33.27-11.09A43.85 43.85 0 0 1 172 120" />
+	        </svg>
+          </span>
         <span class="font-semibold lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
           <b>Cost-Effective Talent Acquisition</b>
 
         </span>
         <p class="text-gray-700 text-center">Say goodbye to costly recruitment processes and training expenses. With LinksUs, you can access a pool of pre-industry experienced talents at a fraction of the cost.</p>
       </li>
-      <li class="flex flex-col bg-rose-100 border border-gray-300 shadow-lg rounded-3xl p-4 sm:p-8 min-h-[160px] flex-grow">
-  
+      <li class="flex flex-col bg-white border border-gray-300 shadow-lg rounded-3xl p-4 sm:p-8 min-h-[160px] flex-grow w-[calc(50%-0.5rem)] hover:bg-whiteo">
+        <span class="mb-2 flex justify-center items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 24 24">
+		        <path fill="currentColor" d="M10 8Q8.35 8 7.175 6.825T6 4t1.175-2.825T10 0t2.825 1.175T14 4t-1.175 2.825T10 8m6 0q-.275 0-.7-.062t-.7-.138q.675-.8 1.038-1.775T16 4t-.363-2.025T14.6.2q.35-.125.7-.163T16 0q1.65 0 2.825 1.175T20 4t-1.175 2.825T16 8m3 12q-2.075 0-3.537-1.463T14 15q0-2.1 1.463-3.55T19 10q2.1 0 3.55 1.45T24 15q0 2.075-1.45 3.538T19 20m-.7-2.75l3.525-3.55l-.7-.7l-2.825 2.825l-1.425-1.425l-.7.725zM2 16v-2.8q0-.85.438-1.562T3.6 10.55q1.55-.775 3.15-1.162T10 9q1.125 0 2.225.175t2.2.55q-1.35 1.175-1.95 2.838t-.4 3.437z" />
+	        </svg>
+          </span>
         <span class="font-semibold lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
           <b>Boost Productivity</b> 
         </span>
         <p class="text-gray-700 text-center">Empower your teams with short-term tasks and projects handled by skilled undergraduates. Watch as productivity soars with fresh perspectives and efficient task completion.</p>
       </li>
-      <li class="flex flex-col bg-rose-100 border border-gray-300 shadow-lg rounded-3xl p-4 sm:p-8 min-h-[160px] flex-grow">
-  
+      <li class="flex flex-col bg-white border border-gray-300 shadow-lg rounded-3xl p-4 sm:p-8 min-h-[160px] flex-grow w-[calc(50%-0.5rem)] hover:bg-whiteo">
+        <span class="mb-2 flex justify-center items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 14 14">
+		        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+			      <path d="M.65 11.694v-3.62l3.167-1.357l3.167 1.358v3.619L3.817 13.05z" />
+			      <path d="m.65 8.067l3.167 1.357l3.167-1.357M3.817 3.122L6.983 4.48l3.167-1.357" />
+			      <path d="m6.983 8.067l3.167 1.357l3.167-1.357" />
+			      <path d="M3.819 6.715v-3.62l3.166-1.357l3.167 1.357v3.62L6.985 8.072zm3.164 4.979v-3.62l3.167-1.357l3.167 1.358v3.619L10.15 13.05zM3.817 9.426v3.625m6.335-3.625v3.625M6.983 4.48v3.624" />
+		</g>
+	</svg>
+          </span>
         <span class="font-semibold lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
           <b>Industry Connection</b> 
         </span>
@@ -89,23 +106,35 @@
   </div>
   <div class="mt-10">
     <div class="flex justify-center items-center">
-      <ul class="list-none p-0 m-0 space-y-4 w-full max-w-4xl sm:max-w-3xl xs:max-w-xl">
-        <li class="flex flex-col bg-rose-100 border border-gray-300 shadow-lg rounded-3xl p-4 sm:p-8 min-h-[160px] flex-grow">
-  
+      <ul class="list-none p-0 m-0 flex flex-wrap justify-center gap-4 w-full max-w-4xl sm:max-w-3xl xs:max-w-xl">
+        <li class="flex flex-col bg-white border border-gray-300 shadow-lg rounded-3xl p-4 sm:p-8 min-h-[160px] flex-grow w-[calc(50%-0.5rem)] hover:bg-whiteo">
+          <span class="mb-2 flex justify-center items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 24 24">
+		          <path fill="currentColor" d="M7 1h10v2h4v20H3V3h4zm0 4H5v16h14V5h-2v2H7zm8-2H9v2h6zm-6 8h6v2H9zm0 4h6v2H9z" />
+	          </svg>
+          </span>
           <span class="font-semibold lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
               <b>Task Management Operator </b> 
           </span>
           <p class="text-gray-700 text-center">Need assistance in managing tasks and projects? We can assign an operator to handle the entire process, ensuring tasks are completed with data privacy and efficiency.</p>
         </li>
-        <li class="flex flex-col bg-rose-100 border border-gray-300 shadow-lg rounded-3xl p-4 sm:p-8 min-h-[160px] flex-grow">
-          
+        <li class="flex flex-col bg-white border border-gray-300 shadow-lg rounded-3xl p-4 sm:p-8 min-h-[160px] flex-grow w-[calc(50%-0.5rem)] hover:bg-whiteo">
+          <span class="mb-2 flex justify-center items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 512 512">
+		          <path fill="currentColor" d="M291.593 13.486v50.542h204.495c8.788 0 15.912 7.124 15.912 15.913v347.875c0 8.788-7.124 15.912-15.912 15.912H291.593v54.786L0 446.909V65zm-96.76 212.215c.981-15.538-2.708-31.289-13.16-41.363c-12.438-11.991-20.73-14.091-56.289-12.25l-28.886 1.496v163.155h29.37V280.1c54.185 4.625 66.744-26.631 68.964-54.399m-33.756 0c-1.535 26.512-13.814 25.396-35.21 25.03v-49.298c24.047-.848 34.427 2.446 35.21 24.268m311.348-.143l-55.112 57.482l-57.61-57.482h43.073v-75.52H291.593v147.641l44.272-43.566l65.862 65.909s-64.46 62.87-65.989 62.87c-1.527 0-44.145-40.643-44.145-40.643v84.697h203.485V80.81H291.593v41.955h138.454v102.792z" />
+	          </svg>
+          </span>
           <span class="font-semibold lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
               <b>Complete Project Handling</b> 
           </span>
           <p class="text-gray-700 text-center">Hand over complete projects to our project operator, who will distribute tasks to students using domain-specific windows, ensuring all projects are completed seamlessly.</p>
         </li>
-        <li class="flex flex-col bg-rose-100 border border-gray-300 shadow-lg rounded-3xl p-4 sm:p-8 min-h-[160px] flex-grow">
-        
+        <li class="flex flex-col bg-white border border-gray-300 shadow-lg rounded-3xl p-4 sm:p-8 min-h-[160px] flex-grow w-[calc(50%-0.5rem)] hover:bg-whiteo">
+          <span class="mb-2 flex justify-center items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 24 24">
+		          <path fill="currentColor" d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12c5.16-1.26 9-6.45 9-12V5zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11z" />
+	          </svg>
+          </span>
           <span class="font-semibold lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
               <b>Security and Privacy Assurance </b> 
           </span>
@@ -205,7 +234,7 @@
 
 ul {
   /* Adjust max-width for responsiveness */
-  max-width: 30%;
+  max-width: 50%;
   margin: auto;
 }
 li {
@@ -217,28 +246,28 @@ li {
 @media (min-width:750px) and (max-width:1200px){
   ul {
   /* Adjust max-width for responsiveness */
-  max-width: 40%;
+  max-width: 70%;
   margin: auto;
 }
 }
 @media (min-width:600px) and (max-width:750px){
   ul {
   /* Adjust max-width for responsiveness */
-  max-width: 50%;
+  max-width: 70%;
   margin: auto;
 }
 }
 @media (min-width:500px) and (max-width:600px){
   ul {
   /* Adjust max-width for responsiveness */
-  max-width: 60%;
+  max-width: 70%;
   margin: auto;
 }
 }
 @media (min-width:300px) and (max-width:500px){
   ul {
   /* Adjust max-width for responsiveness */
-  max-width: 80%;
+  max-width: 90%;
   margin: auto;
 }
 }

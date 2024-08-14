@@ -4,7 +4,7 @@
     <div>
       <!-- Heading -->
       <div class="text-center">
-        <h1 class="text-gray-700 text-6xl font-semibold font-popins pt-10 max-md:text-5xl max-sm:text-4xl">
+        <h1 class="con-card1 text-gray-700 text-6xl font-semibold font-popins pt-10 max-md:text-5xl max-sm:text-4xl">
           How it works?
         </h1>
       </div>
@@ -69,15 +69,15 @@
 
 <section class="section2 mt-8 bg-whiteo mx-6 rounded-3xl pt-32 pb-32">
   <div>
-    <div class="flex justify-center text-gray-700 items-center text-6xl text-center font-semibold font-popins max-lg:text-5xl max-md:text-4xl max-sm:text-3xl pb-32">
+    <div class="con-card flex justify-center text-gray-700 items-center text-6xl text-center font-semibold font-popins max-lg:text-5xl max-md:text-4xl max-sm:text-3xl pb-32">
       Get added extra in ordinary <br class="hidden sm:block" /> which makes you extraordinary
     </div>
     <div class="flex flex-col gap-12 items-center justify-center">
       <div class="cardit1 bg-rose-50 shadow-xl rounded-2xl p-6 flex flex-col lg:flex-row mx-4 sm:mx-8 md:mx-16 lg:mx-24 xl:mx-48 max-w-7xl transition-transform transform hover:shadow-xl">
         <div class="flex flex-col w-full lg:w-1/2">
-          <div class="text-xl font-semibold text-gray-800 mb-4">AI Assistant</div>
-          <div class="text-gray-600 mb-6">
-            Deploy your growth in the hands of LinksUs Assistant. Who is mastered in making industry connections and growth.
+          <div class="text-xl font-semibold font-popins text-gray-800 mb-4">AI Assistant</div>
+          <div class="text-gray-600 font-popins mb-6">
+            Deploy your growth in the hands of LinksUs <br class="hidden sm:block" /> Assistant, Who is mastered in making industry connections and growth.
           </div>
           <div class="space-y-4 mb-6">
             <div class="flex items-center">
@@ -89,7 +89,7 @@
                 alt="tick-icon"
                 class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-6 lg:h-6" 
               />
-              <div class="ml-2">Career guidance</div>
+              <div class="ml-2 font-popins">Career guidance</div>
             </div>
             <div class="flex items-center">
               <img
@@ -100,7 +100,7 @@
                 alt="tick-icon"
                 class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-6 lg:h-6"  
               />
-              <div class="ml-2">Growth values recommendation</div>
+              <div class="ml-2 font-popins">Growth values recommendation</div>
             </div>
             <div class="flex items-center">
               <img
@@ -111,7 +111,7 @@
                 alt="tick-icon"
                 class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-6 lg:h-6" 
               />
-              <div class="ml-2">Helps in building connections</div>
+              <div class="ml-2 font-popins">Helps in building connections</div>
             </div>
             <div class="flex items-center">
               <img
@@ -122,7 +122,7 @@
                 alt="tick-icon"
                 class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-6 lg:h-6"  
               />
-              <div class="ml-2">Enhancing industry performance</div>
+              <div class="ml-2 font-popins">Enhancing industry performance</div>
             </div>
           </div>
         </div>
@@ -138,8 +138,8 @@
 
       <div class="cardit2 bg-rose-50 shadow-xl rounded-2xl p-6 flex flex-col lg:flex-row mx-4 sm:mx-8 md:mx-16 lg:mx-24 xl:mx-48 max-w-7xl transition-transform transform hover:shadow-xl">
         <div class="flex flex-col w-full lg:w-1/2">
-          <div class="text-xl font-semibold text-gray-800 mb-4">Data-driven systems</div>
-          <div class="text-gray-600 mb-6">
+          <div class="text-xl font-semibold font-popins text-gray-800 mb-4">Data-driven systems</div>
+          <div class="text-gray-600 mb-6 font-popins">
             Enjoy the seamless platform backed up with <br class="hidden sm:block" /> highly data-driven insights with task and performance systems and candidate performance systems.
           </div>
           <div class="space-y-4 mb-6">
@@ -152,7 +152,7 @@
                 alt="tick-icon"
                 class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-6 lg:h-6"  
               />
-              <div class="ml-2">Data driven task insights</div>
+              <div class="ml-2 font-popins">Data driven task insights</div>
             </div>
             <div class="flex items-center">
               <img
@@ -163,7 +163,7 @@
                 alt="tick-icon"
                 class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-6 lg:h-6" 
               />
-              <div class="ml-2">Understand Loopholes</div>
+              <div class="ml-2 font-popins">Understand Loopholes</div>
             </div>
             <div class="flex items-center">
               <img
@@ -174,7 +174,7 @@
                 alt="tick-icon"
                 class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-6 lg:h-6" 
               />
-              <div class="ml-2">Mark your performance</div>
+              <div class="ml-2 font-popins">Mark your performance</div>
             </div>
             <div class="flex items-center">
               <img
@@ -185,7 +185,7 @@
                 alt="tick-icon"
                 class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-6 lg:h-6"  
               />
-              <div class="ml-2">Performance Dashboard</div>
+              <div class="ml-2 font-popins">Performance Dashboard</div>
             </div>
           </div>
         </div>
@@ -201,8 +201,8 @@
 
       <div class="cardit3 bg-rose-50 shadow-xl rounded-2xl p-6 flex flex-col lg:flex-row mx-4 sm:mx-8 md:mx-16 lg:mx-24 xl:mx-48 max-w-7xl transition-transform transform hover:shadow-xl">
         <div class="flex flex-col w-full lg:w-1/2">
-          <div class="text-xl font-semibold text-gray-800 mb-4">Industry involvement</div>
-          <div class="text-gray-600 mb-6">
+          <div class="text-xl font-semibold text-gray-800 mb-4 font-popins">Industry involvement</div>
+          <div class="text-gray-600 mb-6 font-popins">
             LinksUs provide an engaging environment for <br class="hidden sm:block" /> undergraduates and companies to get involved and bridge the gap of pre industry experience.
           </div>
           <div class="space-y-4 mb-6">
@@ -215,7 +215,7 @@
                 alt="tick-icon"
                 class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-6 lg:h-6" 
               />
-              <div class="ml-2">Hands-on experience</div>
+              <div class="ml-2 font-popins">Hands-on experience</div>
             </div>
             <div class="flex items-center">
               <img
@@ -226,7 +226,7 @@
                 alt="tick-icon"
                 class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-6 lg:h-6" 
               />
-              <div class="ml-2">Industry-related projects</div>
+              <div class="ml-2 font-popins">Industry-related projects</div>
             </div>
             <div class="flex items-center">
               <img
@@ -237,7 +237,7 @@
                 alt="tick-icon"
                 class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-6 lg:h-6" 
               />
-              <div class="ml-2">Event Participation</div>
+              <div class="ml-2 font-popins">Event Participation</div>
             </div>
             <div class="flex items-center">
               <img
@@ -248,7 +248,7 @@
                 alt="tick-icon"
                 class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-6 lg:h-6"  
               />
-              <div class="ml-2">Networking</div>
+              <div class="ml-2 font-popins">Networking</div>
             </div>
           </div>
         </div>
@@ -637,7 +637,7 @@ onMounted(() => {
         ease: "power3.out",
         scrollTrigger: {
           trigger: ".cardit1",
-          start: "top 40%",  // Animation starts when the card is in view
+          start: "top 60%",  // Animation starts when the card is in view
           toggleActions: "play none none none",
         },
       }
@@ -655,7 +655,7 @@ onMounted(() => {
         ease: "power3.out",
         scrollTrigger: {
           trigger: ".cardit2",
-          start: "top 40%",  // Animation starts when the card is in view
+          start: "top 50%",  // Animation starts when the card is in view
           toggleActions: "play none none none",
         },
       }
@@ -673,7 +673,7 @@ onMounted(() => {
         ease: "power3.out",
         scrollTrigger: {
           trigger: ".cardit3",
-          start: "top 40%",  // Animation starts when the card is in view
+          start: "top 50%",  // Animation starts when the card is in view
           toggleActions: "play none none none",
         },
       }
@@ -688,24 +688,27 @@ onMounted(() => {
     gsap.fromTo(
       ".testimonial-card", 
       { 
-        y: '20%', // Initial position (30% down from the top)
+        y: '10%', // Initial position (20% down from the top)
         opacity: 0, // Initial opacity (hidden)
+        scale: 0.6, // Start scaled up to 120%
       }, 
       {
         y: '0%', // Final position (original position)
         opacity: 1, // Final opacity (fully visible)
-        duration: 1,
-        stagger: 0.3, // Delay between the animations of each card
+        scale: 1, // End at original size
+        duration: 0.7,
+        stagger: 0.5, // Delay between the animations of each card
         ease: "power3.out", 
         scrollTrigger: {
           trigger: ".section3", // Trigger the animation when this section comes into view
-          start: "top 70%",  
+          start: "top 50%",  
           toggleActions: "play none none none"
         }
       }
     );
   });
 });
+
 
 
 onMounted(() => {
@@ -743,7 +746,7 @@ onMounted(() => {
       ease: 'power2.out',
       scrollTrigger: {
         trigger: section.value,
-        start: 'top 80%', // Start animation when top of the section hits 80% of the viewport height
+        start: 'top 50%', // Start animation when top of the section hits 80% of the viewport height
         toggleActions: 'play none none none',
       },
     });
@@ -756,7 +759,7 @@ onMounted(() => {
       ease: 'power2.out',
       scrollTrigger: {
         trigger: section.value,
-        start: 'top 80%', // Start animation when top of the section hits 80% of the viewport height
+        start: 'top 50%', // Start animation when top of the section hits 80% of the viewport height
         toggleActions: 'play none none none',
       },
     });
@@ -778,7 +781,7 @@ onMounted(() => {
       ease: 'power2.out',
       scrollTrigger: {
         trigger: section2.value,
-        start: 'top 80%', // Start animation when top of the section hits 80% of the viewport height
+        start: 'top 50%', // Start animation when top of the section hits 80% of the viewport height
         toggleActions: 'play none none none',
       },
     });
@@ -791,13 +794,59 @@ onMounted(() => {
       ease: 'power2.out',
       scrollTrigger: {
         trigger: section2.value,
-        start: 'top 80%', // Start animation when top of the section hits 80% of the viewport height
+        start: 'top 50%', // Start animation when top of the section hits 80% of the viewport height
         toggleActions: 'play none none none',
       },
     });
   });
 });
 
+onMounted(() => {
+  gsap.matchMedia().add("(min-width: 768px)", () => {
+    gsap.fromTo(
+      ".con-card", 
+      { 
+        autoAlpha: 0, // Initial opacity (hidden)
+        scale: 0.6, // Start scaled up to 120%
+      }, 
+      {
+        autoAlpha: 1, // Final opacity (fully visible)
+        scale: 1, // End at original size
+        duration: 1,
+        ease: "power3.out",
+        scrollTrigger: {
+          trigger: ".section2", // Trigger the animation when this section comes into view
+          start: "top 50%",  
+          toggleActions: "play none none none"
+        }
+      }
+    );
+  });
+});
+
+
+onMounted(() => {
+  gsap.fromTo(
+    ".con-card1", 
+    { 
+      scale: 0.4, 
+      x: '2.5%',
+      autoAlpha: 0, // Start hidden
+    }, 
+    {
+      scale: 1, // End at original scale
+      x: '0%',
+      autoAlpha: 1, // End fully visible
+      duration: 1,
+      ease: "power3.out",
+      scrollTrigger: {
+        trigger: ".con-card1", // Trigger the animation when this element comes into view
+        start: "top 80%",  
+        toggleActions: "play none none none"
+      }
+    }
+  );
+});
 </script>
   
   <style scoped>

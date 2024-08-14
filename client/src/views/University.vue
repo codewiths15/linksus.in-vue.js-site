@@ -12,7 +12,7 @@ import Footer from '@/components/navigation/Footer.vue';
             <Section />
         </div>
     </div>
-    <div class="pb-32 pt-32 bg-[#B4E4FF]">
+    <div class="pb-32 pt-32 bg-[#f5f5f5]">
     <Section2 />
     </div>
     <Footer />

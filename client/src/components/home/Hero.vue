@@ -42,27 +42,34 @@ gsap.registerPlugin(ScrollTrigger);
 
 onMounted(() => {
   // Use GSAP's matchMedia to handle different screen sizes
-  gsap.matchMedia().add("(min-width: 1024px)", () => {
-    // This animation will only run if the screen width is 768px or wider
+  gsap.matchMedia().add("(min-width: 300px)", () => {
+    // This animation will only run if the screen width is 1024px or wider
     gsap.fromTo(
-      ".container", 
-      { autoAlpha: 0, x:'2.5%' }, 
+      ".container",
+      {
+        autoAlpha: 0,
+        scale: 0.6, // Start scaled up
+        x: '1%', // Starting X position
+        y: '2%'
+      },
       {
         autoAlpha: 1,
-        x: 0,
-        y: 0, 
-        duration: 1, 
-        stagger: 0.5,
-        ease: "power3.out", 
+        scale: 1, // End at original size
+        x: 0, // End at original X position
+        y: 0, // Optional: Adjust Y position if needed
+        duration: 1.2,
+        stagger: 0.6,
+        ease: "power3.out",
         scrollTrigger: {
           trigger: ".container",
-          start: "top 40%",  
-          toggleActions: "play none none none"
+          start: "top 50%",
+          toggleActions: "play none none none",
         }
       }
     );
   });
 });
+
 
 
 
@@ -72,16 +79,35 @@ const headline3 = ref(null);
 const subheadline = ref(null);
 
 onMounted(() => {
-  gsap.matchMedia().add("(min-width: 1150px)", () => {
-    gsap.from([headline1.value, headline2.value, headline3.value, subheadline.value], {
-      x: '40%',
+  gsap.matchMedia().add("(min-width: 300px)", () => {
+    // Animate headlines with x and opacity effects
+    gsap.from([headline1.value, headline2.value, headline3.value], {
+      x: '10%',
       opacity: 0,
       duration: 0.5,
       ease: 'power3.out',
       stagger: 0.3, // Adds a staggered effect to animate each element one after the other
     });
+
+    // Animate subheadline with zoom-out effect
+    gsap.fromTo(
+      subheadline.value,
+      {
+        scale: 0.3, // Start scaled up
+        x: '0%', // Starting X position
+        opacity: 0,
+      },
+      {
+        scale: 1, // End at original size
+        x: 0, // End at original X position
+        opacity: 1,
+        duration: 1.5,
+        ease: 'power3.out',
+      }
+    );
   });
 });
+
 
 
 </script>
