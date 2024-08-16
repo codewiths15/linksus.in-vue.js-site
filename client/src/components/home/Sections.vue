@@ -272,7 +272,7 @@
 <section class="section3 m-6 bg-emerald-300 rounded-3xl">
   <div class="container mx-auto">
     <div class="text-center py-32">
-      <div class="text-6xl text-gray-600 font-semibold font-popins max-lg:text-5xl max-md:text-4xl max-sm:text-3xl">
+      <div class="text-6xl text-gray-600 font-semibold font-popins max-lg:text-5xl max-md:text-4xl max-sm:text-[1.1rem]">
         For undergraduates who <br> want to work and connect <br> smarter,
         better, faster
       </div>
@@ -280,12 +280,12 @@
     <div class="flex flex-col md:flex-row justify-center gap-12 md:space-y-0 space-y-8 pb-32">
       <!-- Testimonial 1 -->
       <div class="testimonial-card bg-rose-50 p-8 rounded-3xl shadow-lg w-full max-w-lg transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl">
-        <div class="flex items-start text-gray-300 text-8xl font-squada">“
-          <div class="text-3xl text-gray-800 font-semibold pb-0 p-2 max-lg:text-2xl max-md:text-xl max-sm:text-lg">
+        <div class="flex items-start text-gray-300 md:text-8xl text-4xl font-squada">“
+          <div class="text-3xl text-gray-800 font-semibold pb-0 p-2 max-lg:text-2xl max-md:text-xl max-sm:text-[1rem] max-sm:mb-1">
             Transformative Experience with LinksUs
           </div>
         </div>
-        <div class="text-gray-600 mb-6 px-2 md:px-10 text-justify">
+        <div class="text-gray-600 mb-6 px-2 md:px-10 text-justify max-sm:text-[0.6rem]">
           LinksUs has been a game-changer for me as a student. The platform not
           only helped me gain valuable industry experience through real-world
           tasks but also connected me with mentors who guided me in developing
@@ -301,19 +301,19 @@
             alt="woman-image"
             class="rounded-full"/>
           <div>
-            <div class="text-lg font-semibold text-gray-800 max-lg:text-base max-md:text-sm">Lexis</div>
+            <div class="text-lg font-semibold text-gray-800 max-lg:text-base max-md:text-sm max-sm:text-xs">Lexis</div>
             <div class="text-gray-500 max-lg:text-sm max-md:text-xs">Engineering Manager at Chief</div>
           </div>
         </div>
       </div>
       <!-- Testimonial 2 -->
       <div class="testimonial-card bg-rose-50 p-8 rounded-3xl shadow-lg w-full max-w-lg transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl">
-        <div class="flex items-start text-gray-300 text-8xl font-squada">“
-          <div class="text-3xl text-gray-800 font-semibold p-2 pb-0 max-lg:text-2xl max-md:text-xl max-sm:text-lg">
+        <div class="flex items-start text-gray-300 md:text-8xl text-4xl font-squada">“
+          <div class="text-3xl text-gray-800 font-semibold p-2 pb-0 max-lg:text-2xl max-md:text-xl max-sm:text-[1rem]">
             Efficient Talent Acquisition with LinksUs
           </div>
         </div>
-        <div class="text-gray-600 mb-6 px-2 md:px-10 text-justify">
+        <div class="text-gray-600 mb-6 px-2 md:px-10 text-justify max-sm:text-[0.6rem]">
           Our experience with LinksUs has been exceptional. The platform offers
           a cost-effective solution for talent acquisition, allowing us to
           connect with pre-industry experienced candidates and boost our
@@ -330,7 +330,7 @@
             alt="man-image"
             class="rounded-full"/>
           <div>
-            <div class="text-lg font-semibold text-gray-800 max-lg:text-base max-md:text-sm">Nick</div>
+            <div class="text-lg font-semibold text-gray-800 max-lg:text-base max-md:text-sm max-sm:text-xs">Nick</div>
             <div class="text-gray-500 max-lg:text-sm max-md:text-xs">Co-Founder of Tile</div>
           </div>
         </div>
@@ -361,7 +361,7 @@
       <!-- Right Side -->
       <div ref="rightSide" class="flex flex-col justify-center max-lg:items-center gap-4 flex-1 pt-0 lg:pt-32 pr-6 lg:pr-32">
         <div class="flex items-start">
-          <div class="mr-8 pt-8">
+          <div class="mr-8 pt-8 max-md:ml-4">
             <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 2048 2048">
               <path
                 fill="#e1ffdb"
@@ -380,7 +380,7 @@
           </div>
         </div>
         <div class="flex items-start mt-10">
-          <div class="mr-8 pt-8">
+          <div class="mr-8 pt-8 max-md:ml-4">
             <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
               <path
                 fill="#e1ffdb"
@@ -400,7 +400,7 @@
           </div>
         </div>
         <div class="flex items-start mt-10">
-          <div class="mr-8 pt-8">
+          <div class="mr-8 pt-8 max-md:ml-4">
             <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
               <path fill="none" stroke="#e1ffdb" stroke-width="2" d="M9 15v8H1v-8zm14 0v8h-8v-8zM9 1v8H1V1zm14 0v8h-8V1z" />
             </svg>
@@ -425,8 +425,8 @@
     <div ref="leftSide2" class="flex flex-col justify-between flex-1 pt-16 lg:pt-32 pl-6 lg:pl-60">
       <div class="">
         <div class="">
-          <div class="text-3xl lg:text-6xl font-semibold font-popins text-gray-600">Make new talents <br> familiar to your <br> Brand</div>
-          <div class="text-gray-700 mt-4 text-xl lg:text-4xl font-black font-popins">
+          <div class="text-3xl lg:text-6xl font-semibold font-popins text-gray-800">Make new talents <br> familiar to your <br> Brand</div>
+          <div class="text-gray-800 mt-4 text-xl lg:text-4xl font-black font-popins">
             It’s easier to make new talents <br> look and feel your brand
           </div>
         </div>
@@ -436,49 +436,49 @@
     <!-- Right Side -->
     <div ref="rightSide2" class="flex flex-col justify-center max-lg:items-center flex-1 pt-0 lg:pt-32 pr-6 lg:pr-32">
       <div class="flex items-start">
-        <div class="mr-4 pt-8">
-          <svg xmlns="http://www.w3.org/2000/svg" width="2.7em" height="2.7em" viewBox="0 0 48 48">
-		<defs>
-			<mask id="ipTBrain0">
-				<g fill="none" stroke="#fff">
-					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="4.67" d="M19.036 44q-1.47-4.793-4.435-7.147c-2.965-2.353-7.676-.89-9.416-3.318s1.219-6.892 2.257-9.526s-3.98-3.565-3.394-4.313q.585-.748 7.609-4.316Q13.652 4 26.398 4C39.144 4 44 14.806 44 21.68c0 6.872-5.88 14.276-14.256 15.873q-1.123 1.636 3.24 6.447" />
-					<path fill="#555" fill-rule="evenodd" stroke-linejoin="round" stroke-width="4" d="M19.5 14.5q-.981 3.801.583 5.339q1.563 1.537 5.328 2.01q-.855 4.903 2.083 4.6q2.937-.302 3.53-2.44q4.59 1.29 4.976-2.16c.385-3.45-1.475-6.201-2.238-6.201s-2.738-.093-2.738-1.148s-2.308-1.65-4.391-1.65s-.83-1.405-3.69-.85q-2.86.555-3.443 2.5Z" clip-rule="evenodd" />
-					<path stroke-linecap="round" stroke-width="4" d="M30.5 25.5c-1.017.631-2.412 1.68-3 2.5c-1.469 2.05-2.66 3.298-2.92 4.608" />
-				</g>
-			</mask>
-		</defs>
-		<path fill="currentColor" d="M0 0h48v48H0z" mask="url(#ipTBrain0)" />
+        <div class="mr-5 pt-8 max-md:ml-4">
+
+	<svg xmlns="http://www.w3.org/2000/svg" width="2.7em" height="2.7em" viewBox="0 0 256 256">
+		<path fill="currentColor" d="M248 124a56.11 56.11 0 0 0-32-50.61V72a48 48 0 0 0-88-26.49A48 48 0 0 0 40 72v1.39a56 56 0 0 0 0 101.2V176a48 48 0 0 0 88 26.49A48 48 0 0 0 216 176v-1.41A56.09 56.09 0 0 0 248 124M88 208a32 32 0 0 1-31.81-28.56A56 56 0 0 0 64 180h8a8 8 0 0 0 0-16h-8a40 40 0 0 1-13.33-77.73A8 8 0 0 0 56 78.73V72a32 32 0 0 1 64 0v68.26A47.8 47.8 0 0 0 88 128a8 8 0 0 0 0 16a32 32 0 0 1 0 64m104-44h-8a8 8 0 0 0 0 16h8a56 56 0 0 0 7.81-.56A32 32 0 1 1 168 144a8 8 0 0 0 0-16a47.8 47.8 0 0 0-32 12.26V72a32 32 0 0 1 64 0v6.73a8 8 0 0 0 5.33 7.54A40 40 0 0 1 192 164m16-52a8 8 0 0 1-8 8h-4a36 36 0 0 1-36-36v-4a8 8 0 0 1 16 0v4a20 20 0 0 0 20 20h4a8 8 0 0 1 8 8m-148 8h-4a8 8 0 0 1 0-16h4a20 20 0 0 0 20-20v-4a8 8 0 0 1 16 0v4a36 36 0 0 1-36 36" />
 	</svg>
+
+
         </div>
         <div class="flex flex-col justify-center">
-          <div class="text-xl lg:text-2xl font-bold text-gray-600">Access to Diverse Skill Sets</div>
-          <div class="text-gray-500 text-base lg:text-lg font-squada">
+          <div class="text-xl lg:text-2xl font-bold text-gray-800">Access to Diverse Skill Sets</div>
+          <div class="text-gray-800 text-base lg:text-lg font-squada">
             Companies and startups gain access to <br> a diverse pool of skills and talents <br> available on LinksUs. They can tap into a <br> wide range of expertise across various <br> domains, allowing them to tackle <br> projects that require specific skills <br> without hiring full-time employees for <br> every task.
           </div>
         </div>
       </div>
       <div class="flex items-start gap-4 mt-10">
-        <div class="mr-4 pt-8">
+        <div class="mr-4 pt-8 max-md:ml-4">
           <svg xmlns="http://www.w3.org/2000/svg" width="2.1em" height="2.1em" viewBox="0 0 14 14">
-		<path fill="currentColor" fill-rule="evenodd" d="M4.823 1.627A.25.25 0 0 1 5 1.553h4a.25.25 0 0 1 .25.25V3h-4.5V1.803a.25.25 0 0 1 .073-.176M3.25 3V1.803A1.75 1.75 0 0 1 5 .053h4a1.75 1.75 0 0 1 1.75 1.75V3h1.75A1.5 1.5 0 0 1 14 4.5v8a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 0 12.5v-8A1.5 1.5 0 0 1 1.5 3zm-.375 3.578c0-.345.28-.625.625-.625h7a.625.625 0 1 1 0 1.25h-7a.625.625 0 0 1-.625-.625M3.5 9.797a.625.625 0 1 0 0 1.25h7a.625.625 0 1 0 0-1.25z" clip-rule="evenodd" />
-	</svg>
+		        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M12.5 3.5h-11a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1v-8a1 1 0 0 0-1-1M5 .5h4a1 1 0 0 1 1 1v2H4v-2a1 1 0 0 1 1-1M3.5 7h7m-7 3h7" />
+	        </svg>
         </div>
         <div class="flex flex-col justify-center">
-          <div class="text-xl lg:text-2xl font-bold text-gray-600">Building Brand Presence <br> Among New Talents</div>
-          <div class="text-gray-500 text-base lg:text-lg">
+          <div class="text-xl lg:text-2xl font-bold text-gray-800">Building Brand Presence <br> Among New Talents</div>
+          <div class="text-gray-800 text-base lg:text-lg">
             Participating in LinksUs enables <br> companies and startups to build their <br> brand presence among the next <br> generation of talents. By engaging with <br> students early in their careers, <br> companies can showcase their work <br> culture, values, and opportunities, <br> attracting top talent for future roles.
           </div>
         </div>
       </div>
       <div class="flex items-start gap-4 mt-10">
-        <div class="mr-4 pt-8">
-          <svg xmlns="http://www.w3.org/2000/svg" width="2.1em" height="2.1em" viewBox="0 0 1024 1024">
-		<path fill="currentColor" d="M384 960v-64h192.064v64zm448-544a350.66 350.66 0 0 1-128.32 271.424C665.344 719.04 640 763.776 640 813.504V832H320v-14.336c0-48-19.392-95.36-57.216-124.992a351.55 351.55 0 0 1-128.448-344.256c25.344-136.448 133.888-248.128 269.76-276.48A352.384 352.384 0 0 1 832 416m-544 32c0-132.288 75.904-224 192-224v-64c-154.432 0-256 122.752-256 288z" />
-	</svg>
+        <div class="mr-3 pt-8 max-md:ml-4">
+
+	      <svg xmlns="http://www.w3.org/2000/svg" width='2.4em' height='2.4em' viewBox="0 0 24 24">
+		      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" color="currentColor">
+			      <path d="M5.143 14A7.8 7.8 0 0 1 4 9.919C4 5.545 7.582 2 12 2s8 3.545 8 7.919A7.8 7.8 0 0 1 18.857 14" />
+			      <path d="M14 10c-.613.643-1.289 1-2 1s-1.387-.357-2-1m-2.617 7.098c-.092-.276-.138-.415-.133-.527a.6.6 0 0 1 .382-.53c.104-.041.25-.041.54-.041h7.656c.291 0 .436 0 .54.04a.6.6 0 0 1 .382.531c.005.112-.041.25-.133.527c-.17.511-.255.767-.386.974a2 2 0 0 1-1.2.869c-.238.059-.506.059-1.043.059h-3.976c-.537 0-.806 0-1.043-.06a2 2 0 0 1-1.2-.868c-.131-.207-.216-.463-.386-.974M15 19l-.13.647c-.14.707-.211 1.06-.37 1.34a2 2 0 0 1-1.113.912C13.082 22 12.72 22 12 22s-1.082 0-1.387-.1a2 2 0 0 1-1.113-.913c-.159-.28-.23-.633-.37-1.34L9 19m3-3.5V11" />
+		      </g>
+	      </svg>
+
+
         </div>
         <div class="flex flex-col justify-center">
-          <div class="text-xl lg:text-2xl font-bold text-gray-600">Opportunity for CSR <br> Initiatives</div>
-          <div class="text-gray-500 text-base lg:text-lg">
+          <div class="text-xl lg:text-2xl font-bold text-gray-800">Opportunity for CSR <br> Initiatives</div>
+          <div class="text-gray-800 text-base lg:text-lg">
             LinksUs offers companies and startups <br> the opportunity to engage in Corporate <br> Social Responsibility (CSR) initiatives. By <br> providing industry tasks and mentorship <br> to students, companies can contribute to <br> the development of future professionals <br> while fulfilling their social responsibility <br> goals.
           </div>
         </div>
@@ -871,15 +871,16 @@ onMounted(() => {
 
 @media (max-width: 768px) {
   .faq-answer {
-    font-size: 1rem;
-    padding: 1rem;
+    font-size: 0.75rem;
+    padding: 0.5rem;
   }
 }
 
 @media (min-width: 769px) {
   .faq-answer {
     font-size: 1.125rem;
-    padding: 1.5rem;
+    padding: 1rem;
+    padding-bottom: 2rem;
   }
 }
 

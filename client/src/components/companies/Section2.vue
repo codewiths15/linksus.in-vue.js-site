@@ -56,41 +56,42 @@
       <li class="flex flex-col bg-white border border-gray-300 shadow-lg rounded-3xl p-4 sm:p-8 min-h-[160px] flex-grow w-[calc(50%-0.5rem)] hover:bg-whiteo">
         <span class="mb-2 flex justify-center items-center">
           <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 256 256">
-		        <path fill="currentColor" d="m227.79 52.62l-96-32a11.85 11.85 0 0 0-7.58 0l-96 32A12 12 0 0 0 20 63.37a6 6 0 0 0 0 .63v80a12 12 0 0 0 24 0V80.65l23.71 7.9a67.92 67.92 0 0 0 18.42 85A100.36 100.36 0 0 0 46 209.44a12 12 0 1 0 20.1 13.11C80.37 200.59 103 188 128 188s47.63 12.59 61.95 34.55a12 12 0 1 0 20.1-13.11a100.36 100.36 0 0 0-40.18-35.92a67.92 67.92 0 0 0 18.42-85l39.5-13.17a12 12 0 0 0 0-22.76Zm-99.79-8L186.05 64L128 83.35L70 64ZM172 120a44 44 0 1 1-81.06-23.71l33.27 11.09a11.9 11.9 0 0 0 7.58 0l33.27-11.09A43.85 43.85 0 0 1 172 120" />
+		        <path fill="currentColor" d="m225.27 60.21l-96-32a4 4 0 0 0-2.54 0l-96 32A4 4 0 0 0 28 64v80a4 4 0 0 0 8 0V69.55l43.88 14.63a60 60 0 0 0 24.54 91c-20.86 5.74-39 19.13-51.77 38.65a4 4 0 0 0 6.7 4.36C75.17 193.92 100.2 180 128 180s52.83 13.92 68.65 38.18a4 4 0 0 0 6.7-4.36c-12.72-19.52-30.91-32.91-51.77-38.65a60 60 0 0 0 24.54-91l49.15-16.39a4 4 0 0 0 0-7.58ZM180 120a52 52 0 1 1-92.07-33.14l38.8 12.93a3.95 3.95 0 0 0 2.54 0l38.8-12.93A51.85 51.85 0 0 1 180 120m-52-28.22L44.65 64L128 36.22L211.35 64Z" />
 	        </svg>
           </span>
-        <span class="font-semibold lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
+        <span class="font-semibold font-squada lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
           <b>Cost-Effective Talent Acquisition</b>
 
         </span>
-        <p class="text-gray-700 text-center">Say goodbye to costly recruitment processes and training expenses. With LinksUs, you can access a pool of pre-industry experienced talents at a fraction of the cost.</p>
+        <p class="text-gray-700 font-squada text-center">Say goodbye to costly recruitment processes and training expenses. With LinksUs, you can access a pool of pre-industry experienced talents at a fraction of the cost.</p>
       </li>
       <li class="flex flex-col bg-white border border-gray-300 shadow-lg rounded-3xl p-4 sm:p-8 min-h-[160px] flex-grow w-[calc(50%-0.5rem)] hover:bg-whiteo">
         <span class="mb-2 flex justify-center items-center">
-          <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 24 24">
-		        <path fill="currentColor" d="M10 8Q8.35 8 7.175 6.825T6 4t1.175-2.825T10 0t2.825 1.175T14 4t-1.175 2.825T10 8m6 0q-.275 0-.7-.062t-.7-.138q.675-.8 1.038-1.775T16 4t-.363-2.025T14.6.2q.35-.125.7-.163T16 0q1.65 0 2.825 1.175T20 4t-1.175 2.825T16 8m3 12q-2.075 0-3.537-1.463T14 15q0-2.1 1.463-3.55T19 10q2.1 0 3.55 1.45T24 15q0 2.075-1.45 3.538T19 20m-.7-2.75l3.525-3.55l-.7-.7l-2.825 2.825l-1.425-1.425l-.7.725zM2 16v-2.8q0-.85.438-1.562T3.6 10.55q1.55-.775 3.15-1.162T10 9q1.125 0 2.225.175t2.2.55q-1.35 1.175-1.95 2.838t-.4 3.437z" />
+          <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 48 48">
+		        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M37.42 14.7a4.1 4.1 0 0 0-4.08-4.11h0a4.11 4.11 0 1 0 0 8.21a4.1 4.1 0 0 0 2.88-1.18a4 4 0 0 0 1.19-2.92ZM16.1 29.44l-2-2l-6.2 1.98h-.2a.7.7 0 0 1-.53-.2l-1.45-1.43a.7.7 0 0 1-.11-.88L7.3 24a13 13 0 0 1 10.07-6.39l2.49-.22q2.17-2.58 4-4.42A26.4 26.4 0 0 1 32 7.12a25.6 25.6 0 0 1 9.77-1.61a.8.8 0 0 1 .54.22a.68.68 0 0 1 .22.5A25.3 25.3 0 0 1 40.78 16A25.8 25.8 0 0 1 35 24.16c-1.23 1.24-2.71 2.57-4.42 4l-.22 2.48A13 13 0 0 1 24 40.72l-2.89 1.69a.8.8 0 0 1-.37.09a.82.82 0 0 1-.52-.2l-1.45-1.46a.69.69 0 0 1-.18-.71l1.93-6.27l-1.94-1.94m12.04-3.76l-10.1 5.7m-.66-16.47l-5.71 10.1" />
+		        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M13 35c4-.74 11.1-7.4 11.93-11.93C20.37 23.94 13.71 31 13 35" />
 	        </svg>
           </span>
-        <span class="font-semibold lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
+        <span class="font-semibold font-squada lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
           <b>Boost Productivity</b> 
         </span>
-        <p class="text-gray-700 text-center">Empower your teams with short-term tasks and projects handled by skilled undergraduates. Watch as productivity soars with fresh perspectives and efficient task completion.</p>
+        <p class="text-gray-700 font-squada text-center">Empower your teams with short-term tasks and projects handled by skilled undergraduates. Watch as productivity soars with fresh perspectives and efficient task completion.</p>
       </li>
       <li class="flex flex-col bg-white border border-gray-300 shadow-lg rounded-3xl p-4 sm:p-8 min-h-[160px] flex-grow w-[calc(50%-0.5rem)] hover:bg-whiteo">
         <span class="mb-2 flex justify-center items-center">
           <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 14 14">
-		        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+		        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.3">
 			      <path d="M.65 11.694v-3.62l3.167-1.357l3.167 1.358v3.619L3.817 13.05z" />
 			      <path d="m.65 8.067l3.167 1.357l3.167-1.357M3.817 3.122L6.983 4.48l3.167-1.357" />
 			      <path d="m6.983 8.067l3.167 1.357l3.167-1.357" />
 			      <path d="M3.819 6.715v-3.62l3.166-1.357l3.167 1.357v3.62L6.985 8.072zm3.164 4.979v-3.62l3.167-1.357l3.167 1.358v3.619L10.15 13.05zM3.817 9.426v3.625m6.335-3.625v3.625M6.983 4.48v3.624" />
-		</g>
-	</svg>
+		        </g>
+	        </svg>
           </span>
-        <span class="font-semibold lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
+        <span class="font-semibold font-squada lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
           <b>Industry Connection</b> 
         </span>
-        <p class="text-gray-700 text-center">Build lasting relationships with  tomorrow's leaders. Connect with motivated undergraduates, guide their growth, and establish your company as a mentor in your industry.</p>
+        <p class="text-gray-700 font-squada text-center">Build lasting relationships with  tomorrow's leaders. Connect with motivated undergraduates, guide their growth, and establish your company as a mentor in your industry.</p>
       </li>
     </ul>
   </div>
@@ -110,35 +111,42 @@
         <li class="flex flex-col bg-white border border-gray-300 shadow-lg rounded-3xl p-4 sm:p-8 min-h-[160px] flex-grow w-[calc(50%-0.5rem)] hover:bg-whiteo">
           <span class="mb-2 flex justify-center items-center">
             <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 24 24">
-		          <path fill="currentColor" d="M7 1h10v2h4v20H3V3h4zm0 4H5v16h14V5h-2v2H7zm8-2H9v2h6zm-6 8h6v2H9zm0 4h6v2H9z" />
+		          <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" color="currentColor">
+			        <path d="M19.5 13V9.368c0-3.473 0-5.21-1.025-6.289S15.8 2 12.5 2h-3C6.2 2 4.55 2 3.525 3.08C2.5 4.157 2.5 5.894 2.5 9.367v5.264c0 3.473 0 5.21 1.025 6.289S6.2 22 9.5 22H11m2.5-2s1 0 2 2c0 0 3.177-5 6-6" />
+			        <path d="m7 2l.082.493c.2 1.197.3 1.796.72 2.152C8.22 5 8.827 5 10.041 5h1.917c1.213 0 1.82 0 2.24-.355c.42-.356.52-.955.719-2.152L15 2M7 16h4m-4-5h8" />
+		          </g>
 	          </svg>
           </span>
-          <span class="font-semibold lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
+          <span class="font-semibold font-squada lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
               <b>Task Management Operator </b> 
           </span>
-          <p class="text-gray-700 text-center">Need assistance in managing tasks and projects? We can assign an operator to handle the entire process, ensuring tasks are completed with data privacy and efficiency.</p>
-        </li>
-        <li class="flex flex-col bg-white border border-gray-300 shadow-lg rounded-3xl p-4 sm:p-8 min-h-[160px] flex-grow w-[calc(50%-0.5rem)] hover:bg-whiteo">
-          <span class="mb-2 flex justify-center items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 512 512">
-		          <path fill="currentColor" d="M291.593 13.486v50.542h204.495c8.788 0 15.912 7.124 15.912 15.913v347.875c0 8.788-7.124 15.912-15.912 15.912H291.593v54.786L0 446.909V65zm-96.76 212.215c.981-15.538-2.708-31.289-13.16-41.363c-12.438-11.991-20.73-14.091-56.289-12.25l-28.886 1.496v163.155h29.37V280.1c54.185 4.625 66.744-26.631 68.964-54.399m-33.756 0c-1.535 26.512-13.814 25.396-35.21 25.03v-49.298c24.047-.848 34.427 2.446 35.21 24.268m311.348-.143l-55.112 57.482l-57.61-57.482h43.073v-75.52H291.593v147.641l44.272-43.566l65.862 65.909s-64.46 62.87-65.989 62.87c-1.527 0-44.145-40.643-44.145-40.643v84.697h203.485V80.81H291.593v41.955h138.454v102.792z" />
-	          </svg>
-          </span>
-          <span class="font-semibold lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
-              <b>Complete Project Handling</b> 
-          </span>
-          <p class="text-gray-700 text-center">Hand over complete projects to our project operator, who will distribute tasks to students using domain-specific windows, ensuring all projects are completed seamlessly.</p>
+          <p class="text-gray-700 font-squada text-center">Need assistance in managing tasks and projects? We can assign an operator to handle the entire process, ensuring tasks are completed with data privacy and efficiency.</p>
         </li>
         <li class="flex flex-col bg-white border border-gray-300 shadow-lg rounded-3xl p-4 sm:p-8 min-h-[160px] flex-grow w-[calc(50%-0.5rem)] hover:bg-whiteo">
           <span class="mb-2 flex justify-center items-center">
             <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 24 24">
-		          <path fill="currentColor" d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12c5.16-1.26 9-6.45 9-12V5zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11z" />
+		          <path fill="none" stroke="currentColor" stroke-width="0.6" d="M9 15v8H1v-8zm14 0v8h-8v-8zM9 1v8H1V1zm14 0v8h-8V1z" />
 	          </svg>
           </span>
-          <span class="font-semibold lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
+          <span class="font-semibold font-squada lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
+              <b>Complete Project Handling</b> 
+          </span>
+          <p class="text-gray-700 font-squada text-center">Hand over complete projects to our project operator, who will distribute tasks to students using domain-specific windows, ensuring all projects are completed seamlessly.</p>
+        </li>
+        <li class="flex flex-col bg-white border border-gray-300 shadow-lg rounded-3xl p-4 sm:p-8 min-h-[160px] flex-grow w-[calc(50%-0.5rem)] hover:bg-whiteo">
+          <span class="mb-2 flex justify-center items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 24 24">
+		          <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.6" color="currentColor">
+			        <path d="M11.998 2C8.99 2 7.04 4.019 4.734 4.755c-.938.3-1.407.449-1.597.66c-.19.21-.245.519-.356 1.135c-1.19 6.596 1.41 12.694 7.61 15.068c.665.255.998.382 1.61.382s.946-.128 1.612-.383c6.199-2.373 8.796-8.471 7.606-15.067c-.111-.616-.167-.925-.357-1.136s-.658-.36-1.596-.659C16.959 4.019 15.006 2 11.998 2" />
+			        <path d="M9 13s1 0 2 2c0 0 3.177-5 6-6" />
+		          </g>
+	          </svg>
+
+          </span>
+          <span class="font-semibold font-squada lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
               <b>Security and Privacy Assurance </b> 
           </span>
-          <p class="text-gray-700 text-center">We understand the importance of security and privacy for your company's data and projects. Rest assured, LinksUs is not an outsourcing or freelancing platform. Our terms and conditions emphasize data protection and non-disclosure agreements, giving you peace of mind.</p>
+          <p class="text-gray-700 font-squada text-center">We understand the importance of security and privacy for your company's data and projects. Rest assured, LinksUs is not an outsourcing or freelancing platform. Our terms and conditions emphasize data protection and non-disclosure agreements, giving you peace of mind.</p>
         </li>
       </ul>
     </div>

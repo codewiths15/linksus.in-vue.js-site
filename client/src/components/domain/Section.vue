@@ -1,24 +1,24 @@
 <template>
 
 <section class="flex justify-center items-center mt-16">
-    <h1 class="text-6xl text-center font-Lora font-semibold text-gray-800 max-lg:text-4xl">
+    <h1 class="domain-h1 text-6xl text-center font-Lora font-semibold text-gray-800 max-lg:text-4xl">
         Join Our Pilot Project
     </h1>
   </section>
   <div class="flex justify-center items-center mt-16">
-    <h1 class="text-xl text-center font-Lora font-semibold text-gray-700 max-md:text-lg">
+    <h1 class="domain2-h1 text-xl text-center font-Lora font-semibold text-gray-700 max-md:text-lg">
         Are you ready to revolutionize the way undergraduates gain industry <br> experience and get companies find your talent? Join our pilot project <br>
         now!
     </h1>
   </div>
   <div class="flex justify-center items-center mt-10">
-  <a href="#" class="inline-block">
+  <a href="/signup" class="domain-btn inline-block">
     <button class="hover:brightness-110 hover:animate-pulse font-Lora font-bold py-3 px-6 rounded-full bg-gradient-to-r from-blue1 to-blue3 text-white">
       Sign Up
     </button>
   </a>
 </div>
-<div class="flex justify-center items-center mt-16">
+<div class="content-y flex justify-center items-center mt-16">
     <iframe
       src="https://www.youtube.com/embed/hGxoQuBTrnU?si=F5WcTjUuuzsMKnbG;controls=0&amp;autoplay=0&amp;mute=0&amp;start=0"
       frameBorder="0"
@@ -30,10 +30,10 @@
   <section class="py-12 mt-32">
     <div class="container mx-auto max-w-5xl">
         <div class="text-center mb-10">
-            <h2 class="lg:text-5xl text-3xl font-Lora font-bold text-gray-800">Benefits for Students</h2>
+            <h2 class="domain3-h1 lg:text-5xl text-3xl font-Lora font-bold text-gray-800">Benefits for Students</h2>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div class="flex items-start p-4 bg-whiteo rounded-lg shadow-md transition-transform transform hover:scale-105 hover:shadow-xl">
+            <div class="carde1 flex items-start p-4 bg-whiteo rounded-lg shadow-md transition-transform transform hover:scale-105 hover:shadow-xl">
                 <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 24 24" class="mr-3">
                     <path fill="#5a5858"
                         d="M18 15h-2v2h2m0-6h-2v2h2m2 6h-8v-2h2v-2h-2v-2h2v-2h-2V9h8M10 7H8V5h2m0 6H8V9h2m0 6H8v-2h2m0 6H8v-2h2M6 7H4V5h2m0 6H4V9h2m0 6H4v-2h2m0 6H4v-2h2m6-10V3H2v18h20V7z" />
@@ -46,7 +46,7 @@
                     </p>
                 </div>
             </div>
-            <div class="flex items-start p-4 bg-whiteo rounded-lg shadow-md transition-transform transform hover:scale-105 hover:shadow-xl">
+            <div class="carde2 flex items-start p-4 bg-whiteo rounded-lg shadow-md transition-transform transform hover:scale-105 hover:shadow-xl">
                 <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 24 24" class="mr-3">
                     <g fill="none" stroke="#5a5858" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
                         <path d="M12 15a3 3 0 1 0 6 0a3 3 0 1 0-6 0" />
@@ -61,7 +61,7 @@
                     </p>
                 </div>
             </div>
-            <div class="flex items-start p-4 bg-whiteo rounded-lg shadow-md transition-transform transform hover:scale-105 hover:shadow-xl">
+            <div class="carde3 flex items-start p-4 bg-whiteo rounded-lg shadow-md transition-transform transform hover:scale-105 hover:shadow-xl">
                 <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 24 24" class="mr-3">
                     <path fill="#5a5858"
                         d="M12.79 21L3 11.21v2c0 .53.21 1.04.59 1.41l7.79 7.79c.78.78 2.05.78 2.83 0l6.21-6.21c.78-.78.78-2.05 0-2.83z" />
@@ -98,7 +98,7 @@
     
     <div class="mt-6 w-full min-h-[900px] flex flex-wrap gap-6 justify-center">
       <div v-if="visibleCards.length > 0">
-        <div v-for="card in visibleCards" :key="card.id" class="bg-whiteo shadow-lg rounded-lg font-Lora p-8 m-8 text-left max-w-7xl transition-transform duration-300">
+        <div v-for="card in visibleCards" :key="card.id" class="bg-whiteo shadow-lg hover:shadow-xl rounded-lg font-Lora p-8 m-8 text-left max-w-7xl transition-transform duration-300">
           <img :src="card.image" :alt="card.alt" class="w-24 h-24 object-cover rounded-full mb-4 mx-auto">
           <h2 class="text-2xl font-semibold mb-8 text-center">{{ card.title }}</h2>
           <div v-html="card.content" class="text-gray-700 text-sm leading-relaxed"></div>
@@ -122,30 +122,32 @@
 
 
 <section class="flex justify-center items-center mt-16 px-4 sm:px-8 lg:px-16">
-  <div class="bg-white rounded-3xl shadow-md max-w-3xl w-full text-center p-8 sm:p-16 md:p-20 bg-opacity-60">
+  <div class="bg-white rounded-3xl shadow-md max-w-3xl w-full text-center p-8 sm:p-16 md:p-20 bg-opacity-60 hover:bg-opacity-80">
     <div class="text-4xl sm:text-5xl md:text-6xl font-Lora font-bold mb-4">Get Started!</div>
     <p class="text-gray-700 text-base sm:text-lg md:text-xl mb-6 font-Lora">
       Jumpstart your career by joining our community and gaining valuable industry experience. Join us today!
     </p>
+    <a href="/signup" class="block font-Lora">
     <button class="hover:brightness-110 hover:animate-pulse font-Poppins font-bold py-3 px-6 rounded-full bg-gradient-to-r from-blue1 to-blue3 text-white">
-      <a href="#" class="block font-Lora">Sign Up</a>
+      Sign up
     </button>
+    </a>
   </div>
 </section>
 
 <section class="py-12 mt-24">
   <div class="text-center">
-    <h1 class="text-5xl font-Lora font-semibold text-gray-800 mb-4">Recognized By</h1>
-    <p class="text-gray-700 text-xl mb-8 mt-8">Our platform is appreciated and recognized by DPIIT, #startupindia, <br> and MSME.</p>
+    <h1 class="recog-h1 text-5xl font-Lora font-semibold text-gray-800 mb-4">Recognized By</h1>
+    <p class="recog-p text-gray-700 text-xl mb-8 mt-8">Our platform is appreciated and recognized by DPIIT, #startupindia, <br> and MSME.</p>
     <div class="flex lg:flex-wrap justify-center items-center lg:space-x-24 md:space-x-16 space-x-8 mt-16">
-      <a href="https://dpiit.gov.in/" target="_blank" class="mb-4 brightness-50 transform transition-transform duration-300 hover:brightness-75">
-        <img src="../../assets/images/750x450_483231-dpiit-removebg-preview1.png" loading="lazy" width="100" height="53" alt="DPIIT Logo" class="h-auto" />
+      <a href="https://dpiit.gov.in/" target="_blank" class="mb-4 brightness-50 transform transition-transform duration-300 hover:brightness-75 recog-a">
+        <img src="../../assets/images/750x450_483231-dpiit-removebg-preview1.png" loading="lazy" width="100" height="53" alt="DPIIT Logo" class="h-auto logos" />
       </a>
-      <a href="https://www.startupindia.gov.in/" target="_blank" class="mb-4 brightness-75 transform transition-transform duration-300 hover:brightness-110">
-        <img src="../../assets/images/images111-removebg-preview.png" loading="lazy" width="223" alt="Startup India Logo" class="h-auto" />
+      <a href="https://www.startupindia.gov.in/" target="_blank" class="mb-4 brightness-75 transform transition-transform duration-300 hover:brightness-110 recog-a">
+        <img src="../../assets/images/images111-removebg-preview.png" loading="lazy" width="223" alt="Startup India Logo" class="h-auto logos" />
       </a>
-      <a href="https://msme.gov.in/" target="_blank" class="mb-4 brightness-50 transform transition-transform duration-300 hover:brightness-110">
-        <img src="../../assets/images/images-removebg-preview.png" loading="lazy" width="120" alt="MSME Logo" class="h-auto" />
+      <a href="https://msme.gov.in/" target="_blank" class="mb-4 brightness-50 transform transition-transform duration-300 hover:brightness-110 recog-a">
+        <img src="../../assets/images/images-removebg-preview.png" loading="lazy" width="120" alt="MSME Logo" class="h-auto logos" />
       </a>
     </div>
   </div>
@@ -193,25 +195,25 @@ const cards = ref([
     alt: 'Web Development',
     content: `
       <h2 class="text-xl font-bold text-gray-900 mb-2">Front-end Development</h2>
-<ul class="text-left list-disc list-inside space-y-1">
+<ol class="text-left list-decimal list-inside space-y-1">
   <li><span class="font-semibold text-gray-800">Beginner:</span> HTML/CSS basics, JavaScript fundamentals</li>
   <li><span class="font-semibold text-gray-800">Intermediate:</span> Responsive design, JavaScript frameworks (React, Angular)</li>
   <li><span class="font-semibold text-gray-800">Advanced:</span> Progressive Web Apps (PWA), performance optimization, advanced animations</li>
-</ul>
+</ol>
 
 <h2 class="text-xl font-bold text-gray-900 mt-4 mb-2">Back-end Development</h2>
-<ul class="text-left list-disc list-inside space-y-1">
+<ol class="text-left list-decimal list-inside space-y-1">
   <li><span class="font-semibold text-gray-800">Beginner:</span> Server basics, basic CRUD operations</li>
   <li><span class="font-semibold text-gray-800">Intermediate:</span> RESTful APIs, authentication and authorization</li>
   <li><span class="font-semibold text-gray-800">Advanced:</span> Microservices architecture, real-time applications, scalability</li>
-</ul>
+</ol>
 
 <h2 class="text-xl font-bold text-gray-900 mt-4 mb-2">Full-stack Development</h2>
-<ul class="text-left list-disc list-inside space-y-1">
+<ol class="text-left list-decimal list-inside space-y-1">
   <li><span class="font-semibold text-gray-800">Beginner:</span> Simple full-stack applications using MERN or MEAN stack</li>
   <li><span class="font-semibold text-gray-800">Intermediate:</span> Integrating third-party services, state management</li>
   <li><span class="font-semibold text-gray-800">Advanced:</span> DevOps practices for deployment, serverless architecture</li>
-</ul>
+</ol>
     `,
     category: 'Development'
   },
@@ -224,25 +226,25 @@ const cards = ref([
     alt: 'Mobile App Development',
     content: `
       <h2 class="text-xl font-bold text-gray-900 mb-2">iOS Development</h2>
-<ul class="text-left list-disc list-inside space-y-1">
+<ol class="text-left list-decimal list-inside space-y-1">
   <li><span class="font-semibold text-gray-800">Beginner:</span> Swift basics, simple UI with Storyboard</li>
   <li><span class="font-semibold text-gray-800">Intermediate:</span> Networking with URLSession, CoreData</li>
   <li><span class="font-semibold text-gray-800">Advanced:</span> Advanced animations, ARKit</li>
-</ul>
+</ol>
 
 <h2 class="text-xl font-bold text-gray-900 mt-4 mb-2">Android Development</h2>
-<ul class="text-left list-disc list-inside space-y-1">
+<ol class="text-left list-decimal list-inside space-y-1">
   <li><span class="font-semibold text-gray-800">Beginner:</span> Java/Kotlin basics, simple UI with XML</li>
   <li><span class="font-semibold text-gray-800">Intermediate:</span> RecyclerView, Room database</li>
   <li><span class="font-semibold text-gray-800">Advanced:</span> Jetpack Compose, advanced concurrency (Coroutines)</li>
-</ul>
+</ol>
 
 <h2 class="text-xl font-bold text-gray-900 mt-4 mb-2">Cross-Platform Development</h2>
-<ul class="text-left list-disc list-inside space-y-1">
+<ol class="text-left list-decimal list-inside space-y-1">
   <li><span class="font-semibold text-gray-800">Beginner:</span> Basic Flutter/Dart, simple cross-platform app</li>
   <li><span class="font-semibold text-gray-800">Intermediate:</span> State management (Provider, Bloc)</li>
   <li><span class="font-semibold text-gray-800">Advanced:</span> Integrating native modules, performance optimization</li>
-</ul>
+</ol>
     `,
     category: 'Development'
   },
@@ -1033,8 +1035,195 @@ const loadMore = () => {
 };
 
 
+import { onMounted } from 'vue';
+import { gsap } from 'gsap';
+import ScrollTrigger from 'gsap/ScrollTrigger';
 
+onMounted(() => {
+  // Function to handle animations
+  const applyAnimations = () => {
+    const h1Element = document.querySelector('.domain-h1');
+    const h1Element2 = document.querySelector('.domain2-h1');
+    const btn = document.querySelector('.domain-btn');
 
+    // Ensure animations are applied only for screens wider than 768px
+    if (window.innerWidth >= 768) {
+      const scaleValue = window.innerWidth < 768 ? 0.8 : 0.5; // Adjust scale based on screen width
+
+      if (h1Element) {
+        gsap.fromTo(h1Element, 
+          { scale: scaleValue, opacity: 0, x: '1%' }, // Initial state
+          { 
+            scale: 1, // End state (normal size)
+            opacity: 1, // End state (fully visible)
+            x: 0,
+            duration: 1, // Animation duration
+            ease: "power2.out", // Easing function
+            delay: 0.5 // Delay before the animation starts
+          }
+        );
+      }
+
+      if (h1Element2) {
+        gsap.fromTo(h1Element2, 
+          { opacity: 0, x: '20%' }, // Initial state
+          { 
+            opacity: 1, // End state (fully visible)
+            x: 0,
+            duration: 1, // Animation duration
+            ease: "power3.out", // Easing function
+            delay: 0.6 // Delay before the animation starts
+          }
+        );
+      }
+      if (btn) {
+        gsap.fromTo(btn, 
+          { scale: scaleValue, opacity: 0, x: '1%' }, // Initial state
+          { 
+            scale: 1, // End state (normal size)
+            opacity: 1, // End state (fully visible)
+            x: 0,
+            duration: 1, // Animation duration
+            ease: "power2.out", // Easing function
+            delay: 0.8 // Delay before the animation starts
+          }
+        );
+      }
+    }
+  };
+
+  // Apply animations on mount
+  applyAnimations();
+
+  // Optional: Reapply animations on resize if you want to handle window resize events
+  window.addEventListener('resize', applyAnimations);
+});
+gsap.registerPlugin(ScrollTrigger);
+onMounted(() => {
+  // Use GSAP's matchMedia to handle different screen sizes
+  gsap.matchMedia().add("(min-width: 300px)", () => {
+    // This animation will only run if the screen width is 1024px or wider
+    gsap.fromTo(
+      ".content-y",
+      {
+        autoAlpha: 0,
+        scale: 0.8, // Start scaled up
+        x: '1%', // Starting X position
+        y: '2%'
+      },
+      {
+        autoAlpha: 1,
+        scale: 1, // End at original size
+        x: 0, // End at original X position
+        y: 0, // Optional: Adjust Y position if needed
+        duration: 1.2,
+        stagger: 0.6,
+        ease: "power3.out",
+        scrollTrigger: {
+          trigger: ".content-y",
+          start: "top 50%",
+          toggleActions: "play none none none",
+        }
+      }
+    );
+  });
+});
+
+onMounted(() => {
+  // Define elements
+  const domain3H1 = document.querySelector('.domain3-h1');
+  const cards = document.querySelectorAll('.carde1, .carde2, .carde3');
+
+  // Ensure responsiveness across smaller devices
+  const screenWidth = window.innerWidth;
+  
+  if (screenWidth >= 768) {
+    // Animate the domain3-h1
+    gsap.fromTo(domain3H1,
+      { opacity: 0, scale:0.7 }, // Initial state
+      { opacity: 1, scale:1, duration: 0.5, ease: 'power3.out' } // End state
+    );
+
+    // Animate cards with a staggered effect
+    gsap.fromTo(cards,
+      { opacity: 0, scale:0.7 }, // Initial state
+      { 
+        opacity: 1, 
+        scale:1,
+        duration: 0.5, 
+        stagger: 0.1,
+        ease: 'power3.out',
+        scrollTrigger: {
+          trigger: '.domain3-h1', // Start animation based on domain3-h1 element
+          start: 'top 60%', // When the top of domain3-h1 hits 80% of the viewport height
+          toggleActions: 'play none none none' // Play animation on scroll down
+        }
+      }
+    );
+  }
+});
+
+onMounted(() => {
+  // Define elements
+  const recogH1 = document.querySelector('.recog-h1');
+  const recogP = document.querySelector('.recog-p');
+  const logos = document.querySelectorAll('.recog-a');
+
+  // Ensure responsiveness across smaller devices
+  const screenWidth = window.innerWidth;
+
+  if (screenWidth >= 768) {
+    // Animate the recog-h1
+    gsap.fromTo(recogH1,
+      { opacity: 0, x: 0 }, // Initial state
+      { 
+        opacity: 1, 
+        x: 0, 
+        duration: 1, 
+        ease: 'power2.out',
+        scrollTrigger: {
+          trigger: recogH1, // Trigger the animation based on recogH1
+          start: 'top 60%', // When the top of recogH1 hits 80% of the viewport height
+          toggleActions: 'play none none none' // Play animation on scroll down
+        }
+      }
+    );
+
+    // Animate the recog-p with ScrollTrigger
+    gsap.fromTo(recogP,
+      { opacity: 0, x: 0 }, // Initial state
+      { 
+        opacity: 1, 
+        x: 0, 
+        duration: 1, 
+        ease: 'power2.out',
+        delay: 0.2, // Delay before animation starts
+        scrollTrigger: {
+          trigger: recogP, // Trigger the animation based on recogP
+          start: 'top 60%', // When the top of recogP hits 80% of the viewport height
+          toggleActions: 'play none none none' // Play animation on scroll down
+        }
+      }
+    );
+
+    // Animate logos with a staggered effect
+    gsap.fromTo(logos,
+      { opacity: 0, x: 20 }, // Initial state
+      { 
+        opacity: 1, 
+        y: 0, 
+        duration: 1, 
+        ease: 'power2.out',
+        stagger: 0.25, // Stagger delay between animations
+        scrollTrigger: {
+          trigger: '.recog-a', // Start animation based on recog-h1 element
+          start: 'top 65%', // When the top of recog-h1 hits 80% of the viewport height
+          toggleActions: 'play none none none' // Play animation on scroll down
+        }
+      }
+    );
+  }
+});
 </script>
 
 <style scoped>

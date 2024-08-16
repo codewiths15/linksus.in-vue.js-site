@@ -5,6 +5,8 @@ import University from "@/views/University.vue";
 import Companies from "@/views/Companies.vue";
 import Blog from "@/views/Blog.vue";
 import Domain from "@/views/Domain.vue";
+import SignUp from "@/views/SignUp.vue";
+import BlogDetail from "@/views/BlogDetail.vue";
 
 const routes = [
   {
@@ -36,6 +38,16 @@ const routes = [
     path: "/domain",
     name: "Domain",
     component: Domain,
+  },
+  {
+    path: "/signup",
+    name: "SignUp",
+    component: SignUp,
+  },
+  {
+    path: "/blog/:id",
+    name: "BlogDetail",
+    component: BlogDetail,
   },
 ];
 

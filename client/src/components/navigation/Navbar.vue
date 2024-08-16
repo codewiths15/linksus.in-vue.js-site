@@ -135,13 +135,13 @@ onMounted(() => {
         </div>
       </div>
       <div class="hidden xlg:flex xlg:flex-1 xlg:justify-end">
-        <a href="/domain" class="cta-button hover:brightness-110 hover:animate-pulse font-Poppins font-bold py-3 px-6 ml-6 rounded-full bg-gradient-to-r from-blue1 to-blue3 text-white">Get LinksUs</a>
+        <a href="/domain" class="cta-button hover:brightness-110 hover:animate-pulse font-Poppins font-bold py-3 px-6 ml-6 rounded-full bg-gradient-to-r from-blue1 to-blue3 text-white" @mouseover="closeDropdown">Get LinksUs</a>
       </div>
 
     </nav>
     <Dialog class="xlg:hidden" @close="mobileMenuOpen = false" :open="mobileMenuOpen">
       <div class="fixed inset-0 z-50 "  />
-      <DialogPanel class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-whiteo px-6 py-6 sm:ring-1 sm:ring-gray-900/10">
+      <DialogPanel class="fixed inset-y-0 right-0 z-50 w-2/3 h-[460px] rounded-lg overflow-y-auto bg-whiteo px-6 py-6 sm:ring-1 sm:ring-gray-900/10">
         <div class="flex items-center justify-between">
           <a href="#" class="-m-1.5 p-1.5">
             <span class="sr-only">Your Company</span>
