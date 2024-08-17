@@ -33,7 +33,7 @@
             <h2 class="domain3-h1 lg:text-5xl text-3xl font-Lora font-bold text-gray-800">Benefits for Students</h2>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div class="carde1 flex items-start p-4 bg-whiteo rounded-lg shadow-md transition-transform transform hover:scale-105 hover:shadow-xl">
+            <div class="carde1 flex items-start p-4 bg-whiteo bg-opacity-90 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:shadow-xl">
                 <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 24 24" class="mr-3">
                     <path fill="#5a5858"
                         d="M18 15h-2v2h2m0-6h-2v2h2m2 6h-8v-2h2v-2h-2v-2h2v-2h-2V9h8M10 7H8V5h2m0 6H8V9h2m0 6H8v-2h2m0 6H8v-2h2M6 7H4V5h2m0 6H4V9h2m0 6H4v-2h2m0 6H4v-2h2m6-10V3H2v18h20V7z" />
@@ -46,7 +46,7 @@
                     </p>
                 </div>
             </div>
-            <div class="carde2 flex items-start p-4 bg-whiteo rounded-lg shadow-md transition-transform transform hover:scale-105 hover:shadow-xl">
+            <div class="carde2 flex items-start p-4 bg-whiteo bg-opacity-90 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:shadow-xl">
                 <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 24 24" class="mr-3">
                     <g fill="none" stroke="#5a5858" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
                         <path d="M12 15a3 3 0 1 0 6 0a3 3 0 1 0-6 0" />
@@ -61,7 +61,7 @@
                     </p>
                 </div>
             </div>
-            <div class="carde3 flex items-start p-4 bg-whiteo rounded-lg shadow-md transition-transform transform hover:scale-105 hover:shadow-xl">
+            <div class="carde3 flex items-start p-4 bg-whiteo bg-opacity-90 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:shadow-xl">
                 <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 24 24" class="mr-3">
                     <path fill="#5a5858"
                         d="M12.79 21L3 11.21v2c0 .53.21 1.04.59 1.41l7.79 7.79c.78.78 2.05.78 2.83 0l6.21-6.21c.78-.78.78-2.05 0-2.83z" />
@@ -89,7 +89,7 @@
       <div
         v-for="cat in categories"
         :key="cat"
-        class="py-1 px-2 cursor-pointer font-semibold text-gray-600 text-lg font-Lora transition-all duration-300 hover:text-blue-600"
+        class="py-1 px-2 cursor-pointer font-semibold text-gray-600 text-lg font-Lora transition-all duration-300 hover:text-blue-600 "
         @click="filterBlogs(cat)"
       >
         {{ cat }}
@@ -98,7 +98,7 @@
     
     <div class="mt-6 w-full min-h-[900px] flex flex-wrap gap-6 justify-center">
       <div v-if="visibleCards.length > 0">
-        <div v-for="card in visibleCards" :key="card.id" class="bg-whiteo shadow-lg hover:shadow-xl rounded-lg font-Lora p-8 m-8 text-left max-w-7xl transition-transform duration-300">
+        <div v-for="card in visibleCards" :key="card.id" class="bg-whiteo bg-opacity-60 hover:bg-opacity-80 shadow-lg hover:shadow-xl rounded-lg font-Lora p-8 m-8 text-left max-w-7xl transition-transform duration-300">
           <img :src="card.image" :alt="card.alt" class="w-24 h-24 object-cover rounded-full mb-4 mx-auto">
           <h2 class="text-2xl font-semibold mb-8 text-center">{{ card.title }}</h2>
           <div v-html="card.content" class="text-gray-700 text-sm leading-relaxed"></div>
@@ -112,7 +112,7 @@
     <button
       v-if="visibleCount < filteredCards.length"
       @click="loadMore"
-      class="mt-6 px-4 py-2 bg-blue-600 text-whiteo rounded-lg font-semibold transition-all duration-300 hover:bg-blue-700"
+      class="mt-6 px-4 py-2  bg-gradient-to-r from-blue1 to-blue3 text-white rounded-xl font-semibold transition-all duration-300 hover:brightness-110"
     >
       Load More
     </button>

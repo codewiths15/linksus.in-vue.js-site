@@ -61,6 +61,16 @@
                 </p>
                 <img class="avatar" src="https://assets-global.website-files.com/635dda7647d1612d7d877c36/64bedeac310a7840bd2f9cb7_davidlieb-av.jpg" />
               </li>
+              <li class="glide__slide testimonial">
+                <blockquote>
+                  Working at LinksUs helped me grow in graphic design and corporate culture, supported by a cheerful team and an inspiring founder.
+                </blockquote>
+                <p class="author">
+                  <span class="name">Nandini</span>
+                  <span class="company">Student</span>
+                </p>
+                <img class="avatar" src="../../assets/images/glider-student.jpg" />
+              </li>
             </ul>
           </div>
         </div>

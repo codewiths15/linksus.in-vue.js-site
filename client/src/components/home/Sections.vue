@@ -587,34 +587,34 @@ onMounted(() => {
     // Animations for larger devices (768px and wider)
     
     gsap.from(card1.value, {
-      x: '30%',
+      x: '10%',
       opacity: 0,
       duration: 0.3,
       scrollTrigger: {
         trigger: howItWorksSection.value,
-        start: 'top 50%',
+        start: 'top 40%',
       }
     });
 
     gsap.from(card2.value, {
-      x: '30%',
+      x: '10%',
       opacity: 0,
       duration: 0.3,
       delay: 0.2,
       scrollTrigger: {
         trigger: howItWorksSection.value,
-        start: 'top 50%',
+        start: 'top 40%',
       }
     });
 
     gsap.from(card3.value, {
-      x: '30%',
+      x: '10%',
       opacity: 0,
       duration: 0.3,
       delay: 0.4,
       scrollTrigger: {
         trigger: howItWorksSection.value,
-        start: 'top 50%',
+        start: 'top 40%',
       }
     });
   });
@@ -720,11 +720,11 @@ gsap.fromTo(
     autoAlpha: 1,
     y: 0, 
     duration: 0.6, 
-    stagger: 0.2,
+    stagger: 0.3,
     ease: "power1.out", 
     scrollTrigger: {
       trigger: ".faq-element",
-      start: "top 70%",  
+      start: "top 50%",  
       toggleActions: "play none none none"
     }
   }
