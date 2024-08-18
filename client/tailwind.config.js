@@ -11,9 +11,14 @@ export default {
     },
     screens: {
       xsm: "310px",
+      msm: "360px",
+      mmsm: "385px",
       sm: "480px",
+      smd: "553px",
       md: "768px",
       lg: "913px",
+      xlg: "1015px",
+      xxlg: "1200px",
       xl: "1440px",
     },
 
@@ -31,11 +36,10 @@ export default {
         blue3: "#11A5BA",
         black: "#1C242C",
         white: "#F2EFEB",
+        whiteo: "#FFF",
       },
     },
   },
-  variants: {
-    extend: {},
-  },
+  variants: {},
   plugins: [],
 };
