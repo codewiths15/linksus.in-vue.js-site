@@ -1,7 +1,7 @@
 <template>
   <div class="mt-16">
-    <div class="flex justify-center items-center">
-      <h2 class="lg:text-5xl md:text-4xl text-3xl font-bold font-popins mb-4">Why Join Our Pilot Project?</h2>
+    <div class="flex justify-center items-center text-center">
+      <h2 class="lg:text-5xl md:text-4xl sm:text-3xl text-3xl font-[500] font-squada mb-4">Why Join Our Pilot Project?</h2>
     </div>
   </div>
   <div class="mt-16">
@@ -16,7 +16,7 @@
         <span class="font-semibold font-squada lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
           <b>Empower Your Students</b>
         </span>
-        <p class="text-gray-700 font-squada text-center">
+        <p class="text-gray-700 font-Lora text-center">
           Give your students the opportunity to gain practical industry experience and develop in-demand skills.
         </p>
       </li>
@@ -29,7 +29,7 @@
         <span class="font-semibold font-squada lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
           <b>Expand Networking</b>
         </span>
-        <p class="text-gray-700 font-squada text-center">
+        <p class="text-gray-700 font-Lora text-center">
           Connect with a network of companies and startups looking for talented individuals like your students.
         </p>
       </li>
@@ -47,7 +47,7 @@
         <span class="font-semibold font-squada lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
           <b>Enhance Curriculum</b>
         </span>
-        <p class="text-gray-700 font-squada text-center">
+        <p class="text-gray-700 font-Lora text-center">
           Supplement academic learning with hands-on projects and tasks from leading industry players.
         </p>
       </li>
@@ -60,7 +60,7 @@
         <span class="font-semibold font-squada lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
           <b>Shape Future Leaders</b>
         </span>
-        <p class="text-gray-700 font-squada text-center">
+        <p class="text-gray-700 font-Lora text-center">
           Help shape the future leaders of tomorrow by providing them with valuable industry exposure.
         </p>
       </li>
@@ -76,7 +76,7 @@
         <span class="font-semibold font-squada lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
           <b>Boost Institution's Image</b>
         </span>
-        <p class="text-gray-700 font-squada text-center">
+        <p class="text-gray-700 font-Lora text-center">
           Elevate your institution's reputation by partnering with top companies and offering cutting-edge programs.
         </p>
       </li>

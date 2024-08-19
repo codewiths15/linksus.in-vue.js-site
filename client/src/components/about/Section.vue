@@ -60,7 +60,7 @@ onMounted(() => {
       {
         autoAlpha: 0,
         scale: 0.8, // Start scaled up
-        x: '1%', // Starting X position
+        x: '5%', // Starting X position
         y: '2%'
       },
       {
@@ -83,7 +83,7 @@ onMounted(() => {
 
 onMounted(() => {
   // Check if the screen width is above 768px
-  if (window.innerWidth >= 768) {
+  if (window.innerWidth >= 300) {
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: '#team',
@@ -105,7 +105,7 @@ onMounted(() => {
 
 onMounted(() => {
   // Check if the screen width is above 768px
-  if (window.innerWidth >= 768) {
+  if (window.innerWidth >= 300) {
     const cards = document.querySelectorAll('.cards1, .cards2, .cards3');
 
     cards.forEach((card) => {
@@ -126,7 +126,7 @@ onMounted(() => {
 
 onMounted(() => {
   // Check if the screen width is greater than 768px
-  if (window.innerWidth > 768) {
+  if (window.innerWidth > 300) {
     const recogTitle = document.querySelector('.recog-h1');
     const recogParagraph = document.querySelector('.recog-p');
     const logos = document.querySelectorAll('.recog a');
@@ -175,13 +175,13 @@ onMounted(() => {
 </script>
 
 <template>
-  <section class="flex justify-center items-center mt-16">
-    <h1 class="about-h1 text-6xl text-center font-Lora font-semibold text-gray-800 max-lg:text-5xl">
+  <section class="flex justify-center items-center mt-6">
+    <h1 class="about-h1 text-6xl text-center font-squada max-lg:text-5xl max-md:text-3xl text-gray-800">
       Linking with industry <br> "sus" but gets seamlessly <br> with Links-Us!
     </h1>
   </section>
   <div class="flex justify-center items-center mt-16">
-    <h1 class="about2-h1 text-5xl text-center font-Lora font-semibold text-slate-800 max-lg:text-4xl">
+    <h1 class="about2-h1 text-5xl text-center font-Lora text-gray-700 max-lg:text-4xl max-md:text-3xl">
       Our founding story
     </h1>
   </div>
@@ -196,10 +196,10 @@ onMounted(() => {
     </iframe>
   </div>
 
-  <section id="team" class="con-sec py-12 mt-16">
+  <section id="team" class="con-sec py-12 mt-16 max-sm:py-8">
   <div class="text-center mb-8">
-    <h1 class="content-x lg:text-5xl text-4xl font-Lora font-semibold text-gray-800">Our team</h1>
-    <p class="content2-x lg:text-xl text-lg font-Lora text-gray-700 mt-4 max-w-xl mx-auto">
+    <h1 class="content-x lg:text-5xl text-4xl font-squada text-gray-800">Our team</h1>
+    <p class="content2-x lg:text-xl text-lg font-Lora text-gray-700 mt-4 max-w-xl mx-auto max-sm:px-3">
       Our team is small but mighty. We work collaboratively with an emphasis
       on belonging, zest, and candor. We work remotely from Chennai, Pune, and Aurangabad.
     </p>
@@ -210,7 +210,7 @@ onMounted(() => {
   <div class="cards1 flex bg-whiteo shadow-md rounded-3xl py-4 px-8 md:px-10 w-[100%] max-w-lg h-auto transform transition-transform duration-300">
     <img src="../../assets/images/rushikesh.jpeg" loading="lazy" width="78" alt="Rushikesh Joshi" class="rounded-full" />
     <div class="ml-4">
-      <div class="text-lg font-medium text-gray-800 whitespace-nowrap font-Lora pl-1">Rushikesh Joshi</div>
+      <div class="text-lg font-medium text-gray-800 whitespace-nowrap font-squada pl-1">Rushikesh Joshi</div>
       <p class="text-gray-600 font-Lora pl-1">Founder &amp; CEO</p>
       <div class="mt-2">
         <a href="https://www.linkedin.com/in/rjventurepreneur" target="_blank" class="inline-block pl-1">
@@ -225,7 +225,7 @@ onMounted(() => {
   <div class="cards2 flex bg-whiteo shadow-md rounded-3xl py-4 px-8 md:px-10 w-[100%] max-w-lg h-auto transform transition-transform duration-300">
     <img src="../../assets/images/sahil.jpeg" loading="lazy" width="78" alt="Sahil Vichare" class="rounded-full" />
     <div class="ml-4">
-      <div class="text-lg font-medium text-gray-800 whitespace-nowrap font-Lora pl-1">Sahil Vichare</div>
+      <div class="text-lg font-medium text-gray-800 whitespace-nowrap font-squada pl-1">Sahil Vichare</div>
       <p class="text-gray-600 font-Lora pl-1">Product Head</p>
       <div class="mt-2">
         <a href="https://www.linkedin.com/in/sahil-vichare-b787a4231" target="_blank" class="inline-block pl-1">
@@ -242,7 +242,7 @@ onMounted(() => {
   <div class="flex bg-whiteo shadow-md rounded-3xl py-4 px-8 md:px-10 w-[100%] max-w-lg h-auto transform transition-transform duration-300">
     <img src="../../assets/images/om.jpeg" loading="lazy" width="78" alt="Om Dahale" class="rounded-full" />
     <div class="ml-4">
-      <div class="text-lg font-medium text-gray-800 whitespace-nowrap font-Lora pl-1">Om Dahale</div>
+      <div class="text-lg font-medium text-gray-800 whitespace-nowrap font-squada pl-1">Om Dahale</div>
       <p class="text-gray-600 font-Lora pl-1">Software Developer</p>
       <div class="mt-2">
         <a href="https://www.linkedin.com/in/om-dahale/" target="_blank" class="inline-block pl-1">
@@ -258,9 +258,9 @@ onMounted(() => {
 
 <section class="recog py-12 mt-24">
   <div class="text-center">
-    <h1 class="recog-h1 text-5xl font-Lora font-semibold text-gray-800 mb-4">Recognized By</h1>
-    <p class="recog-p text-gray-700 text-xl mb-8 mt-8">Our platform is appreciated and recognized by DPIIT, #startupindia, <br> and MSME.</p>
-    <div class="flex lg:flex-wrap justify-center items-center lg:space-x-24 md:space-x-16 space-x-8 mt-16">
+    <h1 class="recog-h1 text-5xl max-md:text-3xl font-squada text-gray-800 mb-4">Recognized By</h1>
+    <p class="recog-p text-gray-700 text-xl max-md:text-lg font-Lora mb-8 mt-8 p-3">Our platform is appreciated and recognized by DPIIT, #startupindia, <br> and MSME.</p>
+    <div class="flex lg:flex-wrap justify-center items-center lg:space-x-24 md:space-x-16 space-x-8 mt-16 p-4">
       <a href="https://dpiit.gov.in/" target="_blank" class="mb-4 opacity-75 transform transition-transform duration-300 hover:opacity-100">
         <img src="../../assets/images/750x450_483231-dpiit-removebg-preview1.png" loading="lazy" width="100" height="53" alt="DPIIT Logo" class="h-auto" />
       </a>

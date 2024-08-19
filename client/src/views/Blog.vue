@@ -5,7 +5,7 @@ import Footer from '@/components/navigation/Footer.vue';
 </script>
 
 <template>
-    <div class="bg-gradient pb-32 pt-16">
+    <div class="bg-gradient pb-32">
         <Navbar />
         <div>
             <Card />

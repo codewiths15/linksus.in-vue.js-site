@@ -1,7 +1,7 @@
 <script setup>
   import Navbar from '@/components/navigation/Navbar.vue';
   import Hero from '@/components/home/Hero.vue';
-import Glider from '@/components/home/Glider.vue';
+  import Glider from '@/components/home/Glider.vue';
 import Sections from '@/components/home/Sections.vue';
 import Footer from '@/components/navigation/Footer.vue';
 </script>
@@ -9,21 +9,18 @@ import Footer from '@/components/navigation/Footer.vue';
 
 
 <template>
-  <div class="">
+
     <Navbar />
-    <div class="bg-gradient-to-b from-teal-200 via-sky-100 to-whiteo to-90% pb-10 pt-32">
+    
     <Hero />
-    </div>
-    <div>
-      <Glider />
-  </div>
-  <br>
-  <div>
+
+    <Glider />
+
     <Sections />
-  </div>
+
   <Footer />
   
-  </div>
+
 </template>
 
 

@@ -31,10 +31,10 @@ onMounted(() => {
 
 <template>
 <div class=" flex flex-col items-center text-center">
-      <div class="blog-h1 text-4xl md:text-5xl lg:text-6xl font-semibold font-Lora text-gray-800">
+      <div class="blog-h1 text-4xl md:text-5xl lg:text-6xl font-squada text-gray-800">
     Welcome to Tech Blogs
   </div>
-  <div class="blog-h2 text-xl md:text-2xl lg:text-3xl font-semibold font-Lora text-gray-600 mt-4">
+  <div class="blog-h2 text-xl md:text-2xl lg:text-3xl max-sm:px-2 font-Lora text-gray-600 mt-4">
     Explore various technology topics and their Roadmaps
   </div>
     </div>

@@ -1,9 +1,9 @@
 <template>
-    <div class="mt-28">
+    <div class="">
     <div class="flex justify-center items-center text-center">
-      <h2 class="text-4xl font-semibold font-Lora">LinksUs is a Data Driven Platform to <span class="text-span-8 text-blue-600">enhance <br> talent
+      <h2 class="text-4xl max-sm:text-3xl w-[44%] max-lg:w-[80%] max-sm:w-[100%] max-sm:px-1  font-[500] font-squada">LinksUs is a Data Driven Platform to <span class="text-blue-600">enhance talent
           
-    acquisition process and brand <br> presentation among new talents</span>.</h2>
+    acquisition process and brand presentation among new talents</span>.</h2>
     </div>
     <div class="container mt-16">
   <!-- Laptop Frame -->
@@ -46,8 +46,8 @@
   </div>
 
 <div class="mt-32">
-      <div class="flex justify-center items-center">
-        <h2 class="lg:text-5xl md:text-4xl text-2xl font-bold font-popins mb-4">Why Join Our Pilot Project?</h2>
+      <div class="flex justify-center items-center text-center">
+        <h2 class="lg:text-5xl md:text-4xl text-3xl font-squada mb-4">Why Join Our Pilot Project?</h2>
       </div>
     </div>
     <div class="mt-16">
@@ -63,7 +63,7 @@
           <b>Cost-Effective Talent Acquisition</b>
 
         </span>
-        <p class="text-gray-700 font-squada text-center">Say goodbye to costly recruitment processes and training expenses. With LinksUs, you can access a pool of pre-industry experienced talents at a fraction of the cost.</p>
+        <p class="text-gray-700 font-Lora text-center">Say goodbye to costly recruitment processes and training expenses. With LinksUs, you can access a pool of pre-industry experienced talents at a fraction of the cost.</p>
       </li>
       <li class="flex flex-col bg-white border border-gray-300 shadow-lg rounded-3xl p-4 sm:p-8 min-h-[160px] flex-grow w-[calc(50%-0.5rem)] hover:bg-whiteo">
         <span class="mb-2 flex justify-center items-center">
@@ -75,7 +75,7 @@
         <span class="font-semibold font-squada lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
           <b>Boost Productivity</b> 
         </span>
-        <p class="text-gray-700 font-squada text-center">Empower your teams with short-term tasks and projects handled by skilled undergraduates. Watch as productivity soars with fresh perspectives and efficient task completion.</p>
+        <p class="text-gray-700 font-Lora text-center">Empower your teams with short-term tasks and projects handled by skilled undergraduates. Watch as productivity soars with fresh perspectives and efficient task completion.</p>
       </li>
       <li class="flex flex-col bg-white border border-gray-300 shadow-lg rounded-3xl p-4 sm:p-8 min-h-[160px] flex-grow w-[calc(50%-0.5rem)] hover:bg-whiteo">
         <span class="mb-2 flex justify-center items-center">
@@ -91,7 +91,7 @@
         <span class="font-semibold font-squada lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
           <b>Industry Connection</b> 
         </span>
-        <p class="text-gray-700 font-squada text-center">Build lasting relationships with  tomorrow's leaders. Connect with motivated undergraduates, guide their growth, and establish your company as a mentor in your industry.</p>
+        <p class="text-gray-700 font-Lora text-center">Build lasting relationships with  tomorrow's leaders. Connect with motivated undergraduates, guide their growth, and establish your company as a mentor in your industry.</p>
       </li>
     </ul>
   </div>
@@ -99,9 +99,9 @@
 
 <div class="mt-32">
     <div class="flex flex-col justify-center items-center">
-      <h2 class="lg:text-5xl md:text-4xl text-3xl font-semibold font-Lora mb-4 text-center">Additional Services for Companies</h2>
-      <h2 class="lg:text-2xl md:text-2xl text-xl font-semibold font-Lora mb-4 text-gray-600 text-center">
-        In addition to our core offerings, LinksUs provides additional <br> services to enhance your experience:
+      <h2 class="lg:text-5xl md:text-4xl text-3xl font-[500] font-squada mb-4 text-center max-md:px-2">Additional Services for Companies</h2>
+      <h2 class="lg:text-2xl md:text-2xl text-xl font-Lora mb-4 text-gray-600 text-center w-[50%] max-xlg:w-[70%] max-md:w-[90%] max-sm:px-1">
+        In addition to our core offerings, LinksUs provides additional services to enhance your experience:
       </h2>
     </div>
   </div>
@@ -120,7 +120,7 @@
           <span class="font-semibold font-squada lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
               <b>Task Management Operator </b> 
           </span>
-          <p class="text-gray-700 font-squada text-center">Need assistance in managing tasks and projects? We can assign an operator to handle the entire process, ensuring tasks are completed with data privacy and efficiency.</p>
+          <p class="text-gray-700 font-Lora text-center">Need assistance in managing tasks and projects? We can assign an operator to handle the entire process, ensuring tasks are completed with data privacy and efficiency.</p>
         </li>
         <li class="flex flex-col bg-white border border-gray-300 shadow-lg rounded-3xl p-4 sm:p-8 min-h-[160px] flex-grow w-[calc(50%-0.5rem)] hover:bg-whiteo">
           <span class="mb-2 flex justify-center items-center">
@@ -131,7 +131,7 @@
           <span class="font-semibold font-squada lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
               <b>Complete Project Handling</b> 
           </span>
-          <p class="text-gray-700 font-squada text-center">Hand over complete projects to our project operator, who will distribute tasks to students using domain-specific windows, ensuring all projects are completed seamlessly.</p>
+          <p class="text-gray-700 font-Lora text-center">Hand over complete projects to our project operator, who will distribute tasks to students using domain-specific windows, ensuring all projects are completed seamlessly.</p>
         </li>
         <li class="flex flex-col bg-white border border-gray-300 shadow-lg rounded-3xl p-4 sm:p-8 min-h-[160px] flex-grow w-[calc(50%-0.5rem)] hover:bg-whiteo">
           <span class="mb-2 flex justify-center items-center">
@@ -146,7 +146,7 @@
           <span class="font-semibold font-squada lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
               <b>Security and Privacy Assurance </b> 
           </span>
-          <p class="text-gray-700 font-squada text-center">We understand the importance of security and privacy for your company's data and projects. Rest assured, LinksUs is not an outsourcing or freelancing platform. Our terms and conditions emphasize data protection and non-disclosure agreements, giving you peace of mind.</p>
+          <p class="text-gray-700 font-Lora text-center">We understand the importance of security and privacy for your company's data and projects. Rest assured, LinksUs is not an outsourcing or freelancing platform. Our terms and conditions emphasize data protection and non-disclosure agreements, giving you peace of mind.</p>
         </li>
       </ul>
     </div>
@@ -238,6 +238,20 @@
   .laptop-img {
     border-radius: 2%;
   }
+  .laptop-frame {
+  width: 95%; /* Adjust width for laptop frame */
+  z-index: 1; /* Ensure laptop is on top */
+}
+
+.mobile-frame {
+  width: 20%; /* Adjust width for mobile frame */
+  position: absolute; /* Make mobile frame overlap */
+  top: 30%; /* Adjust top position */
+  left: 75%; /* Adjust left position */
+  transform: translate(-35%, -30%); /* Center mobile frame */
+  z-index: 2; /* Ensure mobile is on top */
+}
+
 }
 
 ul {

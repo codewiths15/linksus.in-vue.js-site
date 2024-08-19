@@ -1,22 +1,22 @@
 <template>
-    <section ref="howItWorksSection" class="bg-emerald-300 pb-32 m-5 pt-32 rounded-3xl">
+    <section ref="howItWorksSection" class="bg-[#05C7B4] pb-32 m-4 pt-20 rounded-3xl max-sm:m-2 overflow-x-hidden">
   <div class="container mx-auto px-4">
     <div>
       <!-- Heading -->
       <div class="text-center">
-        <h1 class="con-card1 text-gray-700 text-6xl font-semibold font-popins pt-10 max-md:text-5xl max-sm:text-4xl">
+        <h1 class="con-card1 text-white text-6xl font-squada font-semibold pt-5 max-md:text-5xl max-sm:text-4xl">
           How it works?
         </h1>
       </div>
       <!-- Description -->
-      <div class="flex flex-col text-gray-600 tracking-tight text-xl max-sm:text-md text-center pt-6">
+      <div class="flex flex-col text-white tracking-tight font-Lora font-semibold text-xl max-sm:text-md text-center pt-6">
         LinksUs with AI powered and highly data-driven systems does <br>
         everything you need to build your pre Industry Experience
       </div>
       <!-- Cards -->
       <div class="flex flex-wrap justify-center gap-9 pt-10">
         <!-- Card 1 -->
-        <div ref="card1" class="card bg-rose-50 shadow-lg rounded-3xl p-6 text-center flex flex-col items-center transition-transform transform hover:scale-105 hover:shadow-xl hover:bg-gray-50 w-full sm:w-80">
+        <div ref="card1" class="card bg-white shadow-lg rounded-3xl p-6 text-center flex flex-col items-center transition-transform transform hover:scale-105 hover:shadow-xl hover:bg-gray-50 w-full sm:w-80">
           <img
             src="https://assets-global.website-files.com/635dda7647d1612d7d877c36/64bc67270b3b039b770e3afe_hiw-step-1.svg"
             loading="lazy"
@@ -25,13 +25,13 @@
             alt="download-icon"
             class="mb-4"
           />
-          <h3 class="text-lg font-semibold mt-4">Get LinksUs</h3>
-          <p class="text-gray-600 mt-2">
+          <h3 class="text-2xl font-squada text-gray-700 font-[600] mt-4">Get LinksUs</h3>
+          <p class="text-gray-600 font-Lora mt-2 max-msm:text-sm">
             Setup profiles, Interests, Vision and <br> let LinksUs know you better, which <br> makes it Highly Data Driven.
           </p>
         </div>
         <!-- Card 2 -->
-        <div ref="card2" class="card bg-rose-50 shadow-lg rounded-3xl p-6 text-center flex flex-col items-center transition-transform transform hover:scale-105 hover:shadow-xl hover:bg-gray-50 w-full sm:w-80">
+        <div ref="card2" class="card bg-white shadow-lg rounded-3xl p-6 text-center flex flex-col items-center transition-transform transform hover:scale-105 hover:shadow-xl hover:bg-gray-50 w-full sm:w-80">
           <img
             src="https://assets-global.website-files.com/635dda7647d1612d7d877c36/64f7adf6cb568c9ac876426f_hiw-step-2-updated.svg"
             loading="lazy"
@@ -40,13 +40,13 @@
             alt="lock-icon"
             class="mb-4"
           />
-          <h3 class="text-lg font-semibold mt-4">Get Involved</h3>
-          <p class="text-gray-600 mt-2">
+          <h3 class="text-2xl font-squada text-gray-700 font-[600] mt-4">Get Involved</h3>
+          <p class="text-gray-600 font-Lora mt-2 max-msm:text-sm">
             Do Industry tasks and gain highly <br> data-driven Insights. Connect with <br> companies, employees, and mentors.
           </p>
         </div>
         <!-- Card 3 -->
-        <div ref="card3" class="card bg-rose-50 shadow-lg rounded-3xl p-6 text-center flex flex-col items-center transition-transform transform hover:scale-105 hover:shadow-xl hover:bg-gray-50 w-full sm:w-80">
+        <div ref="card3" class="card bg-white shadow-lg rounded-3xl p-6 text-center flex flex-col items-center transition-transform transform hover:scale-105 hover:shadow-xl hover:bg-gray-50 w-full sm:w-80">
           <img
             src="https://assets-global.website-files.com/635dda7647d1612d7d877c36/64f7addf94e99c85c9a50aff_hiw-step-3-updated.svg"
             loading="lazy"
@@ -55,8 +55,8 @@
             alt="glitter-icon"
             class="mb-4"
           />
-          <h3 class="text-lg font-semibold mt-4">Rest is on LinksUs</h3>
-          <p class="text-gray-600 mt-2">
+          <h3 class="text-2xl font-squada text-gray-700 font-[600] mt-4">Rest is on LinksUs</h3>
+          <p class="text-gray-600 font-Lora mt-2 max-msm:text-sm">
             LinksUs helps you build your career <br> with direction AI system as a friend <br> which helps you with everything.
           </p>
         </div>
@@ -67,16 +67,16 @@
 
 
 
-<section class="section2 mt-8 bg-whiteo mx-6 rounded-3xl pt-32 pb-32">
+<section class="section2 mt-8 mx-6 max-sm:mx-2 rounded-3xl pt-32 pb-32 gradient-animation">
   <div>
-    <div class="con-card flex justify-center text-gray-700 items-center text-6xl text-center font-semibold font-popins max-lg:text-5xl max-md:text-4xl max-sm:text-3xl pb-32">
+    <div class="con-card flex justify-center text-gray-700 items-center text-6xl text-center font-bold font-squada max-lg:text-5xl max-md:text-4xl max-sm:text-3xl pb-32">
       Get added extra in ordinary <br class="hidden sm:block" /> which makes you extraordinary
     </div>
     <div class="flex flex-col gap-12 items-center justify-center">
-      <div class="cardit1 bg-rose-50 shadow-xl rounded-2xl p-6 flex flex-col lg:flex-row mx-4 sm:mx-8 md:mx-16 lg:mx-24 xl:mx-48 max-w-7xl transition-transform transform hover:shadow-xl">
+      <div class="cardit1 bg-white shadow-xl rounded-2xl p-6 flex flex-col lg:flex-row mx-4 sm:mx-8 md:mx-16 lg:mx-24 xl:mx-48 max-w-7xl transition-transform transform hover:shadow-xl max-sm:max-w-full">
         <div class="flex flex-col w-full lg:w-1/2">
-          <div class="text-xl font-semibold font-popins text-gray-800 mb-4">AI Assistant</div>
-          <div class="text-gray-600 font-popins mb-6">
+          <div class="text-3xl font-squada font-semibold text-gray-800 mb-4">AI Assistant</div>
+          <div class="text-gray-900 text-lg font-Lora mb-6">
             Deploy your growth in the hands of LinksUs <br class="hidden sm:block" /> Assistant, Who is mastered in making industry connections and growth.
           </div>
           <div class="space-y-4 mb-6">
@@ -89,7 +89,7 @@
                 alt="tick-icon"
                 class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-6 lg:h-6" 
               />
-              <div class="ml-2 font-popins">Career guidance</div>
+              <div class="ml-2 font-popins text-md">Career guidance</div>
             </div>
             <div class="flex items-center">
               <img
@@ -100,7 +100,7 @@
                 alt="tick-icon"
                 class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-6 lg:h-6"  
               />
-              <div class="ml-2 font-popins">Growth values recommendation</div>
+              <div class="ml-2 font-popins text-md">Growth values recommendation</div>
             </div>
             <div class="flex items-center">
               <img
@@ -111,7 +111,7 @@
                 alt="tick-icon"
                 class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-6 lg:h-6" 
               />
-              <div class="ml-2 font-popins">Helps in building connections</div>
+              <div class="ml-2 font-popins text-md">Helps in building connections</div>
             </div>
             <div class="flex items-center">
               <img
@@ -122,7 +122,7 @@
                 alt="tick-icon"
                 class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-6 lg:h-6"  
               />
-              <div class="ml-2 font-popins">Enhancing industry performance</div>
+              <div class="ml-2 font-popins text-md">Enhancing industry performance</div>
             </div>
           </div>
         </div>
@@ -136,10 +136,10 @@
         </div>
       </div>
 
-      <div class="cardit2 bg-rose-50 shadow-xl rounded-2xl p-6 flex flex-col lg:flex-row mx-4 sm:mx-8 md:mx-16 lg:mx-24 xl:mx-48 max-w-7xl transition-transform transform hover:shadow-xl">
+      <div class="cardit2 bg-white shadow-xl rounded-2xl p-6 flex flex-col lg:flex-row mx-4 sm:mx-8 md:mx-16 lg:mx-24 xl:mx-48 max-w-7xl transition-transform transform hover:shadow-xl">
         <div class="flex flex-col w-full lg:w-1/2">
-          <div class="text-xl font-semibold font-popins text-gray-800 mb-4">Data-driven systems</div>
-          <div class="text-gray-600 mb-6 font-popins">
+          <div class="text-3xl font-squada font-semibold text-gray-800 mb-4">Data-driven systems</div>
+          <div class="text-gray-900 mb-6 text-lg font-Lora">
             Enjoy the seamless platform backed up with <br class="hidden sm:block" /> highly data-driven insights with task and performance systems and candidate performance systems.
           </div>
           <div class="space-y-4 mb-6">
@@ -152,7 +152,7 @@
                 alt="tick-icon"
                 class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-6 lg:h-6"  
               />
-              <div class="ml-2 font-popins">Data driven task insights</div>
+              <div class="ml-2 font-popins text-md">Data driven task insights</div>
             </div>
             <div class="flex items-center">
               <img
@@ -163,7 +163,7 @@
                 alt="tick-icon"
                 class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-6 lg:h-6" 
               />
-              <div class="ml-2 font-popins">Understand Loopholes</div>
+              <div class="ml-2 font-popins text-md">Understand Loopholes</div>
             </div>
             <div class="flex items-center">
               <img
@@ -174,7 +174,7 @@
                 alt="tick-icon"
                 class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-6 lg:h-6" 
               />
-              <div class="ml-2 font-popins">Mark your performance</div>
+              <div class="ml-2 font-popins text-md">Mark your performance</div>
             </div>
             <div class="flex items-center">
               <img
@@ -185,7 +185,7 @@
                 alt="tick-icon"
                 class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-6 lg:h-6"  
               />
-              <div class="ml-2 font-popins">Performance Dashboard</div>
+              <div class="ml-2 font-popins text-md">Performance Dashboard</div>
             </div>
           </div>
         </div>
@@ -199,10 +199,10 @@
         </div>
       </div>
 
-      <div class="cardit3 bg-rose-50 shadow-xl rounded-2xl p-6 flex flex-col lg:flex-row mx-4 sm:mx-8 md:mx-16 lg:mx-24 xl:mx-48 max-w-7xl transition-transform transform hover:shadow-xl">
+      <div class="cardit3 bg-white shadow-xl rounded-2xl p-6 flex flex-col lg:flex-row mx-4 sm:mx-8 md:mx-16 lg:mx-24 xl:mx-48 max-w-7xl transition-transform transform hover:shadow-xl">
         <div class="flex flex-col w-full lg:w-1/2">
-          <div class="text-xl font-semibold text-gray-800 mb-4 font-popins">Industry involvement</div>
-          <div class="text-gray-600 mb-6 font-popins">
+          <div class="text-3xl font-squada  font-semibold text-gray-800 mb-4">Industry involvement</div>
+          <div class="text-gray-900 mb-6 text-lg font-Lora">
             LinksUs provide an engaging environment for <br class="hidden sm:block" /> undergraduates and companies to get involved and bridge the gap of pre industry experience.
           </div>
           <div class="space-y-4 mb-6">
@@ -215,7 +215,7 @@
                 alt="tick-icon"
                 class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-6 lg:h-6" 
               />
-              <div class="ml-2 font-popins">Hands-on experience</div>
+              <div class="ml-2 font-popins text-md">Hands-on experience</div>
             </div>
             <div class="flex items-center">
               <img
@@ -226,7 +226,7 @@
                 alt="tick-icon"
                 class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-6 lg:h-6" 
               />
-              <div class="ml-2 font-popins">Industry-related projects</div>
+              <div class="ml-2 font-popins text-md">Industry-related projects</div>
             </div>
             <div class="flex items-center">
               <img
@@ -237,7 +237,7 @@
                 alt="tick-icon"
                 class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-6 lg:h-6" 
               />
-              <div class="ml-2 font-popins">Event Participation</div>
+              <div class="ml-2 font-popins text-md">Event Participation</div>
             </div>
             <div class="flex items-center">
               <img
@@ -248,7 +248,7 @@
                 alt="tick-icon"
                 class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-6 lg:h-6"  
               />
-              <div class="ml-2 font-popins">Networking</div>
+              <div class="ml-2 font-popins text-md">Networking</div>
             </div>
           </div>
         </div>
@@ -269,23 +269,23 @@
 
 
 
-<section class="section3 m-6 bg-emerald-300 rounded-3xl">
+<section class="section3 m-6 bg-[#05C7B4] rounded-3xl max-sm:m-2">
   <div class="container mx-auto">
-    <div class="text-center py-32">
-      <div class="text-6xl text-gray-600 font-semibold font-popins max-lg:text-5xl max-md:text-4xl max-sm:text-[1.1rem]">
+    <div class="text-center py-16">
+      <div class="text-6xl text-[#544350] font-squada font-semibold max-lg:text-5xl max-md:text-4xl max-sm:text-[1.5rem]">
         For undergraduates who <br> want to work and connect <br> smarter,
         better, faster
       </div>
     </div>
     <div class="flex flex-col md:flex-row justify-center gap-12 md:space-y-0 space-y-8 pb-32">
       <!-- Testimonial 1 -->
-      <div class="testimonial-card bg-rose-50 p-8 rounded-3xl shadow-lg w-full max-w-lg transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl">
+      <div class="testimonial-card bg-white p-8 rounded-3xl shadow-lg w-full max-w-lg transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl">
         <div class="flex items-start text-gray-300 md:text-8xl text-4xl font-squada">“
-          <div class="text-3xl text-gray-800 font-semibold pb-0 p-2 max-lg:text-2xl max-md:text-xl max-sm:text-[1rem] max-sm:mb-1">
+          <div class="text-3xl text-gray-800 font-Lora pb-0 p-2 max-lg:text-2xl max-md:text-2xl max-sm:text-[1.2rem] max-sm:mb-1">
             Transformative Experience with LinksUs
           </div>
         </div>
-        <div class="text-gray-600 mb-6 px-2 md:px-10 text-justify max-sm:text-[0.6rem]">
+        <div class="text-gray-600 font-popins mb-6 px-2 md:px-5 text-justify text-lg max-sm:text-[1rem] max-msm:text-[0.75rem] max-sm:px-1">
           LinksUs has been a game-changer for me as a student. The platform not
           only helped me gain valuable industry experience through real-world
           tasks but also connected me with mentors who guided me in developing
@@ -307,13 +307,13 @@
         </div>
       </div>
       <!-- Testimonial 2 -->
-      <div class="testimonial-card bg-rose-50 p-8 rounded-3xl shadow-lg w-full max-w-lg transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl">
+      <div class="testimonial-card bg-white p-8 rounded-3xl shadow-lg w-full max-w-lg transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl">
         <div class="flex items-start text-gray-300 md:text-8xl text-4xl font-squada">“
-          <div class="text-3xl text-gray-800 font-semibold p-2 pb-0 max-lg:text-2xl max-md:text-xl max-sm:text-[1rem]">
+          <div class="text-3xl text-gray-800 font-Lora p-2 pb-0 max-lg:text-2xl max-md:text-2xl max-sm:text-[1.2rem] max-sm:mb-1">
             Efficient Talent Acquisition with LinksUs
           </div>
         </div>
-        <div class="text-gray-600 mb-6 px-2 md:px-10 text-justify max-sm:text-[0.6rem]">
+        <div class="text-gray-600 font-popins mb-6 px-1 md:px-2 text-justify text-lg max-sm:text-[1rem] max-msm:text-[0.75rem] max-sm:px-1">
           Our experience with LinksUs has been exceptional. The platform offers
           a cost-effective solution for talent acquisition, allowing us to
           connect with pre-industry experienced candidates and boost our
@@ -340,18 +340,18 @@
 </section>
 
 
-<section ref="section" class="m-6 bg-blue3 rounded-3xl">
-    <div class="flex flex-col justify-center max-lg:items-center lg:flex-row gap-16 pb-32">
+<section ref="section" class="m-6 bg-blue3 rounded-3xl max-sm:m-2 overflow-x-hidden">
+    <div class="flex flex-col justify-center gap-48 max-md:gap-16 max-lg:items-center lg:flex-row pb-32">
       <!-- Left Side -->
-      <div ref="leftSide" class="flex flex-col justify-between flex-1 pt-16 lg:pt-32 pl-6 lg:pl-60">
+      <div ref="leftSide" class="flex flex-col justify-between flex-1 pt-16 lg:pt-32 pl-6 lg:pl-48 max-w-2xl">
         <div>
-          <div class="text-3xl lg:text-6xl font-semibold font-popins text-white">Companies and startups</div>
-          <div class="text-white mt-4 text-xl lg:text-4xl font-black font-popins">
+          <div class="text-5xl lg:text-6xl max-ssm:text-4xl font-squada xsm:font-squada text-white">Companies and startups</div>
+          <div class="text-white mt-4 text-2xl lg:text-4xl max-ssm:text-lg font-Lora">
             Facilitating talent acquisition, <br /> productivity enhancement, <br /> and brand building in the <br />
             dynamic landscape of the <br /> industry.
           </div>
           <a href="/com" class="">
-            <button class="mt-8 px-4 py-2 bg-gradient-to-r from-white to-white  font-bold font-popins rounded-full shadow-lg transform transition-all duration-500 ease-in-out hover:scale-110 hover:brightness-110 hover:animate-pulse active:animate-bounce text-gray-800 md:text-sm text-xs">
+            <button class="mt-8 px-4 py-2 bg-gradient-to-r from-white to-white font-popins rounded-full shadow-lg transform transition-all duration-500 ease-in-out hover:scale-110 hover:brightness-110 hover:animate-pulse active:animate-bounce text-gray-800 md:text-md text-md">
               Learn more
             </button>
           </a>
@@ -359,9 +359,9 @@
       </div>
 
       <!-- Right Side -->
-      <div ref="rightSide" class="flex flex-col justify-center max-lg:items-center gap-4 flex-1 pt-0 lg:pt-32 pr-6 lg:pr-32">
-        <div class="flex items-start">
-          <div class="mr-8 pt-8 max-md:ml-4">
+      <div ref="rightSide" class="flex flex-col justify-end items-end max-lg:items-center gap-4 xl:max-w-[40%] max-w-full flex-1 pt-0 lg:pt-32 pr-6 lg:pr-48">
+        <div class="flex items-start max-md:flex-col max-md:pl-10 ">
+          <div class="mr-8 pt-8 max-md:ml-4 max-md:pb-5 ml-2">
             <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 2048 2048">
               <path
                 fill="#e1ffdb"
@@ -370,17 +370,17 @@
             </svg>
           </div>
           <div>
-            <div class="text-xl lg:text-2xl font-bold text-green-100">Cost-Effective Talent <br /> Acquisition</div>
-            <div class="text-white text-base lg:text-lg font-squada">
-              Companies and startups benefit from <br /> cost-effective talent acquisition through <br />
-              LinksUs. By posting small tasks and <br /> projects on the platform, they can <br /> engage with
-              talented undergraduates <br /> without the need for expensive <br /> recruitment processes or long-term
-              <br /> commitments.
+            <div class="text-2xl lg:text-2xl font-squada font-bold text-green-100 max-ssm:text-2xl max-md:pb-3">Cost-Effective Talent <br /> Acquisition</div>
+            <div class="text-white lg:text-lg font-Lora max-md:text-xl ">
+              Companies and startups benefit from cost-effective talent acquisition through
+              LinksUs. By posting small tasks and projects on the platform, they can engage with
+              talented undergraduates without the need for expensive recruitment processes or long-term
+              commitments.
             </div>
           </div>
         </div>
-        <div class="flex items-start mt-10">
-          <div class="mr-8 pt-8 max-md:ml-4">
+        <div class="flex items-start mt-10 max-md:flex-col max-md:pl-10">
+          <div class="mr-8 pt-8 max-md:ml-4 max-md:pb-5 ml-2">
             <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
               <path
                 fill="#e1ffdb"
@@ -390,28 +390,28 @@
             </svg>
           </div>
           <div>
-            <div class="text-xl lg:text-2xl font-bold text-green-100">Increased Productivity</div>
-            <div class="text-white text-base lg:text-lg">
-              Utilizing LinksUs allows companies to <br /> increase productivity by leveraging the <br />
-              skills of pre-industry experienced <br /> students. These students, eager to gain <br /> practical
-              experience, can efficiently <br /> handle small tasks and projects, freeing <br /> up valuable time for
-              full-time employees <br /> to focus on strategic initiatives.
+            <div class="text-2xl lg:text-2xl font-squada font-bold text-green-100 max-ssm:text-2xl max-md:pb-3">Increased Productivity</div>
+            <div class="text-white font-Lora lg:text-lg max-md:text-xl">
+              Utilizing LinksUs allows companies to increase productivity by leveraging the
+              skills of pre-industry experienced students. These students, eager to gain practical
+              experience, can efficiently handle small tasks and projects, freeing up valuable time for
+              full-time employees to focus on strategic initiatives.
             </div>
           </div>
         </div>
-        <div class="flex items-start mt-10">
-          <div class="mr-8 pt-8 max-md:ml-4">
+        <div class="flex items-start mt-10 max-md:flex-col max-md:pl-10">
+          <div class="mr-8 pt-8 max-md:ml-4 max-md:pb-5 ml-2">
             <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
               <path fill="none" stroke="#e1ffdb" stroke-width="2" d="M9 15v8H1v-8zm14 0v8h-8v-8zM9 1v8H1V1zm14 0v8h-8V1z" />
             </svg>
           </div>
           <div>
-            <div class="text-xl lg:text-2xl font-bold text-green-100">Flexibility and Scalability</div>
-            <div class="text-white text-base lg:text-lg">
-              The platform provides flexibility and <br /> scalability for companies and startups. <br /> They can scale
-              their operations based <br /> on project requirements, easily adjusting <br /> the number of tasks and
-              engagements <br /> as needed. This flexibility allows for <br /> efficient resource allocation and cost
-              <br /> management.
+            <div class="text-2xl lg:text-2xl font-squada font-bold text-green-100 max-ssm:text-2xl max-md:pb-3">Flexibility and Scalability</div>
+            <div class="text-white font-Lora lg:text-lg max-md:text-xl">
+              The platform provides flexibility and scalability for companies and startups. They can scale
+              their operations based on project requirements, easily adjusting the number of tasks and
+              engagements as needed. This flexibility allows for efficient resource allocation and cost
+              management.
             </div>
           </div>
         </div>
@@ -419,14 +419,14 @@
     </div>
   </section>
 
-<section ref="section2" class="m-6 bg-emerald-300 rounded-3xl">
-  <div class="flex flex-col justify-center max-lg:items-center lg:flex-row gap-16 pb-32">
+<section ref="section2" class="m-6 bg-[#05C7B4] rounded-3xl max-sm:m-2 overflow-x-hidden">
+  <div class="flex flex-col justify-center gap-48 max-md:gap-16 max-lg:items-center lg:flex-row pb-32">
     <!-- Left Side -->
-    <div ref="leftSide2" class="flex flex-col justify-between flex-1 pt-16 lg:pt-32 pl-6 lg:pl-60">
+    <div ref="leftSide2" class="flex flex-col justify-between flex-1 pt-16 lg:pt-32 pl-6 lg:pl-48 max-w-2xl max-md:pl-0">
       <div class="">
         <div class="">
-          <div class="text-3xl lg:text-6xl font-semibold font-popins text-gray-800">Make new talents <br> familiar to your <br> Brand</div>
-          <div class="text-gray-800 mt-4 text-xl lg:text-4xl font-black font-popins">
+          <div class="text-5xl lg:text-6xl max-ssm:text-4xl text-whiteo font-squada">Make new talents <br> familiar to your <br> Brand</div>
+          <div class="mt-4 text-2xl lg:text-4xl max-ssm:text-lg text-white font-Lora">
             It’s easier to make new talents <br> look and feel your brand
           </div>
         </div>
@@ -434,41 +434,41 @@
     </div>
 
     <!-- Right Side -->
-    <div ref="rightSide2" class="flex flex-col justify-center max-lg:items-center flex-1 pt-0 lg:pt-32 pr-6 lg:pr-32">
-      <div class="flex items-start">
-        <div class="mr-5 pt-8 max-md:ml-4">
+    <div ref="rightSide2" class="flex flex-col justify-end items-end max-lg:items-center gap-4 xl:max-w-[40%] max-w-full flex-1 pt-0 lg:pt-32 pr-6 lg:pr-48">
+      <div class="flex items-start max-md:flex-col max-md:pl-10">
+        <div class="mr-8 pt-8 max-md:ml-4 max-md:pb-5 ml-2">
 
-	<svg xmlns="http://www.w3.org/2000/svg" width="2.7em" height="2.7em" viewBox="0 0 256 256">
-		<path fill="currentColor" d="M248 124a56.11 56.11 0 0 0-32-50.61V72a48 48 0 0 0-88-26.49A48 48 0 0 0 40 72v1.39a56 56 0 0 0 0 101.2V176a48 48 0 0 0 88 26.49A48 48 0 0 0 216 176v-1.41A56.09 56.09 0 0 0 248 124M88 208a32 32 0 0 1-31.81-28.56A56 56 0 0 0 64 180h8a8 8 0 0 0 0-16h-8a40 40 0 0 1-13.33-77.73A8 8 0 0 0 56 78.73V72a32 32 0 0 1 64 0v68.26A47.8 47.8 0 0 0 88 128a8 8 0 0 0 0 16a32 32 0 0 1 0 64m104-44h-8a8 8 0 0 0 0 16h8a56 56 0 0 0 7.81-.56A32 32 0 1 1 168 144a8 8 0 0 0 0-16a47.8 47.8 0 0 0-32 12.26V72a32 32 0 0 1 64 0v6.73a8 8 0 0 0 5.33 7.54A40 40 0 0 1 192 164m16-52a8 8 0 0 1-8 8h-4a36 36 0 0 1-36-36v-4a8 8 0 0 1 16 0v4a20 20 0 0 0 20 20h4a8 8 0 0 1 8 8m-148 8h-4a8 8 0 0 1 0-16h4a20 20 0 0 0 20-20v-4a8 8 0 0 1 16 0v4a36 36 0 0 1-36 36" />
+	<svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 256 256">
+		<path fill="white" d="M248 124a56.11 56.11 0 0 0-32-50.61V72a48 48 0 0 0-88-26.49A48 48 0 0 0 40 72v1.39a56 56 0 0 0 0 101.2V176a48 48 0 0 0 88 26.49A48 48 0 0 0 216 176v-1.41A56.09 56.09 0 0 0 248 124M88 208a32 32 0 0 1-31.81-28.56A56 56 0 0 0 64 180h8a8 8 0 0 0 0-16h-8a40 40 0 0 1-13.33-77.73A8 8 0 0 0 56 78.73V72a32 32 0 0 1 64 0v68.26A47.8 47.8 0 0 0 88 128a8 8 0 0 0 0 16a32 32 0 0 1 0 64m104-44h-8a8 8 0 0 0 0 16h8a56 56 0 0 0 7.81-.56A32 32 0 1 1 168 144a8 8 0 0 0 0-16a47.8 47.8 0 0 0-32 12.26V72a32 32 0 0 1 64 0v6.73a8 8 0 0 0 5.33 7.54A40 40 0 0 1 192 164m16-52a8 8 0 0 1-8 8h-4a36 36 0 0 1-36-36v-4a8 8 0 0 1 16 0v4a20 20 0 0 0 20 20h4a8 8 0 0 1 8 8m-148 8h-4a8 8 0 0 1 0-16h4a20 20 0 0 0 20-20v-4a8 8 0 0 1 16 0v4a36 36 0 0 1-36 36" />
 	</svg>
 
 
         </div>
         <div class="flex flex-col justify-center">
-          <div class="text-xl lg:text-2xl font-bold text-gray-800">Access to Diverse Skill Sets</div>
-          <div class="text-gray-800 text-base lg:text-lg font-squada">
-            Companies and startups gain access to <br> a diverse pool of skills and talents <br> available on LinksUs. They can tap into a <br> wide range of expertise across various <br> domains, allowing them to tackle <br> projects that require specific skills <br> without hiring full-time employees for <br> every task.
+          <div class="text-2xl lg:text-2xl font-squada font-bold text-whiteo max-ssm:text-2xl max-md:pb-3">Access to Diverse Skill Sets</div>
+          <div class="font-Lora lg:text-lg max-md:text-xl text-white">
+            Companies and startups gain access to a diverse pool of skills and talents available on LinksUs. They can tap into a wide range of expertise across various domains, allowing them to tackle projects that require specific skills without hiring full-time employees for every task.
           </div>
         </div>
       </div>
-      <div class="flex items-start gap-4 mt-10">
-        <div class="mr-4 pt-8 max-md:ml-4">
-          <svg xmlns="http://www.w3.org/2000/svg" width="2.1em" height="2.1em" viewBox="0 0 14 14">
-		        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M12.5 3.5h-11a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1v-8a1 1 0 0 0-1-1M5 .5h4a1 1 0 0 1 1 1v2H4v-2a1 1 0 0 1 1-1M3.5 7h7m-7 3h7" />
+      <div class="flex items-start mt-10 max-md:flex-col max-md:pl-10">
+        <div class="mr-8 pt-8 max-md:ml-4 max-md:pb-5 ml-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 14 14">
+		        <path fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" d="M12.5 3.5h-11a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1v-8a1 1 0 0 0-1-1M5 .5h4a1 1 0 0 1 1 1v2H4v-2a1 1 0 0 1 1-1M3.5 7h7m-7 3h7" />
 	        </svg>
         </div>
         <div class="flex flex-col justify-center">
-          <div class="text-xl lg:text-2xl font-bold text-gray-800">Building Brand Presence <br> Among New Talents</div>
-          <div class="text-gray-800 text-base lg:text-lg">
-            Participating in LinksUs enables <br> companies and startups to build their <br> brand presence among the next <br> generation of talents. By engaging with <br> students early in their careers, <br> companies can showcase their work <br> culture, values, and opportunities, <br> attracting top talent for future roles.
+          <div class="text-2xl lg:text-2xl font-squada font-bold text-whiteo max-ssm:text-2xl max-md:pb-3">Building Brand Presence <br> Among New Talents</div>
+          <div class="text-white font-Lora lg:text-lg max-md:text-xl">
+            Participating in LinksUs enables companies  and startups to build their brand presence among the next generation of talents. By engaging with students early in their careers, companies can showcase their work culture, values, and opportunities, attracting top talent for future roles.
           </div>
         </div>
       </div>
-      <div class="flex items-start gap-4 mt-10">
-        <div class="mr-3 pt-8 max-md:ml-4">
+      <div class="flex items-start mt-10 max-md:flex-col max-md:pl-10">
+        <div class="mr-8 pt-8 max-md:ml-4 max-md:pb-5 ml-2">
 
-	      <svg xmlns="http://www.w3.org/2000/svg" width='2.4em' height='2.4em' viewBox="0 0 24 24">
-		      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" color="currentColor">
+	      <svg xmlns="http://www.w3.org/2000/svg" width='2em' height='2em' viewBox="0 0 24 24">
+		      <g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" color="currentColor">
 			      <path d="M5.143 14A7.8 7.8 0 0 1 4 9.919C4 5.545 7.582 2 12 2s8 3.545 8 7.919A7.8 7.8 0 0 1 18.857 14" />
 			      <path d="M14 10c-.613.643-1.289 1-2 1s-1.387-.357-2-1m-2.617 7.098c-.092-.276-.138-.415-.133-.527a.6.6 0 0 1 .382-.53c.104-.041.25-.041.54-.041h7.656c.291 0 .436 0 .54.04a.6.6 0 0 1 .382.531c.005.112-.041.25-.133.527c-.17.511-.255.767-.386.974a2 2 0 0 1-1.2.869c-.238.059-.506.059-1.043.059h-3.976c-.537 0-.806 0-1.043-.06a2 2 0 0 1-1.2-.868c-.131-.207-.216-.463-.386-.974M15 19l-.13.647c-.14.707-.211 1.06-.37 1.34a2 2 0 0 1-1.113.912C13.082 22 12.72 22 12 22s-1.082 0-1.387-.1a2 2 0 0 1-1.113-.913c-.159-.28-.23-.633-.37-1.34L9 19m3-3.5V11" />
 		      </g>
@@ -477,9 +477,9 @@
 
         </div>
         <div class="flex flex-col justify-center">
-          <div class="text-xl lg:text-2xl font-bold text-gray-800">Opportunity for CSR <br> Initiatives</div>
-          <div class="text-gray-800 text-base lg:text-lg">
-            LinksUs offers companies and startups <br> the opportunity to engage in Corporate <br> Social Responsibility (CSR) initiatives. By <br> providing industry tasks and mentorship <br> to students, companies can contribute to <br> the development of future professionals <br> while fulfilling their social responsibility <br> goals.
+          <div class="text-2xl lg:text-2xl text-whiteo font-squada font-bold max-ssm:text-2xl max-md:pb-3">Opportunity for CSR <br> Initiatives</div>
+          <div class="text-white font-Lora lg:text-lg max-md:text-xl">
+            LinksUs offers companies and startups the opportunity to engage in Corporate Social Responsibility (CSR) initiatives. By providing industry tasks and mentorship to students, companies can contribute to the development of future professionals while fulfilling their social responsibility goals.
           </div>
         </div>
       </div>
@@ -488,32 +488,32 @@
 </section>
 
 
-<section class="m-6 mt-64">
-  <div class="flex justify-center items-center text-center text-gray-600 font-Lora font-semibold lg:text-7xl md:text-4xl text-3xl pt-2 pb-2">
+<section class="animated-text m-6 mt-64">
+  <div ref="textElement" class="getlinksus flex justify-center items-center text-center font-bold text-gray-700 font-Lora lg:text-7xl md:text-4xl text-3xl max-msm:text-xl pt-2 pb-2">
           Get Linked with LinksUs <br> Your true friend for <br> industry experience
   </div>
 </section>
 
 <section class="flex justify-center items-center py-12 mt-32 mb-32 lg:mt-64 lg:mb-64">
-  <div class="max-w-7xl mx-auto px-4 flex flex-col lg:flex-row gap-12">
+  <div class="max-w-7xl mx-auto px-4 flex flex-col lg:flex-row lg:gap-20 lg:pl-28 gap-12 pl-0">
     <!-- Left Side -->
     <div class="flex flex-col mb-8 lg:mb-0 lg:w-1/3 text-center lg:text-left faq-element">
-      <h2 class="text-3xl lg:text-5xl font-Lora font-bold text-gray-800 mb-4">FAQ</h2>
-      <p class="text-xl lg:text-2xl text-gray-700 mb-2">Visit our <a href="#" class="text-gray-500 hover:text-gray-700">help center</a> to get in touch.</p>
-      <p class="text-xl lg:text-2xl text-gray-700">We’re super responsive.</p>
+      <h2 class="text-5xl lg:text-5xl font-squada font-bold mb-4">FAQ</h2>
+      <p class="text-xl lg:text-2xl font-Lora text-gray-800 mb-2">Visit our <a href="#" class="text-gray-500 hover:text-gray-800">help center</a> to get in touch.</p>
+      <p class="text-xl lg:text-2xl font-Lora text-gray-800">We’re super responsive.</p>
     </div>
     
     <!-- Right Side -->
-    <div class="flex-1 lg:w-2/3">
+    <div class="flex-1 lg:w-2/3 pl-4">
       <div class="space-y-4">
         <div
           v-for="(faq, index) in faqs"
           :key="index"
-          class="bg-cyan-100 rounded-lg shadow-sm cursor-pointer overflow-hidden faq-element"
+          class="bg-[#04b3b674] rounded-lg shadow-sm cursor-pointer overflow-hidden faq-element"
           @click="toggleAnswer(index)"
         >
           <div class="p-4 flex items-center justify-between">
-            <h3 class="text-lg lg:text-xl font-semibold text-gray-800">{{ faq.question }}</h3>
+            <h3 class="text-lg lg:text-xl font-Lora font-[600] text-gray-800">{{ faq.question }}</h3>
             <span :class="{'rotate-180': activeIndex === index}" class="transform transition-transform duration-300 ease-in-out">
               <svg v-if="activeIndex !== index" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5 h-5">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
@@ -524,7 +524,7 @@
             </span>
           </div>
           <div class="faq-answer-container overflow-hidden transition-all duration-500 ease-in-out" :style="{ maxHeight: activeIndex === index ? `${answerHeights[index]}px` : '0px' }">
-            <p class="faq-answer p-4 text-gray-700 text-base lg:text-lg">{{ faq.answer }}</p>
+            <p class="faq-answer p-4 text-gray-700 font-popins lg:text-lg">{{ faq.answer }}</p>
           </div>
         </div>
       </div>
@@ -583,12 +583,13 @@ const card3 = ref(null);
 
 onMounted(() => {
   // Use GSAP's matchMedia to handle different screen sizes
-  gsap.matchMedia().add("(min-width: 768px)", () => {
+  gsap.matchMedia().add("(min-width: 300px)", () => {
     // Animations for larger devices (768px and wider)
     
     gsap.from(card1.value, {
-      x: '10%',
+      x: '-50%',
       opacity: 0,
+      scale: 0.6,
       duration: 0.3,
       scrollTrigger: {
         trigger: howItWorksSection.value,
@@ -597,8 +598,9 @@ onMounted(() => {
     });
 
     gsap.from(card2.value, {
-      x: '10%',
+      x: '50%',
       opacity: 0,
+      scale: 0.6,
       duration: 0.3,
       delay: 0.2,
       scrollTrigger: {
@@ -608,8 +610,9 @@ onMounted(() => {
     });
 
     gsap.from(card3.value, {
-      x: '10%',
+      x: '50%',
       opacity: 0,
+      scale: 0.6,
       duration: 0.3,
       delay: 0.4,
       scrollTrigger: {
@@ -624,17 +627,19 @@ onMounted(() => {
 onMounted(() => {
   const mm = gsap.matchMedia();
 
-  mm.add("(min-width: 768px)", () => {
+  mm.add("(min-width: 300px)", () => {
     // ScrollTrigger for the first card
     gsap.fromTo(
       ".cardit1",
       {
         autoAlpha: 0, // Initial opacity (hidden)
+        scale: 0.6,
       },
       {
         autoAlpha: 1, // Final opacity (fully visible)
-        duration: 0.7,
-        ease: "power3.out",
+        scale: 1,
+        duration: 0.5,
+        ease: "power2.out",
         scrollTrigger: {
           trigger: ".cardit1",
           start: "top 60%",  // Animation starts when the card is in view
@@ -648,11 +653,13 @@ onMounted(() => {
       ".cardit2",
       {
         autoAlpha: 0, // Initial opacity (hidden)
+        scale: 0.6,
       },
       {
         autoAlpha: 1, // Final opacity (fully visible)
-        duration: 0.7,
-        ease: "power3.out",
+        scale: 1,
+        duration: 0.5,
+        ease: "power2.out",
         scrollTrigger: {
           trigger: ".cardit2",
           start: "top 50%",  // Animation starts when the card is in view
@@ -666,11 +673,13 @@ onMounted(() => {
       ".cardit3",
       {
         autoAlpha: 0, // Initial opacity (hidden)
+        scale: 0.6,
       },
       {
         autoAlpha: 1, // Final opacity (fully visible)
-        duration: 0.7,
-        ease: "power3.out",
+        scale: 1,
+        duration: 0.5,
+        ease: "power2.out",
         scrollTrigger: {
           trigger: ".cardit3",
           start: "top 50%",  // Animation starts when the card is in view
@@ -684,7 +693,7 @@ onMounted(() => {
 
 
 onMounted(() => {
-  gsap.matchMedia().add("(min-width: 768px)", () => {
+  gsap.matchMedia().add("(min-width: 200px)", () => {
     gsap.fromTo(
       ".testimonial-card", 
       { 
@@ -696,17 +705,18 @@ onMounted(() => {
         y: '0%', // Final position (original position)
         opacity: 1, // Final opacity (fully visible)
         scale: 1, // End at original size
-        duration: 0.7,
+        duration: 0.5,
         stagger: 0.5, // Delay between the animations of each card
         ease: "power3.out", 
         scrollTrigger: {
           trigger: ".section3", // Trigger the animation when this section comes into view
-          start: "top 50%",  
+          start: "top 40%",  
           toggleActions: "play none none none"
         }
       }
     );
   });
+  
 });
 
 
@@ -719,8 +729,8 @@ gsap.fromTo(
   {
     autoAlpha: 1,
     y: 0, 
-    duration: 0.6, 
-    stagger: 0.3,
+    duration: 0.4, 
+    stagger: 0.2,
     ease: "power1.out", 
     scrollTrigger: {
       trigger: ".faq-element",
@@ -737,10 +747,10 @@ const rightSide = ref(null);
 
 onMounted(() => {
   // Use GSAP's matchMedia to handle different screen sizes
-  gsap.matchMedia().add("(min-width: 768px)", () => {
+  gsap.matchMedia().add("(min-width: 200px)", () => {
     // Left side animation
     gsap.from(leftSide.value, {
-      x: '-3%',
+      x: '-50%',
       opacity: 0,
       duration: 1.5,
       ease: 'power2.out',
@@ -753,7 +763,7 @@ onMounted(() => {
 
     // Right side animation
     gsap.from(rightSide.value, {
-      x: '3%',
+      x: '50%',
       opacity: 0,
       duration: 1.5,
       ease: 'power2.out',
@@ -772,10 +782,10 @@ const leftSide2 = ref(null);
 const rightSide2 = ref(null);
 onMounted(() => {
   // Use GSAP's matchMedia to handle different screen sizes
-  gsap.matchMedia().add("(min-width: 768px)", () => {
+  gsap.matchMedia().add("(min-width: 200px)", () => {
     // Left side animation
     gsap.from(leftSide2.value, {
-      x: '-3%',
+      x: '-50%',
       opacity: 0,
       duration: 1.5,
       ease: 'power2.out',
@@ -788,7 +798,7 @@ onMounted(() => {
 
     // Right side animation
     gsap.from(rightSide2.value, {
-      x: '3%',
+      x: '50%',
       opacity: 0,
       duration: 1.5,
       ease: 'power2.out',
@@ -802,7 +812,7 @@ onMounted(() => {
 });
 
 onMounted(() => {
-  gsap.matchMedia().add("(min-width: 768px)", () => {
+  gsap.matchMedia().add("(min-width: 200px)", () => {
     gsap.fromTo(
       ".con-card", 
       { 
@@ -830,7 +840,7 @@ onMounted(() => {
     ".con-card1", 
     { 
       scale: 0.4, 
-      x: '2.5%',
+      x: '-50%',
       autoAlpha: 0, // Start hidden
     }, 
     {
@@ -847,6 +857,36 @@ onMounted(() => {
     }
   );
 });
+
+const textElement = ref(null);
+
+onMounted(() => {
+  const as = gsap.matchMedia();
+
+  as.add("(min-width: 300px)", () => {
+    // ScrollTrigger for the first card
+    gsap.fromTo(
+      ".getlinksus",
+      {
+        autoAlpha: 0, // Initial opacity (hidden)
+        scale: 0.6,
+      },
+      {
+        autoAlpha: 1, // Final opacity (fully visible)
+        scale: 1,
+        duration: 0.5,
+        ease: "power2.out",
+        scrollTrigger: {
+          trigger: ".animated-text",
+          start: "top 60%",  // Animation starts when the card is in view
+          toggleActions: "play none none none",
+        },
+      }
+    );
+ 
+  });
+});
+
 </script>
   
   <style scoped>
@@ -886,6 +926,24 @@ onMounted(() => {
 
 .card {
   transition: transform 0.3s ease-in-out;
+}
+
+@keyframes gradient-move {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.gradient-animation {
+
+  background-color: #F5F5F7;
+
 }
 
   </style>

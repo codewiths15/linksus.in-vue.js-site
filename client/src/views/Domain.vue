@@ -6,8 +6,9 @@
 
 
 <template>
-    <div class="background-gradient pt-32">
-        <Navbar />
+    <Navbar />
+    <div class="background-gradient -mt-32 pt-48">
+
         <div>
             <Section />
         </div>
@@ -17,11 +18,11 @@
 
 <style scoped>
 .background-gradient{
-    background: rgb(115,219,221);
-background: -moz-linear-gradient(90deg, rgba(115,219,221,1) 0%, rgba(209,232,238,1) 50%, rgba(182,194,241,1) 100%);
-background: -webkit-linear-gradient(90deg, rgba(115,219,221,1) 0%, rgba(209,232,238,1) 50%, rgba(182,194,241,1) 100%);
-background: linear-gradient(90deg, rgba(115,219,221,1) 0%, rgba(209,232,238,1) 50%, rgba(182,194,241,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#73dbdd",endColorstr="#b6c2f1",GradientType=1);
+    background: rgb(168,235,236);
+background: -moz-linear-gradient(90deg, rgba(168,235,236,1) 0%, rgba(209,232,238,1) 50%, rgba(197,206,244,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(168,235,236,1) 0%, rgba(209,232,238,1) 50%, rgba(197,206,244,1) 100%);
+background: linear-gradient(90deg, rgba(168,235,236,1) 0%, rgba(209,232,238,1) 50%, rgba(197,206,244,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a8ebec",endColorstr="#c5cef4",GradientType=1);
 }
 
 </style>
