@@ -155,7 +155,7 @@ onMounted(() => {
         <!-- Main Headline -->
          <div class="flex justify-center items-center">
         <h1
-      class=" text-6xl font-squada tracking-tight text-[#544350] max-smd:text-5xl max-sm:text-4xl"
+      class=" text-7xl font-squada tracking-tight text-[#544350] max-smd:text-5xl max-sm:text-4xl"
       >
       <p class="w-full"ref="headline1">Your only AI driven</p><p ref="headline2">pre-industry</p><p ref="headline3">experience platform</p> 
     </h1>
