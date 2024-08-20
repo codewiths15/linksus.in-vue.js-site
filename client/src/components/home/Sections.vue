@@ -4,13 +4,13 @@
     <div>
       <!-- Heading -->
       <div class="text-center">
-        <h1 class="con-card1 text-white text-6xl font-squada font-semibold pt-5 max-md:text-5xl max-sm:text-4xl">
+        <h1 class="con-card1 text-white text-6xl font-semibold font-squada pt-5 max-md:text-5xl max-sm:text-4xl">
           How it works?
         </h1>
       </div>
       <!-- Description -->
       <div class="flex flex-col text-white tracking-tight font-Lora font-semibold text-xl max-sm:text-md text-center pt-6">
-        LinksUs with AI powered and highly data-driven systems does <br>
+        LinksUs with AI powered and highly data-driven systems does <br class="max-md:hidden">
         everything you need to build your pre Industry Experience
       </div>
       <!-- Cards -->
@@ -27,7 +27,7 @@
           />
           <h3 class="text-2xl font-squada text-gray-700 font-[600] mt-4">Get LinksUs</h3>
           <p class="text-gray-600 font-Lora mt-2 max-msm:text-sm">
-            Setup profiles, Interests, Vision and <br> let LinksUs know you better, which <br> makes it Highly Data Driven.
+            Setup profiles, Interests, Vision and <br class="max-sm:hidden"> let LinksUs know you better, which <br class="max-sm:hidden"> makes it Highly Data Driven.
           </p>
         </div>
         <!-- Card 2 -->
@@ -42,7 +42,7 @@
           />
           <h3 class="text-2xl font-squada text-gray-700 font-[600] mt-4">Get Involved</h3>
           <p class="text-gray-600 font-Lora mt-2 max-msm:text-sm">
-            Do Industry tasks and gain highly <br> data-driven Insights. Connect with <br> companies, employees, and mentors.
+            Do Industry tasks and gain highly <br class="max-sm:hidden"> data-driven Insights. Connect with <br class="max-sm:hidden"> companies, employees, and mentors.
           </p>
         </div>
         <!-- Card 3 -->
@@ -57,7 +57,7 @@
           />
           <h3 class="text-2xl font-squada text-gray-700 font-[600] mt-4">Rest is on LinksUs</h3>
           <p class="text-gray-600 font-Lora mt-2 max-msm:text-sm">
-            LinksUs helps you build your career <br> with direction AI system as a friend <br> which helps you with everything.
+            LinksUs helps you build your career <br class="max-sm:hidden"> with direction AI system as a friend <br class="max-sm:hidden"> which helps you with everything.
           </p>
         </div>
       </div>
@@ -69,7 +69,7 @@
 
 <section class="section2 mt-8 mx-6 max-sm:mx-2 rounded-3xl pt-32 pb-32 gradient-animation">
   <div>
-    <div class="con-card flex justify-center text-gray-700 items-center text-6xl text-center font-bold font-squada max-lg:text-5xl max-md:text-4xl max-sm:text-3xl pb-32">
+    <div class="con-card flex justify-center text-gray-700 items-center text-6xl text-center font-semibold font-squada max-lg:text-5xl max-md:text-4xl max-sm:text-3xl pb-32">
       Get added extra in ordinary <br class="hidden sm:block" /> which makes you extraordinary
     </div>
     <div class="flex flex-col gap-12 items-center justify-center">
@@ -285,7 +285,7 @@
             Transformative Experience with LinksUs
           </div>
         </div>
-        <div class="text-gray-600 font-popins mb-6 px-2 md:px-5 text-justify text-lg max-sm:text-[1rem] max-msm:text-[0.75rem] max-sm:px-1">
+        <div class="text-gray-600 font-popins mb-6 px-2 md:px-5 text-justify text-lg max-sm:text-[1rem] max-msm:text-[0.75rem] max-sm:px-0">
           LinksUs has been a game-changer for me as a student. The platform not
           only helped me gain valuable industry experience through real-world
           tasks but also connected me with mentors who guided me in developing
@@ -313,7 +313,7 @@
             Efficient Talent Acquisition with LinksUs
           </div>
         </div>
-        <div class="text-gray-600 font-popins mb-6 px-1 md:px-2 text-justify text-lg max-sm:text-[1rem] max-msm:text-[0.75rem] max-sm:px-1">
+        <div class="text-gray-600 font-popins mb-6 px-1 md:px-2 text-justify text-lg max-sm:text-[1rem] max-msm:text-[0.75rem] max-sm:px-0">
           Our experience with LinksUs has been exceptional. The platform offers
           a cost-effective solution for talent acquisition, allowing us to
           connect with pre-industry experienced candidates and boost our
@@ -489,22 +489,22 @@
 
 
 <section class="animated-text m-6 mt-64">
-  <div ref="textElement" class="getlinksus flex justify-center items-center text-center font-bold text-gray-700 font-Lora lg:text-7xl md:text-4xl text-3xl max-msm:text-xl pt-2 pb-2">
-          Get Linked with LinksUs <br> Your true friend for <br> industry experience
+  <div ref="textElement" class="getlinksus flex justify-center font-squada items-center text-center font-bold text-gray-700 lg:text-7xl md:text-5xl text-4xl max-msm:text-3xl pt-2 pb-2">
+          Get Linked with LinksUs <br class="max-sm:hidden"> Your true friend for <br class="max-sm:hidden"> industry experience
   </div>
 </section>
 
 <section class="flex justify-center items-center py-12 mt-32 mb-32 lg:mt-64 lg:mb-64">
-  <div class="max-w-7xl mx-auto px-4 flex flex-col lg:flex-row lg:gap-20 lg:pl-28 gap-12 pl-0">
+  <div class="max-w-7xl mx-auto px-4 max-sm:px-0 flex flex-col lg:flex-row lg:gap-20 lg:pl-28 gap-12 pl-0">
     <!-- Left Side -->
     <div class="flex flex-col mb-8 lg:mb-0 lg:w-1/3 text-center lg:text-left faq-element">
-      <h2 class="text-5xl lg:text-5xl font-squada font-bold mb-4">FAQ</h2>
-      <p class="text-xl lg:text-2xl font-Lora text-gray-800 mb-2">Visit our <a href="#" class="text-gray-500 hover:text-gray-800">help center</a> to get in touch.</p>
-      <p class="text-xl lg:text-2xl font-Lora text-gray-800">We’re super responsive.</p>
+      <h2 class="text-6xl lg:text-6xl font-squada font-bold mb-4">FAQ</h2>
+      <p class="text-xl lg:text-2xl font-Lora text-gray-800 mb-2">Visit our <a href="#" class="text-gray-500 hover:text-gray-800">help center</a> to get in touch. <br class="max-lg:hidden">We’re super responsive.</p>
+
     </div>
     
     <!-- Right Side -->
-    <div class="flex-1 lg:w-2/3 pl-4">
+    <div class="flex-1 lg:w-2/3 pl-4 max-md:mr-4">
       <div class="space-y-4">
         <div
           v-for="(faq, index) in faqs"
@@ -512,7 +512,7 @@
           class="bg-[#04b3b674] rounded-lg shadow-sm cursor-pointer overflow-hidden faq-element"
           @click="toggleAnswer(index)"
         >
-          <div class="p-4 flex items-center justify-between">
+          <div class="p-4 flex items-center justify-between ">
             <h3 class="text-lg lg:text-xl font-Lora font-[600] text-gray-800">{{ faq.question }}</h3>
             <span :class="{'rotate-180': activeIndex === index}" class="transform transition-transform duration-300 ease-in-out">
               <svg v-if="activeIndex !== index" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5 h-5">
@@ -524,7 +524,7 @@
             </span>
           </div>
           <div class="faq-answer-container overflow-hidden transition-all duration-500 ease-in-out" :style="{ maxHeight: activeIndex === index ? `${answerHeights[index]}px` : '0px' }">
-            <p class="faq-answer p-4 text-gray-700 font-popins lg:text-lg">{{ faq.answer }}</p>
+            <p class="faq-answer p-4 max-lg:p-1 text-gray-700 font-popins lg:text-lg">{{ faq.answer }}</p>
           </div>
         </div>
       </div>

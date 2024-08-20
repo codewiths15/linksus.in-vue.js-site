@@ -45,7 +45,7 @@ onMounted(() => {
       </p>
       <a
         href="/domain"
-        class="hover:brightness-110 hover:animate-pulse font-popins font-bold py-3 px-6 rounded-full bg-gradient-to-r from-blue1 to-blue3 text-white text-xs md:text-sm whitespace-nowrap overflow-hidden text-ellipsis"
+        class="hover:brightness-110 hover:animate-pulse font-Lora font-bold py-3 px-6 rounded-full bg-gradient-to-r from-blue1 to-blue3 text-white text-xs md:text-sm whitespace-nowrap overflow-hidden text-ellipsis"
       >
         Get LinksUs
       </a>
@@ -74,7 +74,7 @@ onMounted(() => {
 
   <!-- Footer Text -->
   <div class="footer-element text-center md:text-left font-popins py-4 px-8">
-    <p class="md:text-md text-xs">©2024 Talentronaut technologies pvt ltd.</p>
+    <p class="md:text-md text-[0.6rem]">©2024 Talentronaut technologies pvt ltd.</p>
   </div>
 </section>
 

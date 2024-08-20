@@ -109,7 +109,7 @@ const isActive = (path) => {
         </a>
       </div>
       <div class="flex xlg:hidden">
-        <a href="/domain" class="cta-button hover:brightness-110 hover:animate-pulse font-popins font-bold lg:py-3 lg:px-6 ml-6 py-4 px-3 mr-3 text-xs  rounded-full bg-gradient-to-r from-blue1 to-blue3 text-white" @mouseover="closeDropdown">Get LinksUs</a>
+        <a href="/domain" class="cta-button hover:brightness-110 hover:animate-pulse font-Lora font-bold lg:py-3 lg:px-6 ml-6 py-4 px-3 mr-3 text-xs  rounded-full bg-gradient-to-r from-blue1 to-blue3 text-white" @mouseover="closeDropdown">Get LinksUs</a>
         <button 
   type="button" 
   class="btn-btn lg:mr-6 md:mr-10 mr-4 justify-center rounded-md p-2.5 text-gray-700 transition-transform duration-300" 
@@ -123,14 +123,14 @@ const isActive = (path) => {
       </div>
       <div class="it hidden xlg:flex xlg:gap-x-14 ">
         <a v-for="item in navigation" :key="item.name" :href="item.href" :class="[
-        'nav-item text-lg font-popins font-[500] leading-6',
+        'nav-item text-lg font-Lora font-[500] leading-6',
         isActive(item.href) ? 'text-blue2' : 'text-slate-600',
         'hover:text-slate-900'
       ]" style="display:inline-block; transition: transform 0.2s ease-in-out; transform-origin: center;" @mouseover="closeDropdown" onmouseover="this.style.transform='scale(1.1)';" 
         onmouseout="this.style.transform='scale(1)';">{{ item.name }}</a>
         <div v-for="dropdown in dropdowns" :key="dropdown.name" :class="['relative dropdown w-15 h-25 font-popins font-[500] text-slate-600 hover:text-slate-900 font-Poppins']" style="display:inline-block; transition: transform 0.2s ease-in-out; transform-origin: center;" onmouseover="this.style.transform='scale(1.1)';" onmouseout="this.style.transform='scale(1)';">
           <button 
-            class="nav-item text-lg font-popins font-[500] leading-6" 
+            class="nav-item text-lg font-Lora font-[500] leading-6" 
             @mouseover="toggleDropdown(dropdown.name)" 
             
             
@@ -143,13 +143,13 @@ const isActive = (path) => {
           </button>
           <div v-if="openDropdown === dropdown.name" class="absolute left-0 mt-2 w-48 bg-whiteo border border-gray-300 bg-opacity-80 rounded-xl shadow-lg dropdown-menu">
             <div v-for="item in dropdown.items" :key="item.name" class="dropdown-item">
-              <a :href="item.href" :class="['block px-2 py-2  font-popins hover:bg-whiteo hover:rounded-xl',isActive(item.href) ? 'text-blue2 bg-whiteo rounded-xl' : 'text-slate-600']">{{ item.name }}</a>
+              <a :href="item.href" :class="['block px-2 py-2  font-Lora hover:bg-whiteo hover:rounded-xl',isActive(item.href) ? 'text-blue2 bg-whiteo rounded-xl' : 'text-slate-600']">{{ item.name }}</a>
             </div>
           </div>
         </div>
       </div>
       <div class="hidden xlg:flex xlg:flex-1 xlg:justify-end">
-        <a href="/domain" class="cta-button hover:brightness-110 hover:animate-pulse font-popins font-bold py-3 px-6 ml-6 rounded-full bg-gradient-to-r from-blue1 to-blue3 text-white" @mouseover="closeDropdown">Get LinksUs</a>
+        <a href="/domain" class="cta-button hover:brightness-110 hover:animate-pulse font-Lora font-bold py-3 px-6 ml-6 rounded-full bg-gradient-to-r from-blue1 to-blue3 text-white" @mouseover="closeDropdown">Get LinksUs</a>
       </div>
 
     </nav>
@@ -165,20 +165,20 @@ const isActive = (path) => {
       <div class="mt-6 flow-root">
         <div class="-my-6 divide-y divide-gray-500/10">
           <div class="space-y-2 py-6">
-            <a v-for="item in navigation" :key="item.name" :href="item.href" class="nav-item -mx-3 block rounded-lg px-3 py-2 text-base font-popins leading-7 text-slate-600 hover:text-slate-800 hover:bg-white hover:rounded-xl overflow-auto">{{ item.name }}</a>
+            <a v-for="item in navigation" :key="item.name" :href="item.href" class="nav-item -mx-3 block rounded-lg px-3 py-2 text-base font-Lora leading-7 text-slate-600 hover:text-slate-800 hover:bg-white hover:rounded-xl overflow-auto">{{ item.name }}</a>
             <div v-for="dropdown in dropdowns" :key="dropdown.name" class="relative">
-              <button class="nav-item -mx-3 block rounded-lg px-3 py-2 text-base font-popins leading-7 text-slate-700 hover:text-slate-500" @click="toggleDropdown(dropdown.name)">
+              <button class="nav-item -mx-3 block rounded-lg px-3 py-2 text-base font-Lora leading-7 text-slate-700 hover:text-slate-500" @click="toggleDropdown(dropdown.name)">
                 {{ dropdown.name }}
               </button>
               <div :class="['transition-all duration-300 overflow-hidden', openDropdown === dropdown.name ? 'max-h-96' : 'max-h-0']" style="transition-property: max-height;">
                 <div v-for="item in dropdown.items" :key="item.name" class="dropdown-item">
-                  <a :href="item.href" class="block px-4 py-2 text-gray-600 font-popins hover:bg-white hover:rounded-xl">{{ item.name }}</a>
+                  <a :href="item.href" class="block px-4 py-2 text-gray-600 font-Lora hover:bg-white hover:rounded-xl">{{ item.name }}</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="py-6">
-            <a href="/domain" class="cta-button -mx-3 block rounded-lg px-3 py-2.5 text-base font-popins leading-7 text-gray-900 hover:bg-white">Get LinksUs</a>
+            <a href="/domain" class="cta-button -mx-3 block rounded-lg px-3 py-2.5 text-base font-Lora leading-7 text-gray-900 hover:bg-white">Get LinksUs</a>
           </div>
         </div>
       </div>

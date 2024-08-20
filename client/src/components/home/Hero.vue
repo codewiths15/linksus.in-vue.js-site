@@ -118,7 +118,7 @@ onMounted(() => {
 
 
 <template>
-  <div class="bg-gradient-to-b from-teal-200 via-sky-100 to-whiteo to-90% pb-10 -mt-20 pt-20">
+  <div class="bg-gradient-to-b from-teal-200 via-sky-100 to-whiteo to-90% pb-10 -mt-20 pt-16">
     <div class="nh-hero relative isolate px-6 pt-14 lg:px-8 ">
       <!-- Announcement Section -->
       <div class="nh-hero-header-wrap mx-auto max-w-2xl text-center ">
@@ -130,10 +130,10 @@ onMounted(() => {
               class="rewind-windows-icon h-14 w-12 rotate-scale-animation"
               loading="lazy"
             />
-            <div class="div-block-38 ml-4 pl-4 max-xsm:ml-0 h-auto pr-8 max-mmsm:pl-0  max-ssm:pr-0">
-              <div class="announcementtext font-squada font-bold text-left text-gray-600 text-lg max-smd:text-sm max-msmsm:text-[0.85rem]">Introducing Community</div>
-              <div class="announcementsubtext font-Lora max-mmsm:text-xs max-smd:text-xs text-gray-600 max-ssm:text-[0.6rem] max-msmsm:text-[0.55rem] max-xsm:[0.15rem]">
-                For Undergraduates with early access to the <p class="text-left">Platform</p> 
+            <div class="div-block-38 ml-4 pl-4 max-xsm:ml-0 h-auto pr-8 max-mmsm:pl-1  max-ssm:pr-1">
+              <div class="announcementtext font-squada text-left text-gray-600 font-semibold text-lg max-smd:text-sm max-msmsm:text-[1rem]">Introducing Community</div>
+              <div class="announcementsubtext text-left font-Lora text-sm max-mmsm:text-[0.7rem] max-smd:text-[0.7rem] text-gray-600 max-ssm:text-[0.7rem] max-msmsm:text-[0.7rem] max-sm:leading-[1.5]">
+                For Undergraduates with early access to the <br class="max-sm:hidden"> Platform
               </div>
             </div>
             <svg 
@@ -155,12 +155,12 @@ onMounted(() => {
         <!-- Main Headline -->
          <div class="flex justify-center items-center">
         <h1
-      class=" text-6xl font-squada tracking-tight text-[#544350] max-smd:text-5xl max-sm:text-3xl font-bold"
+      class=" text-6xl font-squada tracking-tight font-semibold text-[#544350] max-smd:text-5xl max-sm:text-4xl"
       >
       <p class="w-full"ref="headline1">Your only AI driven</p><p ref="headline2">pre-industry</p><p ref="headline3">experience platform</p> 
     </h1>
   </div>
-    <div class="flex justify-center text-center py-2 px-20">
+    <div class="flex justify-center text-center py-2 px-10 max-sm:px-8 max-mmsm:px-6">
     <h2
       class="nh-hero-sub mt-6 text-2xl font-Lora text-[#544350] max-smd:text-md max-sm:text-sm max-msm:text-xs"
       ref="subheadline"
@@ -222,7 +222,7 @@ onMounted(() => {
       @click="selectImages(index)"
       :class="{
         'selected bg-white': selectedImageIndex === index,
-        'hover:text-gray-600 font-popins cursor-pointer rounded-3xl flex items-center justify-center max-sm:text-xs max-smd:text-sm max-msm:text-[0.55rem] p-3 text-lg max-sm:py-1 px-6 max-sm:px-2': true
+        'hover:text-gray-600 font-Lora text-md cursor-pointer rounded-3xl flex items-center justify-center max-sm:text-xs max-smd:text-sm max-msm:text-[0.55rem] p-3 max-sm:py-1 px-6 max-sm:px-2': true
       }"
       :id="label.id"
     >

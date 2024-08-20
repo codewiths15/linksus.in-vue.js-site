@@ -37,8 +37,6 @@ export default {
         squada: ["Squada One"],
         Lora: ["Lora"],
         popins: ["Poppins"],
-        display: ["Squada One"],
-        body: ['"Poppins"'],
       },
     },
   },

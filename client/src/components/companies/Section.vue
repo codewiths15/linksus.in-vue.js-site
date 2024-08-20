@@ -21,7 +21,7 @@
         <form class="flex flex-col lg:flex-row lg:items-center lg:space-x-4 opacity-90">
           <div class="relative w-full">
             <input 
-              class="w-full py-3 px-6 border border-gray-300 rounded-3xl shadow-sm pr-20 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent font-popins"
+              class="w-full py-3 px-6 border border-gray-300 rounded-3xl max-msm:text-sm shadow-sm pr-20 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent font-popins"
               autofocus
               maxlength="256"
               name="email"
@@ -31,7 +31,7 @@
             />
             <button 
               type="submit"
-              class="absolute inset-y-1 lg:right-1 right-0 flex items-center px-4 bg-blue-500 text-white font-popins rounded-3xl shadow-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              class="absolute inset-y-1 lg:right-1 right-0 flex items-center px-4 max-msm:text-sm bg-blue-500 text-white font-popins rounded-3xl shadow-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
             >
               Get LinksUs
             </button>

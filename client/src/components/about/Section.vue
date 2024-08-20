@@ -207,13 +207,13 @@ onMounted(() => {
   <div class="flex flex-col items-center space-y-8 mt-8">
         <div class="flex flex-col lg:flex-row lg:space-x-8 space-y-8 lg:space-y-0">
   <!-- Rushikesh Joshi -->
-  <div class="cards1 flex bg-whiteo shadow-md rounded-3xl py-4 px-8 md:px-10 w-[100%] max-w-lg h-auto transform transition-transform duration-300">
+  <div class="cards1 flex bg-whiteo shadow-md rounded-3xl py-4 px-8 md:px-10 w-auto max-w-lg h-auto transform transition-transform duration-300">
     <img src="../../assets/images/rushikesh.jpeg" loading="lazy" width="78" alt="Rushikesh Joshi" class="rounded-full" />
     <div class="ml-4">
-      <div class="text-lg font-medium text-gray-800 whitespace-nowrap font-squada pl-1">Rushikesh Joshi</div>
-      <p class="text-gray-600 font-Lora pl-1">Founder &amp; CEO</p>
+      <div class="text-lg font-medium text-gray-800 whitespace-nowrap font-squada px-2">Rushikesh Joshi</div>
+      <p class="text-gray-600 font-Lora px-2">Founder &amp; CEO</p>
       <div class="mt-2">
-        <a href="https://www.linkedin.com/in/rjventurepreneur" target="_blank" class="inline-block pl-1">
+        <a href="https://www.linkedin.com/in/rjventurepreneur" target="_blank" class="inline-block px-2">
           <img src="https://assets-global.website-files.com/635dda7647d1612d7d877c36/635ed52cc7a1a7366e7a93d8_linkedin.svg"
                loading="lazy" width="20" height="20" alt="LinkedIn" class="image-7" />
         </a>
@@ -222,13 +222,13 @@ onMounted(() => {
   </div>
 
   <!-- Sahil Vichare -->
-  <div class="cards2 flex bg-whiteo shadow-md rounded-3xl py-4 px-8 md:px-10 w-[100%] max-w-lg h-auto transform transition-transform duration-300">
+  <div class="cards2 flex bg-whiteo shadow-md rounded-3xl py-4 px-8 md:px-10 w-auto max-w-lg h-auto transform transition-transform duration-300">
     <img src="../../assets/images/sahil.jpeg" loading="lazy" width="78" alt="Sahil Vichare" class="rounded-full" />
     <div class="ml-4">
-      <div class="text-lg font-medium text-gray-800 whitespace-nowrap font-squada pl-1">Sahil Vichare</div>
-      <p class="text-gray-600 font-Lora pl-1">Product Head</p>
+      <div class="text-lg font-medium text-gray-800 whitespace-nowrap font-squada px-2">Sahil Vichare</div>
+      <p class="text-gray-600 font-Lora px-2">Product Head</p>
       <div class="mt-2">
-        <a href="https://www.linkedin.com/in/sahil-vichare-b787a4231" target="_blank" class="inline-block pl-1">
+        <a href="https://www.linkedin.com/in/sahil-vichare-b787a4231" target="_blank" class="inline-block px-2">
           <img src="https://assets-global.website-files.com/635dda7647d1612d7d877c36/635ed52cc7a1a7366e7a93d8_linkedin.svg"
                loading="lazy" width="20" height="20" alt="LinkedIn" class="image-7" />
         </a>
@@ -239,13 +239,13 @@ onMounted(() => {
 
 <!-- Om Dahale -->
 <div class="cards3 flex justify-center mt-8">
-  <div class="flex bg-whiteo shadow-md rounded-3xl py-4 px-8 md:px-10 w-[100%] max-w-lg h-auto transform transition-transform duration-300">
+  <div class="flex bg-whiteo shadow-md rounded-3xl py-4 px-8 md:px-10 w-auto max-w-lg h-auto transform transition-transform duration-300">
     <img src="../../assets/images/om.jpeg" loading="lazy" width="78" alt="Om Dahale" class="rounded-full" />
     <div class="ml-4">
-      <div class="text-lg font-medium text-gray-800 whitespace-nowrap font-squada pl-1">Om Dahale</div>
-      <p class="text-gray-600 font-Lora pl-1">Software Developer</p>
+      <div class="text-lg font-medium text-gray-800 whitespace-nowrap font-squada px-2">Om Dahale</div>
+      <p class="text-gray-600 font-Lora px-2">Software Developer</p>
       <div class="mt-2">
-        <a href="https://www.linkedin.com/in/om-dahale/" target="_blank" class="inline-block pl-1">
+        <a href="https://www.linkedin.com/in/om-dahale/" target="_blank" class="inline-block px-2">
           <img src="https://assets-global.website-files.com/635dda7647d1612d7d877c36/635ed52cc7a1a7366e7a93d8_linkedin.svg"
                loading="lazy" width="20" height="20" alt="LinkedIn" class="image-7" />
         </a>
