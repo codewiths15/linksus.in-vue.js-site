@@ -42,6 +42,18 @@ onMounted(() => {
       selectImages(0);
     });
 
+    const getPaddingClass = (index) => {
+  const padding = 'px-5'; // Default padding
+  if (index === selectedImageIndex.value) {
+    return 'px-7'; // Increase padding when selected
+  } else if (index < selectedImageIndex.value) {
+    return 'pr-7 pl-3'; // Increase right padding for previous labels
+  } else {
+    return 'pl-7 pr-3'; // Increase left padding for next labels
+  }
+  return padding;
+};
+
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -155,7 +167,7 @@ onMounted(() => {
         <!-- Main Headline -->
          <div class="flex justify-center items-center">
         <h1
-      class=" text-7xl font-squada tracking-tight text-[#544350] max-smd:text-5xl max-sm:text-4xl"
+      class=" text-6xl font-Lora font-semibold leading-[4.3rem] text-[#544350] max-smd:text-5xl max-sm:text-3xl max-msm:text-[1.75rem]"
       >
       <p class="w-full"ref="headline1">Your only AI driven</p><p ref="headline2">pre-industry</p><p ref="headline3">experience platform</p> 
     </h1>
@@ -221,7 +233,7 @@ onMounted(() => {
       :key="label.id"
       @click="selectImages(index)"
       :class="{
-        'selected bg-white': selectedImageIndex === index,
+        'selected bg-white': selectedImageIndex === index, 
         'hover:text-gray-600 font-Lora text-lg cursor-pointer rounded-3xl flex items-center justify-center max-sm:text-xs max-smd:text-sm max-msm:text-[0.55rem] p-3 max-sm:py-1 px-5 max-sm:px-2': true
       }"
       :id="label.id"
