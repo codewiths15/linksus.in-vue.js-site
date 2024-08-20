@@ -4,7 +4,7 @@
     <div>
       <!-- Heading -->
       <div class="text-center">
-        <h1 class="con-card1 text-white text-6xl font-semibold font-squada pt-5 max-md:text-5xl max-sm:text-4xl">
+        <h1 class="con-card1 text-white text-6xl font-squada pt-5 max-md:text-5xl max-sm:text-4xl">
           How it works?
         </h1>
       </div>
@@ -25,7 +25,7 @@
             alt="download-icon"
             class="mb-4"
           />
-          <h3 class="text-2xl font-squada text-gray-700 font-[600] mt-4">Get LinksUs</h3>
+          <h3 class="text-2xl font-squada text-gray-700 mt-4">Get LinksUs</h3>
           <p class="text-gray-600 font-Lora mt-2 max-msm:text-sm">
             Setup profiles, Interests, Vision and <br class="max-sm:hidden"> let LinksUs know you better, which <br class="max-sm:hidden"> makes it Highly Data Driven.
           </p>
@@ -40,7 +40,7 @@
             alt="lock-icon"
             class="mb-4"
           />
-          <h3 class="text-2xl font-squada text-gray-700 font-[600] mt-4">Get Involved</h3>
+          <h3 class="text-2xl font-squada text-gray-700 mt-4">Get Involved</h3>
           <p class="text-gray-600 font-Lora mt-2 max-msm:text-sm">
             Do Industry tasks and gain highly <br class="max-sm:hidden"> data-driven Insights. Connect with <br class="max-sm:hidden"> companies, employees, and mentors.
           </p>
@@ -55,7 +55,7 @@
             alt="glitter-icon"
             class="mb-4"
           />
-          <h3 class="text-2xl font-squada text-gray-700 font-[600] mt-4">Rest is on LinksUs</h3>
+          <h3 class="text-2xl font-squada text-gray-700 mt-4">Rest is on LinksUs</h3>
           <p class="text-gray-600 font-Lora mt-2 max-msm:text-sm">
             LinksUs helps you build your career <br class="max-sm:hidden"> with direction AI system as a friend <br class="max-sm:hidden"> which helps you with everything.
           </p>
@@ -69,13 +69,13 @@
 
 <section class="section2 mt-8 mx-6 max-sm:mx-2 rounded-3xl pt-32 pb-32 gradient-animation">
   <div>
-    <div class="con-card flex justify-center text-gray-700 items-center text-6xl text-center font-semibold font-squada max-lg:text-5xl max-md:text-4xl max-sm:text-3xl pb-32">
+    <div class="con-card flex justify-center text-gray-700 items-center text-6xl text-center font-squada max-lg:text-5xl max-md:text-4xl max-sm:text-3xl pb-32">
       Get added extra in ordinary <br class="hidden sm:block" /> which makes you extraordinary
     </div>
     <div class="flex flex-col gap-12 items-center justify-center">
       <div class="cardit1 bg-white shadow-xl rounded-2xl p-6 flex flex-col lg:flex-row mx-4 sm:mx-8 md:mx-16 lg:mx-24 xl:mx-48 max-w-7xl transition-transform transform hover:shadow-xl max-sm:max-w-full">
         <div class="flex flex-col w-full lg:w-1/2">
-          <div class="text-3xl font-squada font-semibold text-gray-800 mb-4">AI Assistant</div>
+          <div class="text-3xl font-squada text-gray-800 mb-4">AI Assistant</div>
           <div class="text-gray-900 text-lg font-Lora mb-6">
             Deploy your growth in the hands of LinksUs <br class="hidden sm:block" /> Assistant, Who is mastered in making industry connections and growth.
           </div>
@@ -138,7 +138,7 @@
 
       <div class="cardit2 bg-white shadow-xl rounded-2xl p-6 flex flex-col lg:flex-row mx-4 sm:mx-8 md:mx-16 lg:mx-24 xl:mx-48 max-w-7xl transition-transform transform hover:shadow-xl">
         <div class="flex flex-col w-full lg:w-1/2">
-          <div class="text-3xl font-squada font-semibold text-gray-800 mb-4">Data-driven systems</div>
+          <div class="text-3xl font-squada text-gray-800 mb-4">Data-driven systems</div>
           <div class="text-gray-900 mb-6 text-lg font-Lora">
             Enjoy the seamless platform backed up with <br class="hidden sm:block" /> highly data-driven insights with task and performance systems and candidate performance systems.
           </div>
@@ -201,7 +201,7 @@
 
       <div class="cardit3 bg-white shadow-xl rounded-2xl p-6 flex flex-col lg:flex-row mx-4 sm:mx-8 md:mx-16 lg:mx-24 xl:mx-48 max-w-7xl transition-transform transform hover:shadow-xl">
         <div class="flex flex-col w-full lg:w-1/2">
-          <div class="text-3xl font-squada  font-semibold text-gray-800 mb-4">Industry involvement</div>
+          <div class="text-3xl font-squada text-gray-800 mb-4">Industry involvement</div>
           <div class="text-gray-900 mb-6 text-lg font-Lora">
             LinksUs provide an engaging environment for <br class="hidden sm:block" /> undergraduates and companies to get involved and bridge the gap of pre industry experience.
           </div>
@@ -272,7 +272,7 @@
 <section class="section3 m-6 bg-[#05C7B4] rounded-3xl max-sm:m-2">
   <div class="container mx-auto">
     <div class="text-center py-16">
-      <div class="text-6xl text-[#544350] font-squada font-semibold max-lg:text-5xl max-md:text-4xl max-sm:text-[1.5rem]">
+      <div class="text-6xl text-[#544350] font-squada max-lg:text-5xl max-md:text-4xl max-sm:text-[1.5rem]">
         For undergraduates who <br> want to work and connect <br> smarter,
         better, faster
       </div>
@@ -370,7 +370,7 @@
             </svg>
           </div>
           <div>
-            <div class="text-2xl lg:text-2xl font-squada font-bold text-green-100 max-ssm:text-2xl max-md:pb-3">Cost-Effective Talent <br /> Acquisition</div>
+            <div class="text-2xl lg:text-2xl font-squada text-green-100 max-ssm:text-2xl max-md:pb-3">Cost-Effective Talent <br /> Acquisition</div>
             <div class="text-white lg:text-lg font-Lora max-md:text-xl ">
               Companies and startups benefit from cost-effective talent acquisition through
               LinksUs. By posting small tasks and projects on the platform, they can engage with
@@ -390,7 +390,7 @@
             </svg>
           </div>
           <div>
-            <div class="text-2xl lg:text-2xl font-squada font-bold text-green-100 max-ssm:text-2xl max-md:pb-3">Increased Productivity</div>
+            <div class="text-2xl lg:text-2xl font-squada text-green-100 max-ssm:text-2xl max-md:pb-3">Increased Productivity</div>
             <div class="text-white font-Lora lg:text-lg max-md:text-xl">
               Utilizing LinksUs allows companies to increase productivity by leveraging the
               skills of pre-industry experienced students. These students, eager to gain practical
@@ -406,7 +406,7 @@
             </svg>
           </div>
           <div>
-            <div class="text-2xl lg:text-2xl font-squada font-bold text-green-100 max-ssm:text-2xl max-md:pb-3">Flexibility and Scalability</div>
+            <div class="text-2xl lg:text-2xl font-squada text-green-100 max-ssm:text-2xl max-md:pb-3">Flexibility and Scalability</div>
             <div class="text-white font-Lora lg:text-lg max-md:text-xl">
               The platform provides flexibility and scalability for companies and startups. They can scale
               their operations based on project requirements, easily adjusting the number of tasks and
@@ -445,7 +445,7 @@
 
         </div>
         <div class="flex flex-col justify-center">
-          <div class="text-2xl lg:text-2xl font-squada font-bold text-whiteo max-ssm:text-2xl max-md:pb-3">Access to Diverse Skill Sets</div>
+          <div class="text-2xl lg:text-2xl font-squada text-whiteo max-ssm:text-2xl max-md:pb-3">Access to Diverse Skill Sets</div>
           <div class="font-Lora lg:text-lg max-md:text-xl text-white">
             Companies and startups gain access to a diverse pool of skills and talents available on LinksUs. They can tap into a wide range of expertise across various domains, allowing them to tackle projects that require specific skills without hiring full-time employees for every task.
           </div>
@@ -458,7 +458,7 @@
 	        </svg>
         </div>
         <div class="flex flex-col justify-center">
-          <div class="text-2xl lg:text-2xl font-squada font-bold text-whiteo max-ssm:text-2xl max-md:pb-3">Building Brand Presence <br> Among New Talents</div>
+          <div class="text-2xl lg:text-2xl font-squada text-whiteo max-ssm:text-2xl max-md:pb-3">Building Brand Presence <br> Among New Talents</div>
           <div class="text-white font-Lora lg:text-lg max-md:text-xl">
             Participating in LinksUs enables companies  and startups to build their brand presence among the next generation of talents. By engaging with students early in their careers, companies can showcase their work culture, values, and opportunities, attracting top talent for future roles.
           </div>
@@ -477,7 +477,7 @@
 
         </div>
         <div class="flex flex-col justify-center">
-          <div class="text-2xl lg:text-2xl text-whiteo font-squada font-bold max-ssm:text-2xl max-md:pb-3">Opportunity for CSR <br> Initiatives</div>
+          <div class="text-2xl lg:text-2xl text-whiteo font-squada max-ssm:text-2xl max-md:pb-3">Opportunity for CSR <br> Initiatives</div>
           <div class="text-white font-Lora lg:text-lg max-md:text-xl">
             LinksUs offers companies and startups the opportunity to engage in Corporate Social Responsibility (CSR) initiatives. By providing industry tasks and mentorship to students, companies can contribute to the development of future professionals while fulfilling their social responsibility goals.
           </div>
@@ -489,7 +489,7 @@
 
 
 <section class="animated-text m-6 mt-64">
-  <div ref="textElement" class="getlinksus flex justify-center font-squada items-center text-center font-bold text-gray-700 lg:text-7xl md:text-5xl text-4xl max-msm:text-3xl pt-2 pb-2">
+  <div ref="textElement" class="getlinksus flex justify-center font-squada items-center text-center  text-gray-800 lg:text-7xl md:text-5xl text-4xl max-msm:text-3xl pt-2 pb-2">
           Get Linked with LinksUs <br class="max-sm:hidden"> Your true friend for <br class="max-sm:hidden"> industry experience
   </div>
 </section>
@@ -498,7 +498,7 @@
   <div class="max-w-7xl mx-auto px-4 max-sm:px-0 flex flex-col lg:flex-row lg:gap-20 lg:pl-28 gap-12 pl-0">
     <!-- Left Side -->
     <div class="flex flex-col mb-8 lg:mb-0 lg:w-1/3 text-center lg:text-left faq-element">
-      <h2 class="text-6xl lg:text-6xl font-squada font-bold mb-4">FAQ</h2>
+      <h2 class="text-6xl lg:text-6xl font-squada text-gray-800 mb-4">FAQ</h2>
       <p class="text-xl lg:text-2xl font-Lora text-gray-800 mb-2">Visit our <a href="#" class="text-gray-500 hover:text-gray-800">help center</a> to get in touch. <br class="max-lg:hidden">We’re super responsive.</p>
 
     </div>
@@ -639,7 +639,7 @@ onMounted(() => {
         autoAlpha: 1, // Final opacity (fully visible)
         scale: 1,
         duration: 0.5,
-        ease: "power2.out",
+        ease: "power1.easeOut",
         scrollTrigger: {
           trigger: ".cardit1",
           start: "top 60%",  // Animation starts when the card is in view
@@ -659,7 +659,7 @@ onMounted(() => {
         autoAlpha: 1, // Final opacity (fully visible)
         scale: 1,
         duration: 0.5,
-        ease: "power2.out",
+        ease: "power1.easeOut",
         scrollTrigger: {
           trigger: ".cardit2",
           start: "top 50%",  // Animation starts when the card is in view
@@ -679,7 +679,7 @@ onMounted(() => {
         autoAlpha: 1, // Final opacity (fully visible)
         scale: 1,
         duration: 0.5,
-        ease: "power2.out",
+        ease: "power1.easeOut",
         scrollTrigger: {
           trigger: ".cardit3",
           start: "top 50%",  // Animation starts when the card is in view

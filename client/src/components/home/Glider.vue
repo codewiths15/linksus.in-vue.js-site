@@ -3,7 +3,7 @@
       <div class="nh-social-proof-wrap w-embed">
         <div class="carousel glide">
           <div class="carousel-title">
-            <h3 class="nh-sm-headline">
+            <h3 class="nh-sm-headline font-squada flex justify-center items-start text-center">
               Undergrads are linking seamlessly with companies via LinksUs
             </h3>
             <!-- <div class="carousel-controls" data-glide-el="controls">
@@ -25,49 +25,49 @@
           <div class="glide__track" data-glide-el="track">
             <ul class="glide__slides nh-sp-testimonials">
               <li class="glide__slide testimonial">
-                <blockquote>
+                <blockquote class="font-Lora">
                   LinksUs has been a game-changer for me! The real-world tasks and industry insights helped me gain practical experience and land my dream internship.
                 </blockquote>
                 <p class="author">
-                  <span class="name">Michael</span>
-                  <span class="company">Student</span>
+                  <span class="name font-popins">Michael</span>
+                  <span class="company font-popins">Student</span>
                 </p>
                 <img class="avatar" src="https://assets-global.website-files.com/635dda7647d1612d7d877c36/64bc4e93fa9c2b4c2d947f0a_elad-av.jpg" />
               </li>
               <li class="glide__slide testimonial">
-                <blockquote>
+                <blockquote class="font-Lora">
                   I never thought I could get such valuable exposure while still in university. Thanks to LinksUs, I feel confident stepping into the industry.
                 </blockquote>
                 <p class="author">
-                  <span class="name">Alexis Ohanian</span>
+                  <span class="name font-popins">Alexis Ohanian</span>
                 </p>
                 <img class="avatar" src="https://assets-global.website-files.com/635dda7647d1612d7d877c36/64bc4e93b9c30f67192c2bf8_alexis-av.jpg" />
               </li>
               <li class="glide__slide testimonial">
-                <blockquote>
+                <blockquote class="font-Lora">
                   Working with talented students through LinksUs not only reduced our hiring costs but also brought fresh perspectives and innovative solutions to our projects.
                 </blockquote>
                 <p class="author">
-                  <span class="name">XYZ Tech</span>
+                  <span class="name font-popins">XYZ Tech</span>
                 </p>
                 <img class="avatar" src="https://assets-global.website-files.com/635dda7647d1612d7d877c36/64bde966be4c261139ada397_sama-av.jpg" />
               </li>
               <li class="glide__slide testimonial">
-                <blockquote>
+                <blockquote class="font-Lora">
                   LinksUs has been instrumental in connecting us with motivated undergraduates. It's a win-win for us and the students!
                 </blockquote>
                 <p class="author">
-                  <span class="name">Startup Ventures Inc.</span>
+                  <span class="name font-popins">Startup Ventures Inc.</span>
                 </p>
                 <img class="avatar" src="https://assets-global.website-files.com/635dda7647d1612d7d877c36/64bedeac310a7840bd2f9cb7_davidlieb-av.jpg" />
               </li>
               <li class="glide__slide testimonial">
-                <blockquote>
+                <blockquote class="font-Lora">
                   Working at LinksUs helped me grow in graphic design and corporate culture, supported by a cheerful team and an inspiring founder.
                 </blockquote>
                 <p class="author">
-                  <span class="name">Nandini</span>
-                  <span class="company">Student</span>
+                  <span class="name font-popins">Nandini</span>
+                  <span class="company font-popins">Student</span>
                 </p>
                 <img class="avatar" src="../../assets/images/glider-student.jpg" />
               </li>
@@ -228,15 +228,10 @@ onUnmounted(() => {
             grid-template-columns: 1fr 100px;
           }
     
-          .carousel-title h3.nh-sm-headline {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+          .nh-sm-headline {
             padding: 2rem;
-            padding-left: 10rem;
-            align-self: center;
-            font-family: "squada", serif !important;
             font-size: 2.2rem;
+            padding-left: 9rem;
             font-weight: 500;
             line-height: 1.2;
             color: #898476;
@@ -342,7 +337,7 @@ onUnmounted(() => {
             flex-shrink: 0;
             line-height: 1;
             margin: 0 1rem;
-            min-height: 145px;
+            min-height: 200px;
             border-radius: 20px;
             background: white;
             border: 1px solid rgba(194, 184, 169, 0.5);
@@ -361,7 +356,6 @@ onUnmounted(() => {
             position: relative;
             border-left: none;
             padding: 0;
-            font-family: "Quincy", serif;
             line-height: 1.15;
             color: #595653;
             letter-spacing: -0.25px;
@@ -390,14 +384,14 @@ onUnmounted(() => {
 }
     
           .testimonial p.author .name {
-            font-family: "Greycliff", sans-serif;
+
             font-weight: 600;
             margin-right: 0.3rem;
             color: #595653;
           }
     
           .testimonial p.author .company {
-            font-family: "Greycliff", sans-serif;
+
             font-weight: 600;
             color: rgba(92, 84, 76, 0.54);
             font-size: 1rem;
@@ -442,7 +436,7 @@ onUnmounted(() => {
             }
           }
 
-          @media (max-width: 1200px) {
+          @media (min-width:965px) and (max-width: 1391px) {
   .testimonial {
     padding: 1.5rem 2.25rem 4.5rem 3.25rem;
     min-height: 310px; /* Adjust min-height for smaller screens */
@@ -458,6 +452,50 @@ onUnmounted(() => {
   display: flex;
   overflow: hidden;
 }
+
+@media (min-width:769px) and (max-width: 965px) {
+  .testimonial {
+    padding: 1.5rem 2.25rem 4.5rem 3.25rem;
+    min-height: 400px; /* Adjust min-height for smaller screens */
+    max-height: 400px; /* Adjust max-height for smaller screens */
+  }
+
+  .testimonial .avatar {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (min-width:445px) and (max-width: 769px) {
+  .testimonial {
+    padding: 1.5rem 2.25rem 4.5rem 3.25rem;
+    min-height: 210px; /* Adjust min-height for smaller screens */
+    max-height: 210px; /* Adjust max-height for smaller screens */
+  }
+
+  .testimonial .avatar {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media (min-width:285px) and (max-width: 445px) {
+  .testimonial {
+    padding: 1.5rem 2.25rem 4.5rem 3.25rem;
+    min-height: 290px; /* Adjust min-height for smaller screens */
+    max-height: 290px; /* Adjust max-height for smaller screens */
+  }
+
+  .testimonial .avatar {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.glide__slides {
+  display: flex;
+  overflow: hidden;
+}
+
 
 @keyframes continuous-scroll {
   0% {

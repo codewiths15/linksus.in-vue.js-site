@@ -8,7 +8,7 @@
       </div>
     
       <!-- Main Heading -->
-      <h1 class="text-3xl md:text-5xl font-[600] font-squada text-gray-800 text-center mb-4">
+      <h1 class="text-3xl md:text-5xl font-squada text-gray-800 text-center mb-4">
         Companies and Startup
       </h1>
       <h1 class="text-2xl md:text-3xl font-Lora text-gray-600 text-center mb-8">

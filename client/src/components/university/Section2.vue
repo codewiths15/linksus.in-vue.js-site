@@ -6,34 +6,34 @@
   </div>
   <div class="mt-16">
   <div class="flex justify-center items-center">
-    <ul class="list-none p-0 m-0 flex flex-wrap justify-center gap-4 w-full max-w-4xl sm:max-w-3xl xs:max-w-xl">
-      <li class="flex flex-col bg-white border border-gray-300 shadow-lg rounded-3xl p-4 sm:p-8 min-h-[160px] flex-grow w-[calc(50%-0.5rem)] hover:bg-whiteo">
+    <ul class="list-none p-0 m-0 flex flex-wrap justify-center gap-4 w-full max-w-4xl sm:max-w-3xl xs:max-w-xl max-sm:flex-col max-sm:justify-center max-sm:items-center">
+      <li class="flex flex-col bg-white border border-gray-300 shadow-lg rounded-3xl p-4 sm:p-8 min-h-[160px] flex-grow w-[calc(50%-0.5rem)] max-sm:w-full hover:bg-whiteo">
         <span class="mb-2 flex justify-center items-center">
           <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 256 256">
 		        <path fill="currentColor" d="m225.27 60.21l-96-32a4 4 0 0 0-2.54 0l-96 32A4 4 0 0 0 28 64v80a4 4 0 0 0 8 0V69.55l43.88 14.63a60 60 0 0 0 24.54 91c-20.86 5.74-39 19.13-51.77 38.65a4 4 0 0 0 6.7 4.36C75.17 193.92 100.2 180 128 180s52.83 13.92 68.65 38.18a4 4 0 0 0 6.7-4.36c-12.72-19.52-30.91-32.91-51.77-38.65a60 60 0 0 0 24.54-91l49.15-16.39a4 4 0 0 0 0-7.58ZM180 120a52 52 0 1 1-92.07-33.14l38.8 12.93a3.95 3.95 0 0 0 2.54 0l38.8-12.93A51.85 51.85 0 0 1 180 120m-52-28.22L44.65 64L128 36.22L211.35 64Z" />
 	        </svg>
         </span>
-        <span class="font-semibold font-squada lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
+        <span class="font-squada lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
           <b>Empower Your Students</b>
         </span>
         <p class="text-gray-700 font-Lora text-center">
           Give your students the opportunity to gain practical industry experience and develop in-demand skills.
         </p>
       </li>
-      <li class="flex flex-col bg-white border border-gray-300 shadow-lg rounded-3xl p-4 sm:p-8 min-h-[160px] flex-grow w-[calc(50%-0.5rem)] hover:bg-whiteo">
+      <li class="flex flex-col bg-white border border-gray-300 shadow-lg rounded-3xl p-4 sm:p-8 min-h-[160px] flex-grow w-[calc(50%-0.5rem)] max-sm:w-full hover:bg-whiteo">
         <span class="mb-2 flex justify-center items-center">
           <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 256 256">
 		        <path fill="currentColor" d="M232 116H132V84h12a12 12 0 0 0 12-12V40a12 12 0 0 0-12-12h-32a12 12 0 0 0-12 12v32a12 12 0 0 0 12 12h12v32H24a4 4 0 0 0 0 8h36v40H48a12 12 0 0 0-12 12v32a12 12 0 0 0 12 12h32a12 12 0 0 0 12-12v-32a12 12 0 0 0-12-12H68v-40h120v40h-12a12 12 0 0 0-12 12v32a12 12 0 0 0 12 12h32a12 12 0 0 0 12-12v-32a12 12 0 0 0-12-12h-12v-40h36a4 4 0 0 0 0-8M108 72V40a4 4 0 0 1 4-4h32a4 4 0 0 1 4 4v32a4 4 0 0 1-4 4h-32a4 4 0 0 1-4-4M84 176v32a4 4 0 0 1-4 4H48a4 4 0 0 1-4-4v-32a4 4 0 0 1 4-4h32a4 4 0 0 1 4 4m128 0v32a4 4 0 0 1-4 4h-32a4 4 0 0 1-4-4v-32a4 4 0 0 1 4-4h32a4 4 0 0 1 4 4" />
 	        </svg>
         </span>
-        <span class="font-semibold font-squada lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
+        <span class="font-squada lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
           <b>Expand Networking</b>
         </span>
         <p class="text-gray-700 font-Lora text-center">
           Connect with a network of companies and startups looking for talented individuals like your students.
         </p>
       </li>
-      <li class="flex flex-col bg-white border border-gray-300 shadow-lg rounded-3xl p-4 sm:p-8 min-h-[160px] flex-grow w-[calc(50%-0.5rem)] hover:bg-whiteo">
+      <li class="flex flex-col bg-white border border-gray-300 shadow-lg rounded-3xl p-4 sm:p-8 min-h-[160px] flex-grow w-[calc(50%-0.5rem)] max-sm:w-full hover:bg-whiteo">
         <span class="mb-2 flex justify-center items-center">
           <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 14 14">
             <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="0.4">
@@ -44,27 +44,27 @@
             </g>
           </svg>
         </span>
-        <span class="font-semibold font-squada lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
+        <span class="font-squada lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
           <b>Enhance Curriculum</b>
         </span>
         <p class="text-gray-700 font-Lora text-center">
           Supplement academic learning with hands-on projects and tasks from leading industry players.
         </p>
       </li>
-      <li class="flex flex-col bg-white border border-gray-300 shadow-lg rounded-3xl p-4 sm:p-8 min-h-[160px] flex-grow w-[calc(50%-0.5rem)] hover:bg-whiteo">
+      <li class="flex flex-col bg-white border border-gray-300 shadow-lg rounded-3xl p-4 sm:p-8 min-h-[160px] flex-grow w-[calc(50%-0.5rem)] max-sm:w-full hover:bg-whiteo">
         <span class="mb-2 flex justify-center items-center">
           <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 24 24">
 		        <path fill="currentColor" d="M4 19h4.673v-8H4zm5.673 0h4.654V5H9.673zm5.654 0H20v-6h-4.673zM3 20V10h5.673V4h6.654v8H21v8z" />
 	        </svg>
         </span>
-        <span class="font-semibold font-squada lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
+        <span class="font-squada lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
           <b>Shape Future Leaders</b>
         </span>
         <p class="text-gray-700 font-Lora text-center">
           Help shape the future leaders of tomorrow by providing them with valuable industry exposure.
         </p>
       </li>
-      <li class="flex flex-col bg-white border border-gray-300 shadow-lg rounded-3xl p-4 sm:p-8 min-h-[160px] flex-grow w-[calc(50%-0.5rem)] hover:bg-whiteo">
+      <li class="flex flex-col bg-white border border-gray-300 shadow-lg rounded-3xl p-4 sm:p-8 min-h-[160px] flex-grow w-[calc(50%-0.5rem)] max-sm:w-full hover:bg-whiteo">
         <span class="mb-2 flex justify-center items-center">
           <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 24 24">
 		          <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" color="currentColor">
@@ -73,7 +73,7 @@
 		          </g>
 	          </svg>
         </span>
-        <span class="font-semibold font-squada lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
+        <span class="font-squada lg:text-xl md:text-lg text-gray-800 mb-2 text-center">
           <b>Boost Institution's Image</b>
         </span>
         <p class="text-gray-700 font-Lora text-center">
@@ -114,18 +114,18 @@ li {
   margin: auto;
 }
 }
-@media (min-width:500px) and (max-width:600px){
-  ul {
-  /* Adjust max-width for responsiveness */
-  max-width: 70%;
-  margin: auto;
-}
-}
-@media (min-width:300px) and (max-width:500px){
+@media (min-width:480px) and (max-width:600px){
   ul {
   /* Adjust max-width for responsiveness */
   max-width: 80%;
   margin: auto;
+}
+}
+@media (min-width:300px) and (max-width:480px){
+  ul {
+  /* Adjust max-width for responsiveness */
+  max-width: 90%;
+
 }
 }
 </style>

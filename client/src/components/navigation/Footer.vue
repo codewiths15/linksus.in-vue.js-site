@@ -53,7 +53,7 @@ onMounted(() => {
     <!-- Links Sections -->
     <div class="w-full md:w-auto flex md:flex-row flex-col pl-4 gap-6 max-md:gap-1 justify-center md:justify-start md:-mr-14">
       <div class="footer-element mb-4 md:mb-0">
-        <h3 class="text-lg font-squada font-[600] mb-2 text-gray-800">COMPANY</h3>
+        <h3 class="text-lg font-squada mb-2 text-gray-800">COMPANY</h3>
         <ul class="text-sm font-Lora text-gray-800">
           <li class="mb-1"><a href="/about" class="">About</a></li>
           <li class="mb-1"><a href="/blog" class="">Blog</a></li>
@@ -63,7 +63,7 @@ onMounted(() => {
       </div>
       <hr />
       <div class="footer-element mb-4 md:mb-0">
-        <h3 class="text-lg font-squada font-[600] mb-2">USE CASES</h3>
+        <h3 class="text-lg font-squada mb-2">USE CASES</h3>
         <ul class="text-sm font-Lora flex flex-col text-gray-800">
           <li class="mb-1"><a href="/uni" class=" whitespace-nowrap">Clubs and Universities</a></li>
           <li class="mb-1"><a href="/com" class=" whitespace-nowrap">Companies and Startups</a></li>

@@ -131,13 +131,13 @@ onMounted(() => {
               loading="lazy"
             />
             <div class="div-block-38 ml-4 pl-4 max-xsm:ml-0 h-auto pr-8 max-mmsm:pl-1  max-ssm:pr-1">
-              <div class="announcementtext font-squada text-left text-gray-600 font-semibold text-lg max-smd:text-sm max-msmsm:text-[1rem]">Introducing Community</div>
-              <div class="announcementsubtext text-left font-Lora text-sm max-mmsm:text-[0.7rem] max-smd:text-[0.7rem] text-gray-600 max-ssm:text-[0.7rem] max-msmsm:text-[0.7rem] max-sm:leading-[1.5]">
+              <div class="announcementtext font-squada text-left text-gray-600 text-[1.2rem] max-smd:text-sm max-msmsm:text-[1rem]">Introducing Community</div>
+              <div class="announcementsubtext text-left font-Lora text-[0.9rem] max-mmsm:text-[0.7rem] max-smd:text-[0.7rem] text-gray-600 max-ssm:text-[0.7rem] max-msmsm:text-[0.7rem] max-sm:leading-[1.5]">
                 For Undergraduates with early access to the <br class="max-sm:hidden"> Platform
               </div>
             </div>
             <svg 
-              class="ml-2 w-5 h-5 text-gray-600 max-sm:w-3 max-sm:h-3 max-xs:w-3 max-xs:h-3" 
+              class="ml-2 w-5 h-5 text-gray-600" 
               xmlns="http://www.w3.org/2000/svg" 
               fill="none" 
               viewBox="0 0 24 24" 
@@ -155,7 +155,7 @@ onMounted(() => {
         <!-- Main Headline -->
          <div class="flex justify-center items-center">
         <h1
-      class=" text-6xl font-squada tracking-tight font-semibold text-[#544350] max-smd:text-5xl max-sm:text-4xl"
+      class=" text-6xl font-squada tracking-tight text-[#544350] max-smd:text-5xl max-sm:text-4xl"
       >
       <p class="w-full"ref="headline1">Your only AI driven</p><p ref="headline2">pre-industry</p><p ref="headline3">experience platform</p> 
     </h1>
@@ -222,7 +222,7 @@ onMounted(() => {
       @click="selectImages(index)"
       :class="{
         'selected bg-white': selectedImageIndex === index,
-        'hover:text-gray-600 font-Lora text-md cursor-pointer rounded-3xl flex items-center justify-center max-sm:text-xs max-smd:text-sm max-msm:text-[0.55rem] p-3 max-sm:py-1 px-6 max-sm:px-2': true
+        'hover:text-gray-600 font-Lora text-lg cursor-pointer rounded-3xl flex items-center justify-center max-sm:text-xs max-smd:text-sm max-msm:text-[0.55rem] p-3 max-sm:py-1 px-5 max-sm:px-2': true
       }"
       :id="label.id"
     >
