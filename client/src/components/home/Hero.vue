@@ -2,7 +2,6 @@
 import { onMounted } from 'vue'
 import { gsap } from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
-
 import { ref } from 'vue';
 
 const currentLaptopSrc = ref('');
@@ -43,38 +42,50 @@ onMounted(() => {
       selectImages(0);
     });
 
+    const getPaddingClass = (index) => {
+  const padding = 'px-5'; // Default padding
+  if (index === selectedImageIndex.value) {
+    return 'px-7'; // Increase padding when selected
+  } else if (index < selectedImageIndex.value) {
+    return 'pr-7 pl-3'; // Increase right padding for previous labels
+  } else {
+    return 'pl-7 pr-3'; // Increase left padding for next labels
+  }
+  return padding;
+};
+
 
 gsap.registerPlugin(ScrollTrigger);
 
 onMounted(() => {
-  // Use GSAP's matchMedia to handle different screen sizes
-  gsap.matchMedia().add("(min-width: 300px)", () => {
-    // This animation will only run if the screen width is 1024px or wider
-    gsap.fromTo(
-      ".container",
-      {
-        autoAlpha: 0,
-        scale: 0.8, // Start scaled up
-        x: '1%', // Starting X position
-        y: '2%'
-      },
-      {
-        autoAlpha: 1,
-        scale: 1, // End at original size
-        x: 0, // End at original X position
-        y: 0, // Optional: Adjust Y position if needed
-        duration: 1.2,
-        stagger: 0.6,
-        ease: "power3.out",
-        scrollTrigger: {
-          trigger: ".container",
-          start: "top 50%",
-          toggleActions: "play none none none",
-        }
-      }
-    );
-  });
-});
+      document.documentElement.style.overflowX = 'hidden';
+      // Use GSAP's matchMedia to handle different screen sizes
+      gsap.matchMedia().add("(min-width: 300px)", () => {
+        // This animation will only run if the screen width is 300px or wider
+        gsap.fromTo(
+          ".container",
+          {
+            autoAlpha: 0,
+            scale: 0.75, // Start scaled down
+            translateX: '1%', // Start translateX position
+          },
+          {
+            autoAlpha: 1,
+            scale: 1, // End at original size
+            translateX: 0, // End at original translateX position
+            duration: 1,
+            stagger: 0.5,
+            ease: "Power1.easeOut",
+            scrollTrigger: {
+              trigger: ".container",
+              start: "top 70%",
+              end: "bottom top",
+              toggleActions: "play none none none",
+            }
+          }
+        );
+      });
+    });
 
 
 
@@ -88,11 +99,11 @@ onMounted(() => {
   gsap.matchMedia().add("(min-width: 300px)", () => {
     // Animate headlines with x and opacity effects
     gsap.from([headline1.value, headline2.value, headline3.value], {
-      x: '10%',
+      x: '20%',
       opacity: 0,
-      duration: 0.5,
+      duration: 0.8,
       ease: 'power3.out',
-      stagger: 0.3, // Adds a staggered effect to animate each element one after the other
+      stagger: 0.5, // Adds a staggered effect to animate each element one after the other
     });
 
     // Animate subheadline with zoom-out effect
@@ -119,56 +130,59 @@ onMounted(() => {
 
 
 <template>
+  <div class="bg-gradient-to-b from-teal-200 via-sky-100 to-whiteo to-90% pb-10 -mt-20 pt-16">
     <div class="nh-hero relative isolate px-6 pt-14 lg:px-8 ">
       <!-- Announcement Section -->
       <div class="nh-hero-header-wrap mx-auto max-w-2xl text-center ">
         <div class="w-layout-blockcontainer nh-hero-header w-container mb-8 flex justify-center">
-          <a href="/domain" class="announcementmodule w-inline-block flex items-center rounded-3xl p-3 bg-white gradient-animation transition-transform duration-300 ease-in-out transform hover:scale-105">
+          <a href="/domain" class="announcementmodule w-inline-block flex items-center rounded-3xl p-3 bg-whiteo gradient-animation brightness-110 transition-transform duration-300 ease-in-out transform hover:scale-105">
             <img
               src="https://res.cloudinary.com/dyghenjwh/image/upload/v1722573404/human-people-logo-design-vector_wzfisc.png"
               alt="human-people-logo"
               class="rewind-windows-icon h-14 w-12 rotate-scale-animation"
               loading="lazy"
             />
-            <div class="div-block-38 ml-4">
-              <div class="announcementtext font-Squada text-left One max-smd:text-sm">Introducing Community</div>
-              <div class="announcementsubtext font-Squada One max-smd:text-xs text-gray-600 max-msm:text-small1">
-                For Undergraduates with early access to the
-              </div>
-              <div class="announcementsubtext font-Squada text-left One max-smd:text-xs text-gray-600 max-msm:text-small1">
-                Platform
+            <div class="div-block-38 ml-4 pl-4 max-xsm:ml-0 h-auto pr-8 max-mmsm:pl-1  max-ssm:pr-1">
+              <div class="announcementtext font-squada text-left text-gray-600 text-[1.2rem] max-smd:text-sm max-msmsm:text-[1rem]">Introducing Community</div>
+              <div class="announcementsubtext text-left font-Lora text-[0.9rem] max-mmsm:text-[0.7rem] max-smd:text-[0.7rem] text-gray-600 max-ssm:text-[0.7rem] max-msmsm:text-[0.7rem] max-sm:leading-[1.5]">
+                For Undergraduates with early access to the <br class="max-sm:hidden"> Platform
               </div>
             </div>
+            <svg 
+              class="ml-2 w-5 h-5 text-gray-600" 
+              xmlns="http://www.w3.org/2000/svg" 
+              fill="none" 
+              viewBox="0 0 24 24" 
+              stroke="currentColor"
+              >
+            <path 
+              stroke-linecap="round" 
+              stroke-linejoin="round" 
+              stroke-width="1.5" 
+              d="M9 5l7 7-7 7"
+              />
+            </svg>
           </a>
         </div>
         <!-- Main Headline -->
+         <div class="flex justify-center items-center">
         <h1
-      class="nh-hero-headline text-6xl font-popins font-bold tracking-tight text-gray-700 max-smd:text-5xl max-sm:text-4xl"
-      ref="headline1"
-    >
-      Your only AI driven
+      class=" text-6xl font-Lora font-semibold leading-[4.3rem] text-[#544350] max-smd:text-5xl max-sm:text-3xl max-msm:text-[1.75rem]"
+      >
+      <p class="w-full"ref="headline1">Your only AI driven</p><p ref="headline2">pre-industry</p><p ref="headline3">experience platform</p> 
     </h1>
-    <h1
-      class="nh-hero-headline text-6xl font-popins font-bold tracking-tight text-gray-700 max-smd:text-5xl max-sm:text-4xl"
-      ref="headline2"
-    >
-      pre-industry
-    </h1>
-    <h1
-      class="nh-hero-headline text-6xl font-popins font-bold tracking-tight text-gray-700 max-smd:text-5xl max-sm:text-4xl"
-      ref="headline3"
-    >
-      experience platform
-    </h1>
+  </div>
+    <div class="flex justify-center text-center py-2 px-10 max-sm:px-8 max-mmsm:px-6">
     <h2
-      class="nh-hero-sub mt-6 text-2xl leading-8 font-popins font-medium text-gray-600 max-smd:text-md max-sm:text-sm max-msm:text-xs"
+      class="nh-hero-sub mt-6 text-2xl font-Lora text-[#544350] max-smd:text-md max-sm:text-sm max-msm:text-xs"
       ref="subheadline"
     >
-      LinksUs is a cutting edge platform with AI powered <br />
-      highly data-driven systems to Connect, Link, build <br />
-      and explore the industry. Your colleagues will <br />
+      LinksUs is a cutting edge platform with AI powered 
+      highly data-driven systems to Connect, Link, build 
+      and explore the industry. Your colleagues will 
       wonder how did you Links it all.
     </h2>
+  </div>
       </div>
     </div>
 
@@ -212,17 +226,15 @@ onMounted(() => {
 
 
 
-
  
 <div class="mt-10 mx-auto max-w-lg justify-evenly space-y-0 max-sm:space-x-0 flex flex-row max-sm:py-2 py-1 rounded-3xl bg-[#EEF7FF]">
-  
     <label
       v-for="(label, index) in labels"
       :key="label.id"
       @click="selectImages(index)"
       :class="{
-        'bg-whiteo label-transition': selectedImageIndex === index,
-        'hover:text-gray-600 font-popins cursor-pointer rounded-3xl flex items-center justify-center max-sm:text-xs p-3 text-md max-sm:py-1 label-transition': true
+        'selected bg-white': selectedImageIndex === index, 
+        'hover:text-gray-600 font-Lora text-lg cursor-pointer rounded-3xl flex items-center justify-center max-sm:text-xs max-smd:text-sm max-msm:text-[0.55rem] p-3 max-sm:py-1 px-5 max-sm:px-2': true
       }"
       :id="label.id"
     >
@@ -238,6 +250,8 @@ onMounted(() => {
       {{ label.text }}
     </label>
   </div>
+</div>
+
 
   </template>
   
@@ -289,14 +303,7 @@ onMounted(() => {
   transform-origin: center;
   backface-visibility: visible;
 }
-@media (max-width: 360px) {
-.announcementtext {
-  font-size: 0.55rem;
-}
-.announcementsubtext {
-  font-size: 0.55rem;
-}
-}
+
 
 .container {
   display: flex;
@@ -407,6 +414,50 @@ onMounted(() => {
 
 .label-transition {
   transition: all 0.3s ease-in-out;
+}
+
+@media (min-width:480px) and (max-width:548px){
+  .nh-hero-sub{
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+}
+label {
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* The selected label will have a different background color */
+.selected {
+  background-color: #ffffff; /* White background for selected label */
+}
+
+@media (min-width:669px) and (max-width:708px){
+  .nh-hero-sub{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}
+@media (min-width:494px) and (max-width:669px){
+  .nh-hero-sub{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media (min-width:430px) and (max-width:494px){
+  .nh-hero-sub{
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+}
+
+@media (min-width:300px) and (max-width:430px){
+  .nh-hero-sub{
+    padding-left: 0rem;
+    padding-right: 0rem;
+    margin-left: -2rem;
+    margin-right: -2rem;
+  }
 }
 
   </style>

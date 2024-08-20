@@ -6,11 +6,11 @@ import HeadSection from '@/components/blog/HeadSection.vue';
 
 <template>
   <Navbar />
-  <div class="bg-gradient pt-32 pb-32">
+  <div class="bg-gradient -mt-20 pt-48 pb-32">
   <HeadSection />
   <div class="mt-16 xsm:max-w-[80%] max-w-[80%] sm:max-w-sm md:max-w-lg lg:max-w-2xl mx-auto p-6 bg-blue1 bg-opacity-20 shadow-xl rounded-xl blog-card">
   <div class="flex justify-center items-center">
-    <img class="w-[10%] sm:w-[10%] md:w-[15%] lg:w-[23%] h-auto rounded-t-lg" :src="blog.image" :alt="blog.title" />
+    <img class="w-[25%] sm:w-[20%] md:w-[21%] lg:w-[23%] h-auto rounded-t-lg" :src="blog.image" :alt="blog.title" />
   </div>
   <div class="p-4 md:p-6">
     <h1 class="text-lg sm:text-xl font-bold mb-2 text-center">{{ blog.title }}</h1>

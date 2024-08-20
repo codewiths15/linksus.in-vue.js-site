@@ -5,8 +5,9 @@
 </script>
 
 <template>
-    <div class="background-gradent pt-32">
-        <Navbar />
+    <Navbar />
+    <div class="background-gradent -mt-20 pt-32">
+
         <div >
             <Section />
         </div>

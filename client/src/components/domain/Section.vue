@@ -1,36 +1,36 @@
 <template>
 
-<section class="flex justify-center items-center mt-16">
-    <h1 class="domain-h1 text-6xl text-center font-Lora font-semibold text-gray-800 max-lg:text-4xl">
+<section class="flex justify-center items-center mt-6 overflow-x-hidden overflow-y-hidden">
+    <h1 class="domain-h1 text-6xl text-center font-squada max-lg:text-4xl max-md:text-3xl">
         Join Our Pilot Project
     </h1>
   </section>
-  <div class="flex justify-center items-center mt-16">
-    <h1 class="domain2-h1 text-xl text-center font-Lora font-semibold text-gray-700 max-md:text-lg">
-        Are you ready to revolutionize the way undergraduates gain industry <br> experience and get companies find your talent? Join our pilot project <br>
+  <div class="flex justify-center items-center mt-8 overflow-x-hidden">
+    <h1 class="domain2-h1 text-xl text-center font-Lora text-gray-800 max-md:text-lg max-sm:text-lg p-6 w-[42%] max-lg:w-[70%] max-xlg:w-[60%] max-sm:w-[80%] max-sm:p-3">
+        Are you ready to revolutionize the way undergraduates gain industry experience and get companies find your talent? Join our pilot project
         now!
     </h1>
   </div>
-  <div class="flex justify-center items-center mt-10">
+  <div class="flex justify-center items-center mt-10 overflow-x-hidden">
   <a href="/signup" class="domain-btn inline-block">
     <button class="hover:brightness-110 hover:animate-pulse font-Lora font-bold py-3 px-6 rounded-full bg-gradient-to-r from-blue1 to-blue3 text-white">
       Sign Up
     </button>
   </a>
 </div>
-<div class="content-y flex justify-center items-center mt-16">
+<div class="content-y flex justify-center items-center mt-16 overflow-x-hidden">
     <iframe
       src="https://www.youtube.com/embed/hGxoQuBTrnU?si=F5WcTjUuuzsMKnbG;controls=0&amp;autoplay=0&amp;mute=0&amp;start=0"
       frameBorder="0"
       allow="autoplay; encrypted-media"
       title="LinksUs Launch"
-      class="w-full max-w-4xl h-72 md:h-96 lg:h-[32rem] border-8 border-gray-300 rounded-lg shadow-lg">
+      class="w-full max-w-4xl h-72 md:h-96 lg:h-[32rem] border-8 border-gray-300 rounded-lg shadow-lg ">
     </iframe>
   </div>
-  <section class="py-12 mt-32">
+  <section class="py-12 mt-32 overflow-x-hidden">
     <div class="container mx-auto max-w-5xl">
         <div class="text-center mb-10">
-            <h2 class="domain3-h1 lg:text-5xl text-3xl font-Lora font-bold text-gray-800">Benefits for Students</h2>
+            <h2 class="domain3-h1 lg:text-5xl text-3xl font-squada text-gray-800">Benefits for Students</h2>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div class="carde1 flex items-start p-4 bg-whiteo bg-opacity-90 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:shadow-xl">
@@ -39,7 +39,7 @@
                         d="M18 15h-2v2h2m0-6h-2v2h2m2 6h-8v-2h2v-2h-2v-2h2v-2h-2V9h8M10 7H8V5h2m0 6H8V9h2m0 6H8v-2h2m0 6H8v-2h2M6 7H4V5h2m0 6H4V9h2m0 6H4v-2h2m0 6H4v-2h2m6-10V3H2v18h20V7z" />
                 </svg>
                 <div>
-                    <h3 class="text-lg font-Lora font-semibold text-gray-700 mb-2">Real-world Industry Experience</h3>
+                    <h3 class="text-lg font-squada text-gray-700 mb-2">Real-world Industry Experience</h3>
                     <p class="text-gray-600 font-Lora text-sm">
                         Gain real-world industry experience.<br>
                         Connect with mentors and industry professionals.
@@ -55,7 +55,7 @@
                     </g>
                 </svg>
                 <div>
-                    <h3 class="text-lg font-semibold font-Lora text-gray-700 mb-2">Certificates & Professional Profile</h3>
+                    <h3 class="text-lg font-squada text-gray-700 mb-2">Certificates & Professional Profile</h3>
                     <p class="text-gray-600 font-Lora text-sm">
                         Earn certificates and build a professional profile.
                     </p>
@@ -70,7 +70,7 @@
                     <circle cx="7.25" cy="4.25" r="1.25" fill="#5a5858" />
                 </svg>
                 <div>
-                    <h3 class="text-lg font-semibold font-Lora text-gray-700 mb-2">Post-launch Discount</h3>
+                    <h3 class="text-lg font-squada text-gray-700 mb-2">Post-launch Discount</h3>
                     <p class="text-gray-600 font-Lora text-sm">
                         Avail a 40% discount on platform usage fees post-launch.
                     </p>
@@ -81,15 +81,15 @@
 </section>
 
 
-<section id="our-team" class="py-6 mt-10">
+<section id="our-team" class="py-6 mt-10 overflow-x-hidden">
   <section class="text-center mx-auto px-2 max-w-4xl flex flex-col justify-center items-center">
-    <p class="text-3xl lg:text-5xl md:text-4xl font-semibold mb-4 font-Lora">Opportunities Across Various Domains</p>
+    <p class="text-3xl lg:text-5xl md:text-4xl mb-4 font-squada">Opportunities Across Various Domains</p>
     
     <div class="flex flex-wrap justify-center mt-6 space-x-2 relative">
       <div
         v-for="cat in categories"
         :key="cat"
-        class="py-1 px-2 cursor-pointer font-semibold text-gray-600 text-lg font-Lora transition-all duration-300 hover:text-blue-600 "
+        class="py-1 px-2 cursor-pointer font-semibold text-gray-700 text-lg font-Lora transition-all duration-300 hover:text-blue-600 "
         @click="filterBlogs(cat)"
       >
         {{ cat }}
@@ -121,13 +121,13 @@
 
 
 
-<section class="flex justify-center items-center mt-16 px-4 sm:px-8 lg:px-16">
+<section class="flex justify-center items-center mt-16 px-4 sm:px-8 lg:px-16 overflow-x-hidden">
   <div class="bg-white rounded-3xl shadow-md max-w-3xl w-full text-center p-8 sm:p-16 md:p-20 bg-opacity-60 hover:bg-opacity-80">
-    <div class="text-4xl sm:text-5xl md:text-6xl font-Lora font-bold mb-4">Get Started!</div>
+    <div class="text-4xl sm:text-5xl md:text-6xl font-squada mb-4">Get Started!</div>
     <p class="text-gray-700 text-base sm:text-lg md:text-xl mb-6 font-Lora">
       Jumpstart your career by joining our community and gaining valuable industry experience. Join us today!
     </p>
-    <a href="/signup" class="block font-Lora">
+    <a href="/signup" class="block font-popins">
     <button class="hover:brightness-110 hover:animate-pulse font-Poppins font-bold py-3 px-6 rounded-full bg-gradient-to-r from-blue1 to-blue3 text-white">
       Sign up
     </button>
@@ -135,19 +135,19 @@
   </div>
 </section>
 
-<section class="py-12 mt-24">
+<section class="recog py-12 mt-24">
   <div class="text-center">
-    <h1 class="recog-h1 text-5xl font-Lora font-semibold text-gray-800 mb-4">Recognized By</h1>
-    <p class="recog-p text-gray-700 text-xl mb-8 mt-8">Our platform is appreciated and recognized by DPIIT, #startupindia, <br> and MSME.</p>
-    <div class="flex lg:flex-wrap justify-center items-center lg:space-x-24 md:space-x-16 space-x-8 mt-16">
-      <a href="https://dpiit.gov.in/" target="_blank" class="mb-4 brightness-50 transform transition-transform duration-300 hover:brightness-75 recog-a">
-        <img src="../../assets/images/750x450_483231-dpiit-removebg-preview1.png" loading="lazy" width="100" height="53" alt="DPIIT Logo" class="h-auto logos" />
+    <h1 class="recog-h1 text-5xl max-md:text-3xl font-squada text-gray-800 mb-4">Recognized By</h1>
+    <p class="recog-p text-gray-700 text-xl font-Lora max-md:text-lg mb-8 mt-8">Our platform is appreciated and recognized by DPIIT, #startupindia, <br> and MSME.</p>
+    <div class="flex lg:flex-wrap justify-center items-center lg:space-x-24 md:space-x-16 space-x-8 mt-16 p-4">
+      <a href="https://dpiit.gov.in/" target="_blank" class="mb-4 opacity-75 transform transition-transform duration-300 hover:opacity-100">
+        <img src="../../assets/images/750x450_483231-dpiit-removebg-preview1.png" loading="lazy" width="100" height="53" alt="DPIIT Logo" class="h-auto" />
       </a>
-      <a href="https://www.startupindia.gov.in/" target="_blank" class="mb-4 brightness-75 transform transition-transform duration-300 hover:brightness-110 recog-a">
-        <img src="../../assets/images/images111-removebg-preview.png" loading="lazy" width="223" alt="Startup India Logo" class="h-auto logos" />
+      <a href="https://www.startupindia.gov.in/" target="_blank" class="mb-4 brightness-75 transform transition-transform duration-300 hover:brightness-110">
+        <img src="../../assets/images/images111-removebg-preview.png" loading="lazy" width="223" alt="Startup India Logo" class="h-auto" />
       </a>
-      <a href="https://msme.gov.in/" target="_blank" class="mb-4 brightness-50 transform transition-transform duration-300 hover:brightness-110 recog-a">
-        <img src="../../assets/images/images-removebg-preview.png" loading="lazy" width="120" alt="MSME Logo" class="h-auto logos" />
+      <a href="https://msme.gov.in/" target="_blank" class="mb-4 brightness-20 transform transition-transform duration-300 hover:brightness-110">
+        <img src="../../assets/images/images-removebg-preview.png" loading="lazy" width="120" alt="MSME Logo" class="h-auto" />
       </a>
     </div>
   </div>
@@ -1047,12 +1047,12 @@ onMounted(() => {
     const btn = document.querySelector('.domain-btn');
 
     // Ensure animations are applied only for screens wider than 768px
-    if (window.innerWidth >= 768) {
-      const scaleValue = window.innerWidth < 768 ? 0.8 : 0.5; // Adjust scale based on screen width
+    if (window.innerWidth >= 300) {
+      const scaleValue = window.innerWidth < 300 ? 0.8 : 0.5; // Adjust scale based on screen width
 
       if (h1Element) {
         gsap.fromTo(h1Element, 
-          { scale: scaleValue, opacity: 0, x: '1%' }, // Initial state
+          { scale: scaleValue, opacity: 0, x: '50%' }, // Initial state
           { 
             scale: 1, // End state (normal size)
             opacity: 1, // End state (fully visible)
@@ -1066,7 +1066,7 @@ onMounted(() => {
 
       if (h1Element2) {
         gsap.fromTo(h1Element2, 
-          { opacity: 0, x: '20%' }, // Initial state
+          { opacity: 0, x: '-50%' }, // Initial state
           { 
             opacity: 1, // End state (fully visible)
             x: 0,
@@ -1078,7 +1078,7 @@ onMounted(() => {
       }
       if (btn) {
         gsap.fromTo(btn, 
-          { scale: scaleValue, opacity: 0, x: '1%' }, // Initial state
+          { scale: scaleValue, opacity: 0, x: '50%' }, // Initial state
           { 
             scale: 1, // End state (normal size)
             opacity: 1, // End state (fully visible)
@@ -1108,14 +1108,11 @@ onMounted(() => {
       {
         autoAlpha: 0,
         scale: 0.8, // Start scaled up
-        x: '1%', // Starting X position
-        y: '2%'
+
       },
       {
         autoAlpha: 1,
         scale: 1, // End at original size
-        x: 0, // End at original X position
-        y: 0, // Optional: Adjust Y position if needed
         duration: 1.2,
         stagger: 0.6,
         ease: "power3.out",
@@ -1137,7 +1134,7 @@ onMounted(() => {
   // Ensure responsiveness across smaller devices
   const screenWidth = window.innerWidth;
   
-  if (screenWidth >= 768) {
+  if (screenWidth >= 200) {
     // Animate the domain3-h1
     gsap.fromTo(domain3H1,
       { opacity: 0, scale:0.7 }, // Initial state
@@ -1172,7 +1169,7 @@ onMounted(() => {
   // Ensure responsiveness across smaller devices
   const screenWidth = window.innerWidth;
 
-  if (screenWidth >= 768) {
+  if (screenWidth >= 200) {
     // Animate the recog-h1
     gsap.fromTo(recogH1,
       { opacity: 0, x: 0 }, // Initial state

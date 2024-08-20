@@ -6,9 +6,10 @@ import Footer from '@/components/navigation/Footer.vue';
 </script>
 
 <template>
-    <div class="background-image pt-32">
-        <Navbar />
-        <div class="pb-32">
+    <Navbar />
+    <div class="background-image">
+        
+        <div class="pb-32 -mt-20 pt-48">
             <Section />
         </div>
     </div>

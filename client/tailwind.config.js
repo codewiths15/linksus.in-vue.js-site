@@ -2,17 +2,12 @@
 export default {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
-    fontFamily: {
-      squada: ["Squada One"],
-      Lora: ["Lora"],
-      popins: ["Poppins"],
-      display: ["Squada One"],
-      body: ['"Poppins"'],
-    },
     screens: {
       xsm: "310px",
       msm: "360px",
+      msmsm: "368px",
       mmsm: "385px",
+      ssm: "412px",
       sm: "480px",
       smd: "553px",
       md: "768px",
@@ -37,6 +32,11 @@ export default {
         black: "#1C242C",
         white: "#F2EFEB",
         whiteo: "#FFF",
+      },
+      fontFamily: {
+        squada: ["Squada One"],
+        Lora: ["Lora"],
+        popins: ["Poppins"],
       },
     },
   },
